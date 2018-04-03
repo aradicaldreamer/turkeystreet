@@ -12,19 +12,17 @@ Volume 1 - Brainstorming
 	
 	- limits playable space, because Turkeys can't open doors!
 
-
-
-
-
 ]
 
-Volume 2 - Mechanics
+Volume 2 - Extensions
 
-Volume 3 - Phrases
+Volume 3 - Mechanics
 
-Volume 4 - Actions
+Volume 4 - Phrases
 
-Volume 5 - Locations
+Volume 5 - Actions
+
+Volume 6 - Locations
 
 Book 2 - The Case of Which Came First, the Chicken or the Duck?
 
