@@ -71,7 +71,9 @@ Include Title Page by Jon Ingold.
 To say quotation:
 	say "Welcome to Turkey Street! You are about to embark upon a gritty and super serious parser adventure where you play as a turkey detective. Before you start, please be aware that some of the commands may be different from other games that you have played in the past.
 	
-	Commands are limited to directional travel (N, S, E, W), LOOK, EXAMINE (or X), TAKE, DROP, WAIT, and GOBBLE or GOBBLE AT (which refers to turkey speak, not the action of eating). If you are unfamiliar with parser based games, you can type HELP or COMMANDS to get a full list, and SAVE to save your progress. Have fun!".
+	Commands are limited to directional travel (N, S, E, W), LOOK, EXAMINE (or X), TAKE, DROP, WAIT, and GOBBLE or GOBBLE AT (which refers to turkey speak, not the action of eating). You can also type UNDO to go back a turn, or SAVE to record your progress. Have fun!".
+	
+	[If you are unfamiliar with parser based games, you can type HELP or COMMANDS to get a full list, and SAVE to save your progress.]
 
 
 Volume 3 - Mechanics
@@ -129,7 +131,9 @@ Section 4 - Turkey Street West
 
 Turkey Street West is west of Turkey Street Station. "DESCRIPTION WEST".
 
-The blue door is west of Turkey Street West.
+Sainsburys Entrance door is north of Turkey Street West. It is a door and scenery.
+
+Tesco Entrance door is south of Turkey Street West. It is a door and scenery.
 
 Section 5 - Turkey Street East
 
