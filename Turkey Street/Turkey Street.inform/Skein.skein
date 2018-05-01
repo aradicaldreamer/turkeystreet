@@ -10,7 +10,9 @@ An Interactive Fiction by Raymond Vermeulen and Matthew Deline
 Release 1 / Serial number 180501 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
 
 The Roost
-Back at the roost, there's two wild turkeys. One's a bottle and it's perfectly aged, one's a P.I. and it's aged perfectly. The name's Fowl Feathers. Uncompromising since 2015. In my line of work, you meet a lot of birds. And the birds always like a bad egg. The roost smells faintly of sawdust, old eggs, and bourbon. The half-drunk bottle explains the half-drunk turkey. A chick is pacing back and forth, occasionally stopping to peck at itself.
+Back at the roost, there's two wild turkeys. One's a bottle and it's perfectly aged, one's a P.I. and it's aged perfectly. The name's Fowl Feathers. Uncompromising since 2015. In my line of work, you meet a lot of birds. And the birds always like a bad egg. 
+
+The roost smells faintly of sawdust, old eggs, and bourbon. The half-drunk bottle explains the half-drunk turkey. A chick is pacing back and forth, occasionally stopping to peck at itself.
 
 You can see a child here.
 
@@ -306,7 +308,7 @@ Are you sure you want to quit? </result>
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 On the Case
-DESCRIPTION
+You are on the case! Keep heading north to reach Turkey Street
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -338,12 +340,45 @@ On the Case
 Turkey Street Station
 DESCRIPTION
 
+A very dead chicken lies in the center of the road
+
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1321"></child>
             <child nodeId="node-1396"></child>
             <child nodeId="node-1254"></child>
+            <child nodeId="node-1408"></child>
         </children>
+    </item>
+    <item nodeId="node-1408">
+        <command xml:space="preserve">x chicken</command>
+        <result xml:space="preserve">this chicken is definitely dead. And I found a letter!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1412"></child>
+        </children>
+    </item>
+    <item nodeId="node-1412">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Turkey Street Station
+DESCRIPTION
+
+A very dead chicken lies in the center of the road
+
+You can also see a letter here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1413"></child>
+        </children>
+    </item>
+    <item nodeId="node-1413">
+        <command xml:space="preserve">x chicken</command>
+        <result xml:space="preserve">You see nothing special about the dead chicken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1254">
         <command xml:space="preserve">w</command>
@@ -1011,7 +1046,58 @@ The child runs screaming, and appears to have dropped something
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1315"></child>
+            <child nodeId="node-1415"></child>
         </children>
+    </item>
+    <item nodeId="node-1415">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1416"></child>
+        </children>
+    </item>
+    <item nodeId="node-1416">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1417"></child>
+        </children>
+    </item>
+    <item nodeId="node-1417">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+On the Case
+You are on the case! Keep heading north to reach Turkey Street
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1418"></child>
+        </children>
+    </item>
+    <item nodeId="node-1418">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Turkey Street Station
+DESCRIPTION
+
+A very dead chicken lies in the center of the road
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1419"></child>
+        </children>
+    </item>
+    <item nodeId="node-1419">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">(first opening Station Entrance)
+You can't do that! You're a turkey!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1315">
         <command xml:space="preserve">look</command>
@@ -1027,7 +1113,25 @@ You can see a book here.
     </item>
     <item nodeId="node-1316">
         <command xml:space="preserve">x book</command>
-        <result xml:space="preserve">You can't see any such thing.
+        <result xml:space="preserve">You see nothing special about the book.
+
+
+
+    *** The End ***
+
+
+In that game you scored 50 out of a possible 50, in 3 turns.
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1426"></child>
+        </children>
+    </item>
+    <item nodeId="node-1426">
+        <command xml:space="preserve">x book</command>
+        <result xml:space="preserve">You see nothing special about the book.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>

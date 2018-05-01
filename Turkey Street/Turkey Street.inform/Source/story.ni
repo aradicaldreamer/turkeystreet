@@ -76,16 +76,21 @@ Volume 3 - Mechanics
 
 Chapter 1 - Evidence
 
-Evidence is a kind of thing. Evidence can be either fixed in place or portable. Evidence can be seen or unseen.
+[We will use scoring to keep track of how many pieces of evidence have been collected and to end the game when all evidence has been examined]
 
-Carry out examining evidence:
+Use scoring. The maximum score is 50.
+
+Evidence is a kind of thing. Evidence can be either fixed in place or portable. Evidence can be seen or unseen. Evidence can be lost or found. Evidence is usually lost.
+
+Carry out examining evidence when the noun is unseen:
+	increase score by 50;
 	now the noun is seen.
 
 Chapter 2 - Tracking What Players Have Seen
 
-A thing can be seen or unseen.
+[A thing can be seen or unseen.
 Carry out examining a thing: 
-    now the noun is seen.
+    now the noun is seen.]
 
 Volume 4 - Phrases
 
@@ -140,19 +145,11 @@ The description of The Roost is "[if unvisited]Back at the roost, there's two wi
 
 [The introduction of The Roost is "Back at the roost, there's two wild turkeys. One's a bottle and it's perfectly aged, one's a P.I. and it's aged perfectly. The name's Fowl Feathers. Uncompromising since 2015. In my line of work, you meet a lot of birds. And the birds always like a bad egg."]
 
-A child is in The Roost.
-
-Carry out gobbling the child:
-	say "GOBBLE GOBBLE GOBBLE!";
-	say "The child runs screaming, and appears to have dropped something";
-	move the book to the roost;
-	remove the noun from play.
-
 Section 2 - On the Case
 
 South of On the Case is nowhere.
 
-The description of On the Case is "DESCRIPTION".
+The description of On the Case is "You are on the case! Keep heading north to reach Turkey Street".
 
 Section 3 - Turkey Street Station
 
@@ -163,6 +160,15 @@ South of Turkey Street Station is Station Entrance. It is a door and scenery.
 Instead of going south from Turkey Street Station, say "The doors are shut fast, and because you are a turkey, they might as well be shut forever. You can't go that way."
 
 [South of Turkey Street Station is nowhere.] [this is so you can not go back]
+
+A dead chicken is in Turkey Street Station. "A very dead chicken lies in the center of the road".
+
+A letter is evidence. The chicken carries the letter.
+
+Instead of examining the chicken when the letter is lost:
+	now the letter is found;
+	say "this chicken is definitely dead. And I found a letter!";
+	move the letter to Turkey Street Station.
 
 Section 4 - Turkey Street West
 
@@ -192,7 +198,35 @@ A book is evidence. The child carries it.
 
 Volume 3 - Characters
 
+[Fox, Duck, Child, Heron, Eagle, Chicken, Turkeys, Owl]
+
+Book 1 - The Child
+
+A child is in The Roost.
+
+Carry out gobbling the child:
+	say "GOBBLE GOBBLE GOBBLE!";
+	say "The child runs screaming, and appears to have dropped something";
+	move the book to the roost;
+	remove the noun from play.
+	
+Book 2 - The Fox
+
+Book 3 - The Duck
+
+Book 4 - The Heron
+
+Book 5 - The Eagle
+
+Book 6 - The Owl
+
+Book 7 - The Chick
+
 Volume 4 - Ending
+
+Every turn:
+	if score is maximum score:
+		end the story.
 
 [Include a check here to see if all the evidence has been 'seen'. Once this has occured. End the game!]
 
