@@ -1,40 +1,262 @@
 <?xml version="1.0"?>
 
-<Skein rootNode="node-1267">
+<Skein rootNode="node-1241">
     <generator>Inform Mac Client (Inform version 1.65/6.33/6M62)</generator>
-    <item nodeId="node-1267">
+    <item nodeId="node-1241">
         <command xml:space="preserve">Turkey Street</command>
         <result xml:space="preserve">
 
 
-Turkey Street
-An Interactive Fiction by Matthew Deline
-Release 1 / Serial number 180403 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
 
-Turkey Street Station
+                                                                                                                                                                                                                                                                                  Turkey Street
+                                                                                                                                                                                                                                                                       by Raymond Vermeulen and Matthew Deline
+
+
+
+Welcome to Turkey Street! You are about to embark upon a gritty and super serious parser adventure where you play as a turkey detective. Before you start, please be aware that some of the commands may be different from other games that you have played in the past.
+
+Commands are limited to directional travel (N, S, E, W), LOOK, EXAMINE (or X), TAKE, DROP, WAIT, and GOBBLE or GOBBLE AT (which refers to turkey speak, not the action of eating). If you are unfamiliar with parser based games, you can type HELP or COMMANDS to get a full list, and SAVE to save your progress. Have fun!
+
+
+   Start the story - from the beginning    :    (SPACE)
+                   - from a saved position :       R
+   Quit                                    :       Q
+</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1264"></child>
+            <child nodeId="node-1260"></child>
+            <child nodeId="node-1250"></child>
+            <child nodeId="node-1249"></child>
+            <child nodeId="node-1246"></child>
+            <child nodeId="node-1242"></child>
+        </children>
+    </item>
+    <item nodeId="node-1242">
+        <command xml:space="preserve">x</command>
+        <result xml:space="preserve">What do you want to examine?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1268"></child>
+        <children><child nodeId="node-1243"></child>
         </children>
     </item>
-    <item nodeId="node-1268">
+    <item nodeId="node-1243">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You see nothing unexpected in that direction.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1244"></child>
+        </children>
+    </item>
+    <item nodeId="node-1244">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Roost
+The roost smells faintly of sawdust, old eggs, and bourbon. The half-drunk bottle explains the half-drunk turkey. A chick is pacing back and forth, occasionally stopping to peck at itself.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1245"></child>
+        </children>
+    </item>
+    <item nodeId="node-1245">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Roost
+The roost smells faintly of sawdust, old eggs, and bourbon. The half-drunk bottle explains the half-drunk turkey. A chick is pacing back and forth, occasionally stopping to peck at itself.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1246">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1247"></child>
+        </children>
+    </item>
+    <item nodeId="node-1247">
+        <command xml:space="preserve">x</command>
+        <result xml:space="preserve">What do you want to examine?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1248"></child>
+        </children>
+    </item>
+    <item nodeId="node-1248">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Roost
+The roost smells faintly of sawdust, old eggs, and bourbon. The half-drunk bottle explains the half-drunk turkey. A chick is pacing back and forth, occasionally stopping to peck at itself.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1249">
+        <command xml:space="preserve">save</command>
+        <result xml:space="preserve">Save failed.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1250">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+On the Case
+DESCRIPTION
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1253"></child>
+            <child nodeId="node-1251"></child>
+        </children>
+    </item>
+    <item nodeId="node-1251">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Roost
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1252"></child>
+        </children>
+    </item>
+    <item nodeId="node-1252">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+On the Case
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1253">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Turkey Street Station
+DESCRIPTION
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1254"></child>
+        </children>
+    </item>
+    <item nodeId="node-1254">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Turkey Street West
+DESCRIPTION WEST
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1255"></child>
+        </children>
+    </item>
+    <item nodeId="node-1255">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Turkey Street Station
+DESCRIPTION
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1256"></child>
+        </children>
+    </item>
+    <item nodeId="node-1256">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Turkey Street West
+DESCRIPTION WEST
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1257"></child>
+        </children>
+    </item>
+    <item nodeId="node-1257">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Turkey Street Station
+DESCRIPTION
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1258"></child>
+        </children>
+    </item>
+    <item nodeId="node-1258">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Turkey Street East
+DESCRIPTION EAST
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1259"></child>
+        </children>
+    </item>
+    <item nodeId="node-1259">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Turkey Street Station
+DESCRIPTION
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1260">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Roost
+The roost smells faintly of sawdust, old eggs, and bourbon. The half-drunk bottle explains the half-drunk turkey. A chick is pacing back and forth, occasionally stopping to peck at itself.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1261"></child>
+        </children>
+    </item>
+    <item nodeId="node-1261">
+        <command xml:space="preserve">x</command>
+        <result xml:space="preserve">What do you want to examine?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1262"></child>
+        </children>
+    </item>
+    <item nodeId="node-1262">
+        <command xml:space="preserve">look at chick</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1263"></child>
+        </children>
+    </item>
+    <item nodeId="node-1263">
+        <command xml:space="preserve">x chick</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1264">
         <command xml:space="preserve">exit</command>
         <result xml:space="preserve">But you aren't in anything at the moment.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1269"></child>
+        <children><child nodeId="node-1265"></child>
         </children>
     </item>
-    <item nodeId="node-1269">
+    <item nodeId="node-1265">
         <command xml:space="preserve">quit</command>
         <result xml:space="preserve">Are you sure you want to quit? </result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1270"></child>
+        <children><child nodeId="node-1266"></child>
         </children>
     </item>
-    <item nodeId="node-1270">
+    <item nodeId="node-1266">
         <command xml:space="preserve">y</command>
         <result xml:space="preserve"></result>
         <commentary xml:space="preserve"></commentary>

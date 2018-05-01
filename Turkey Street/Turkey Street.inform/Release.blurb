@@ -22,7 +22,7 @@ placeholder [IFID] = "CB0889D3-9A38-466A-AFFC-CEB1D35A3F4A"
 placeholder [RELEASE] = "1"
 placeholder [YEAR] = "2018"
 placeholder [TITLE] = "Turkey Street"
-placeholder [AUTHOR] = "Matthew Deline"
+placeholder [AUTHOR] = "Raymond Vermeulen and Matthew Deline"
 placeholder [BLURB] = "A work of interactive fiction."
 
 ! Other material to release
