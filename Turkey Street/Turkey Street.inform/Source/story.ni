@@ -12,6 +12,8 @@ Book 1 - To Do List
 	
 	- Find a way to track seen evidence, so that when all the evidence is seen, the game ends (this way we don’t have to worry about the player needing to collect evidence)
 	
+	- Make it so that the player can not open doors ✔
+	
 	- Limit inventory to one item at a time
 	
 	- Write place descriptions for each location
@@ -88,7 +90,7 @@ Volume 4 - Phrases
 
 Volume 5 - Actions
 
-Instead of opening doors, say "You can't do that! You're a turkey!"
+Instead of opening or closing doors, say "You can't do that! You're a turkey!"
 
 Chapter 1 - Gobbling
 
@@ -104,10 +106,12 @@ Chapter 2 - Rooms
 
 Section 1 - The Roost
 
-North of the Roost is On the Case. 
+North of The Roost is On the Case. 
 "The roost smells faintly of sawdust, old eggs, and bourbon. The half-drunk bottle explains the half-drunk turkey. A chick is pacing back and forth, occasionally stopping to peck at itself."
 
 The introduction of The Roost is "Back at the roost, there's two wild turkeys. One's a bottle and it's perfectly aged, one's a P.I. and it's aged perfectly. The name's Fowl Feathers. Uncompromising since 2015. In my line of work, you meet a lot of birds. And the birds always like a bad egg."
+
+The exit door is east of The Roost. Through it is Turkey Street West.
 
 Section 2 - On the Case
 
@@ -124,6 +128,8 @@ South of Turkey Street Station is nowhere. [this is so you can not go back]
 Section 4 - Turkey Street West
 
 Turkey Street West is west of Turkey Street Station. "DESCRIPTION WEST".
+
+The blue door is west of Turkey Street West.
 
 Section 5 - Turkey Street East
 

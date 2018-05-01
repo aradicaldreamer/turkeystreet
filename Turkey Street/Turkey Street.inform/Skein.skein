@@ -5,27 +5,24 @@
     <item nodeId="node-1241">
         <command xml:space="preserve">Turkey Street</command>
         <result xml:space="preserve">
+Turkey Street
+An Interactive Fiction by Raymond Vermeulen and Matthew Deline
+Release 1 / Serial number 180501 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
 
+The Roost
+The roost smells faintly of sawdust, old eggs, and bourbon. The half-drunk bottle explains the half-drunk turkey. A chick is pacing back and forth, occasionally stopping to peck at itself.
 
+You can see an exit door here.
 
-                                                                                                                                                                                                                                                                                  Turkey Street
-                                                                                                                                                                                                                                                                       by Raymond Vermeulen and Matthew Deline
+Back at the roost, there's two wild turkeys. One's a bottle and it's perfectly aged, one's a P.I. and it's aged perfectly. The name's Fowl Feathers. Uncompromising since 2015. In my line of work, you meet a lot of birds. And the birds always like a bad egg.
 
-
-
-Welcome to Turkey Street! You are about to embark upon a gritty and super serious parser adventure where you play as a turkey detective. Before you start, please be aware that some of the commands may be different from other games that you have played in the past.
-
-Commands are limited to directional travel (N, S, E, W), LOOK, EXAMINE (or X), TAKE, DROP, WAIT, and GOBBLE or GOBBLE AT (which refers to turkey speak, not the action of eating). If you are unfamiliar with parser based games, you can type HELP or COMMANDS to get a full list, and SAVE to save your progress. Have fun!
-
-
-   Start the story - from the beginning    :    (SPACE)
-                   - from a saved position :       R
-   Quit                                    :       Q
-</result>
+&gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1264"></child>
+        <children><child nodeId="node-1277"></child>
+            <child nodeId="node-1264"></child>
             <child nodeId="node-1260"></child>
             <child nodeId="node-1250"></child>
+            <child nodeId="node-1275"></child>
             <child nodeId="node-1249"></child>
             <child nodeId="node-1246"></child>
             <child nodeId="node-1242"></child>
@@ -96,6 +93,22 @@ The roost smells faintly of sawdust, old eggs, and bourbon. The half-drunk bottl
     <item nodeId="node-1249">
         <command xml:space="preserve">save</command>
         <result xml:space="preserve">Save failed.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1275">
+        <command xml:space="preserve">open door</command>
+        <result xml:space="preserve">You can't do that! You're a turkey!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1276"></child>
+        </children>
+    </item>
+    <item nodeId="node-1276">
+        <command xml:space="preserve">close door</command>
+        <result xml:space="preserve">That's already closed.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -304,6 +317,22 @@ blue door
     <item nodeId="node-1266">
         <command xml:space="preserve">y</command>
         <result xml:space="preserve"></result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1277">
+        <command xml:space="preserve">close door</command>
+        <result xml:space="preserve">You can't do that! You're a turkey!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1278"></child>
+        </children>
+    </item>
+    <item nodeId="node-1278">
+        <command xml:space="preserve">open door</command>
+        <result xml:space="preserve">You can't do that! You're a turkey!
+
+&gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
 </Skein>
