@@ -88,6 +88,8 @@ Volume 4 - Phrases
 
 Volume 5 - Actions
 
+Instead of opening doors, say "You can't do that! You're a turkey!"
+
 Chapter 1 - Gobbling
 
 Chapter 2 - Observing
@@ -102,12 +104,14 @@ Chapter 2 - Rooms
 
 Section 1 - The Roost
 
-The Roost is south of On the Case. 
+North of the Roost is On the Case. 
 "The roost smells faintly of sawdust, old eggs, and bourbon. The half-drunk bottle explains the half-drunk turkey. A chick is pacing back and forth, occasionally stopping to peck at itself."
 
 The introduction of The Roost is "Back at the roost, there's two wild turkeys. One's a bottle and it's perfectly aged, one's a P.I. and it's aged perfectly. The name's Fowl Feathers. Uncompromising since 2015. In my line of work, you meet a lot of birds. And the birds always like a bad egg."
 
 Section 2 - On the Case
+
+South of On the Case is nowhere.
 
 The description of On the Case is "DESCRIPTION".
 
