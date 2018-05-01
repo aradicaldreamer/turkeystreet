@@ -36,10 +36,6 @@ Book 2 - Notes
 
 	- Please do not read this until AFTER you have played the game (SPOILERS)
 	
-	- Two cases, thematically similar that share the same general locations and actions.
-	
-	- Main protagonists: Turkey detective and his duck/human friend
-	
 	- limits playable space, because Turkeys can't open doors!
 	
 	- Turkey Name: Detective Fowl Feathers, Poultry Investigator
@@ -148,4 +144,8 @@ The Player is in Roost.
 Volume 2 - Evidence
 
 Volume 3 - Characters
+
+Volume 4 - Ending
+
+[Include a check here to see if all the evidence has been 'seen'. Once this has occured. End the game!]
 
