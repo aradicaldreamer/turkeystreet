@@ -8,9 +8,9 @@ Book 1 - To Do List
 
 [
 
-	- Add Gobble action
+	- Add Gobble action ✔
 	
-	- Find a way to track seen evidence, so that when all the evidence is seen, the game ends (this way we don’t have to worry about the player needing to collect evidence)
+	- Find a way to track seen evidence, so that when all the evidence is seen, the game ends (this way we don’t have to worry about the player needing to collect evidence) ✔
 	
 	- Make it so that the player can not open doors ✔
 	
@@ -26,7 +26,7 @@ Book 1 - To Do List
 	
 	- Add behavior to the NPCs
 	
-	- Add dialogue with scenes?
+	- Add ending description
 
 ]
 
