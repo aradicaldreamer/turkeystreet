@@ -83,7 +83,7 @@ Use scoring. The maximum score is 50.
 Evidence is a kind of thing. Evidence can be either fixed in place or portable. Evidence can be seen or unseen. Evidence can be lost or found. Evidence is usually lost.
 
 Carry out examining evidence when the noun is unseen:
-	increase score by 50;
+	increase score by 10;
 	now the noun is seen.
 
 Chapter 2 - Tracking What Players Have Seen
@@ -98,7 +98,7 @@ Volume 5 - Actions
 
 Chapter 1 - Gobbling
 
-Gobbling is an action applying to one thing.
+Gobbling is an action with past participle gobbled applying to one thing.
 
 Understand "Gobble at [something]" as gobbling. Understand "Gobble [something]" as gobbling.
 
@@ -142,8 +142,6 @@ Section 1 - The Roost
 North of The Roost is On the Case.
 
 The description of The Roost is "[if unvisited]Back at the roost, there's two wild turkeys. One's a bottle and it's perfectly aged, one's a P.I. and it's aged perfectly. The name's Fowl Feathers. Uncompromising since 2015. In my line of work, you meet a lot of birds. And the birds always like a bad egg. [paragraph break][end if]The roost smells faintly of sawdust, old eggs, and bourbon. The half-drunk bottle explains the half-drunk turkey. A chick is pacing back and forth, occasionally stopping to peck at itself."
-
-[The introduction of The Roost is "Back at the roost, there's two wild turkeys. One's a bottle and it's perfectly aged, one's a P.I. and it's aged perfectly. The name's Fowl Feathers. Uncompromising since 2015. In my line of work, you meet a lot of birds. And the birds always like a bad egg."]
 
 Section 2 - On the Case
 
@@ -194,6 +192,8 @@ The Player is in Roost.
 
 Volume 2 - Evidence
 
+[Calculate maximum score based on the number of pieces of evidence]
+
 A book is evidence. The child carries it.
 
 Volume 3 - Characters
@@ -202,7 +202,7 @@ Volume 3 - Characters
 
 Book 1 - The Child
 
-A child is in The Roost.
+A child is in The Roost. [Need to give it a description indicating that it is scared of people]
 
 Carry out gobbling the child:
 	say "GOBBLE GOBBLE GOBBLE!";
@@ -210,6 +210,10 @@ Carry out gobbling the child:
 	move the book to the roost;
 	remove the noun from play.
 	
+[This is the child returning rule:
+	If the child has been in off-stage for 3 turns:
+		move the child to The Roost.]
+
 Book 2 - The Fox
 
 Book 3 - The Duck
