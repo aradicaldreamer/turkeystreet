@@ -8,7 +8,7 @@ Book 1 - To Do List
 
 [
 
-	- Replace Talk to with Gobble
+	- Add Gobble action
 	
 	- Find a way to track seen evidence, so that when all the evidence is seen, the game ends (this way we don’t have to worry about the player needing to collect evidence)
 	
@@ -88,11 +88,25 @@ Volume 4 - Phrases
 
 Volume 5 - Actions
 
-Instead of opening or closing doors, say "You can't do that! You're a turkey!"
-
 Chapter 1 - Gobbling
 
+Gobbling is an action applying to one thing.
+
+Understand "Gobble at [something]" as gobbling. Understand "Gobble [something]" as gobbling.
+
 Chapter 2 - Observing
+
+Chapter 3 - Turkey-like Behavior
+
+[Specific instance]
+
+Instead of opening doors, say "You can't do that! You're a turkey!"
+
+[Add new things here]
+
+Closing doors is turkeylike behavior.
+
+Instead of turkeylike behavior, say "You can't do that! You're a turkey!"
 
 Volume 6 - Locations
 
@@ -109,7 +123,12 @@ North of The Roost is On the Case.
 
 The introduction of The Roost is "Back at the roost, there's two wild turkeys. One's a bottle and it's perfectly aged, one's a P.I. and it's aged perfectly. The name's Fowl Feathers. Uncompromising since 2015. In my line of work, you meet a lot of birds. And the birds always like a bad egg."
 
-The exit door is east of The Roost. Through it is Turkey Street West.
+A child is in The Roost.
+
+Carry out gobbling the child:
+	say "GOBBLE GOBBLE GOBBLE!";
+	say "The child runs screaming";
+	remove the noun from play.
 
 Section 2 - On the Case
 
