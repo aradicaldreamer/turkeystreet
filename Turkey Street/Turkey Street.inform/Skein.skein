@@ -12,7 +12,7 @@ Release 1 / Serial number 180501 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
 The Roost
 The roost smells faintly of sawdust, old eggs, and bourbon. The half-drunk bottle explains the half-drunk turkey. A chick is pacing back and forth, occasionally stopping to peck at itself.
 
-You can see a child and an exit door here.
+You can see a child here.
 
 Back at the roost, there's two wild turkeys. One's a bottle and it's perfectly aged, one's a P.I. and it's aged perfectly. The name's Fowl Feathers. Uncompromising since 2015. In my line of work, you meet a lot of birds. And the birds always like a bad egg.
 
@@ -23,9 +23,11 @@ Back at the roost, there's two wild turkeys. One's a bottle and it's perfectly a
             <child nodeId="node-1306"></child>
             <child nodeId="node-1313"></child>
             <child nodeId="node-1311"></child>
+            <child nodeId="node-1314"></child>
             <child nodeId="node-1260"></child>
             <child nodeId="node-1250"></child>
             <child nodeId="node-1275"></child>
+            <child nodeId="node-1363"></child>
             <child nodeId="node-1249"></child>
             <child nodeId="node-1246"></child>
             <child nodeId="node-1242"></child>
@@ -100,6 +102,192 @@ The roost smells faintly of sawdust, old eggs, and bourbon. The half-drunk bottl
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
+    <item nodeId="node-1363">
+        <command xml:space="preserve">rules</command>
+        <result xml:space="preserve">Rules tracing now switched on. Type "rules off" to switch it off again, or "rules all" to include even rules which do not apply.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1364"></child>
+        </children>
+    </item>
+    <item nodeId="node-1364">
+        <command xml:space="preserve">rulesn</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1365"></child>
+        </children>
+    </item>
+    <item nodeId="node-1365">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">[Rule "declare everything initially unmentioned rule" applies.]
+[Rule "standard set going variables rule" applies.]
+[Rule "announce items from multiple object lists rule" applies.]
+[Rule "set pronouns from items from multiple object lists rule" applies.]
+[Rule "before stage rule" applies.]
+[Rule "instead stage rule" applies.]
+[Rule "investigate player's awareness before action rule" applies.]
+[Rule "player aware of his own actions rule" applies.]
+[Rule "check stage rule" applies.]
+[Rule "can't travel in what's not a vehicle rule" applies.]
+[Rule "can't go through undescribed doors rule" applies.]
+[Rule "can't go through closed doors rule" applies.]
+[Rule "determine map connection rule" applies.]
+[Rule "can't go that way rule" applies.]
+[Rule "carry out stage rule" applies.]
+[Rule "move player and vehicle rule" applies.]
+[Rule "move floating objects rule" applies.]
+[Rule "check light in new location rule" applies.]
+[Rule "after stage rule" applies.]
+[Rule "investigate player's awareness after action rule" applies.]
+[Rule "report stage rule" applies.]
+[Rule "describe room gone into rule" applies.]
+
+[Rule "determine visibility ceiling rule" applies.]
+[Rule "investigate player's awareness before action rule" applies.]
+[Rule "player aware of his own actions rule" applies.]
+[Rule "check stage rule" applies.]
+[Rule "carry out stage rule" applies.]
+[Rule "declare everything unmentioned rule" applies.]
+[Rule "room description heading rule" applies.]
+On the Case
+[Rule "room description body text rule" applies.]
+DESCRIPTION
+
+[Rule "room description paragraphs about objects rule" applies.]
+[Rule "initialise locale description rule" applies.]
+[Rule "find notable locale objects rule" applies.]
+[Rule "standard notable locale objects rule" applies.]
+[Rule "interesting locale paragraphs rule" applies.]
+[Rule "don't mention player's supporter in room descriptions rule" applies.]
+[Rule "don't mention scenery in room descriptions rule" applies.]
+[Rule "don't mention undescribed items in room descriptions rule" applies.]
+[Rule "set pronouns from items in room descriptions rule" applies.]
+[Rule "offer items to writing a paragraph about rule" applies.]
+[Rule "use initial appearance in room descriptions rule" applies.]
+[Rule "describe what's on scenery supporters in room descriptions rule" applies.]
+[Rule "describe what's on mentioned supporters in room descriptions rule" applies.]
+[Rule "you-can-also-see rule" applies.]
+[Rule "check new arrival rule" applies.]
+[Rule "first time looking rule" applies.]
+[Rule "after stage rule" applies.]
+[Rule "investigate player's awareness after action rule" applies.]
+[Rule "report stage rule" applies.]
+[Rule "other people looking rule" applies.]
+[Rule "last specific action-processing rule" applies.]
+[Rule "last specific action-processing rule" applies.]
+[Rule "A first turn sequence rule" applies.]
+[Rule "every turn stage rule" applies.]
+[Rule "A last turn sequence rule" applies.]
+[Rule "notify score changes rule" applies.]
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1366"></child>
+        </children>
+    </item>
+    <item nodeId="node-1366">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1367"></child>
+        </children>
+    </item>
+    <item nodeId="node-1367">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">[Rule "declare everything initially unmentioned rule" applies.]
+[Rule "standard set going variables rule" applies.]
+[Rule "announce items from multiple object lists rule" applies.]
+[Rule "set pronouns from items from multiple object lists rule" applies.]
+[Rule "before stage rule" applies.]
+[Rule "instead stage rule" applies.]
+[Rule "investigate player's awareness before action rule" applies.]
+[Rule "player aware of his own actions rule" applies.]
+[Rule "check stage rule" applies.]
+[Rule "can't travel in what's not a vehicle rule" applies.]
+[Rule "can't go through undescribed doors rule" applies.]
+[Rule "can't go through closed doors rule" applies.]
+[Rule "determine map connection rule" applies.]
+[Rule "can't go that way rule" applies.]
+[Rule "carry out stage rule" applies.]
+[Rule "move player and vehicle rule" applies.]
+[Rule "move floating objects rule" applies.]
+[Rule "check light in new location rule" applies.]
+[Rule "after stage rule" applies.]
+[Rule "investigate player's awareness after action rule" applies.]
+[Rule "report stage rule" applies.]
+[Rule "describe room gone into rule" applies.]
+
+[Rule "determine visibility ceiling rule" applies.]
+[Rule "investigate player's awareness before action rule" applies.]
+[Rule "player aware of his own actions rule" applies.]
+[Rule "check stage rule" applies.]
+[Rule "carry out stage rule" applies.]
+[Rule "declare everything unmentioned rule" applies.]
+[Rule "room description heading rule" applies.]
+Turkey Street Station
+[Rule "room description body text rule" applies.]
+DESCRIPTION
+
+[Rule "room description paragraphs about objects rule" applies.]
+[Rule "initialise locale description rule" applies.]
+[Rule "find notable locale objects rule" applies.]
+[Rule "standard notable locale objects rule" applies.]
+[Rule "interesting locale paragraphs rule" applies.]
+[Rule "don't mention player's supporter in room descriptions rule" applies.]
+[Rule "don't mention scenery in room descriptions rule" applies.]
+[Rule "don't mention undescribed items in room descriptions rule" applies.]
+[Rule "set pronouns from items in room descriptions rule" applies.]
+[Rule "offer items to writing a paragraph about rule" applies.]
+[Rule "use initial appearance in room descriptions rule" applies.]
+[Rule "describe what's on scenery supporters in room descriptions rule" applies.]
+[Rule "describe what's on mentioned supporters in room descriptions rule" applies.]
+[Rule "don't mention player's supporter in room descriptions rule" applies.]
+[Rule "don't mention scenery in room descriptions rule" applies.]
+[Rule "don't mention undescribed items in room descriptions rule" applies.]
+[Rule "set pronouns from items in room descriptions rule" applies.]
+[Rule "offer items to writing a paragraph about rule" applies.]
+[Rule "use initial appearance in room descriptions rule" applies.]
+[Rule "describe what's on scenery supporters in room descriptions rule" applies.]
+[Rule "describe what's on mentioned supporters in room descriptions rule" applies.]
+[Rule "you-can-also-see rule" applies.]
+[Rule "check new arrival rule" applies.]
+[Rule "first time looking rule" applies.]
+[Rule "after stage rule" applies.]
+[Rule "investigate player's awareness after action rule" applies.]
+[Rule "report stage rule" applies.]
+[Rule "other people looking rule" applies.]
+[Rule "last specific action-processing rule" applies.]
+[Rule "last specific action-processing rule" applies.]
+[Rule "A first turn sequence rule" applies.]
+[Rule "every turn stage rule" applies.]
+[Rule "A last turn sequence rule" applies.]
+[Rule "notify score changes rule" applies.]
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1368"></child>
+        </children>
+    </item>
+    <item nodeId="node-1368">
+        <command xml:space="preserve">q</command>
+        <result xml:space="preserve">[Rule "declare everything initially unmentioned rule" applies.]
+[Rule "investigate player's awareness before action rule" applies.]
+[Rule "player aware of his own actions rule" applies.]
+[Rule "check stage rule" applies.]
+[Rule "carry out stage rule" applies.]
+Are you sure you want to quit? </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1369"></child>
+        </children>
+    </item>
+    <item nodeId="node-1369">
+        <command xml:space="preserve">y</command>
+        <result xml:space="preserve"></result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
     <item nodeId="node-1275">
         <command xml:space="preserve">open door</command>
         <result xml:space="preserve">You can't do that! You're a turkey!
@@ -154,7 +342,9 @@ DESCRIPTION
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1254"></child>
+        <children><child nodeId="node-1321"></child>
+            <child nodeId="node-1396"></child>
+            <child nodeId="node-1254"></child>
         </children>
     </item>
     <item nodeId="node-1254">
@@ -167,7 +357,308 @@ DESCRIPTION WEST
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1282"></child>
             <child nodeId="node-1255"></child>
+            <child nodeId="node-1330"></child>
+            <child nodeId="node-1349"></child>
         </children>
+    </item>
+    <item nodeId="node-1349">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">The road is blocked by Turkeys!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1374"></child>
+            <child nodeId="node-1350"></child>
+        </children>
+    </item>
+    <item nodeId="node-1350">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">The road is blocked by Turkeys!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1382"></child>
+            <child nodeId="node-1361"></child>
+        </children>
+    </item>
+    <item nodeId="node-1361">
+        <command xml:space="preserve">rules</command>
+        <result xml:space="preserve">Rules tracing now switched on. Type "rules off" to switch it off again, or "rules all" to include even rules which do not apply.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1362"></child>
+        </children>
+    </item>
+    <item nodeId="node-1362">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">[Rule "declare everything initially unmentioned rule" applies.]
+[Rule "standard set going variables rule" applies.]
+[Rule "announce items from multiple object lists rule" applies.]
+[Rule "set pronouns from items from multiple object lists rule" applies.]
+[Rule "before stage rule" applies.]
+[Rule "instead stage rule" applies.]
+[Rule "investigate player's awareness before action rule" applies.]
+[Rule "player aware of his own actions rule" applies.]
+[Rule "check stage rule" applies.]
+[Rule "can't travel in what's not a vehicle rule" applies.]
+[Rule "can't go through undescribed doors rule" applies.]
+[Rule "can't go through closed doors rule" applies.]
+[Rule "determine map connection rule" applies.]
+[Rule "can't go that way rule" applies.]
+You can't go that way.
+
+[Rule "A first turn sequence rule" applies.]
+[Rule "every turn stage rule" applies.]
+[Rule "A last turn sequence rule" applies.]
+[Rule "notify score changes rule" applies.]
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1382">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Turkey Street Station
+DESCRIPTION
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1383"></child>
+        </children>
+    </item>
+    <item nodeId="node-1383">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Turkey Street East
+DESCRIPTION EAST
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1384"></child>
+        </children>
+    </item>
+    <item nodeId="node-1384">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Turkey Street Station
+DESCRIPTION
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1385"></child>
+        </children>
+    </item>
+    <item nodeId="node-1385">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Turkey Street West
+DESCRIPTION WEST
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1386"></child>
+        </children>
+    </item>
+    <item nodeId="node-1386">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">The road is blocked by Turkeys!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1387"></child>
+        </children>
+    </item>
+    <item nodeId="node-1387">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">The doors are shut fast, and because you are a turkey, they might as well be shut forever. You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1388"></child>
+        </children>
+    </item>
+    <item nodeId="node-1388">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">The doors are shut fast, and because you are a turkey, they might as well be shut forever. You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1389"></child>
+        </children>
+    </item>
+    <item nodeId="node-1389">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Turkey Street Station
+DESCRIPTION
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1390"></child>
+        </children>
+    </item>
+    <item nodeId="node-1390">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Turkey Street East
+DESCRIPTION EAST
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1391"></child>
+        </children>
+    </item>
+    <item nodeId="node-1391">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Turkey Street Station
+DESCRIPTION
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1392"></child>
+        </children>
+    </item>
+    <item nodeId="node-1392">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Turkey Street West
+DESCRIPTION WEST
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1393"></child>
+        </children>
+    </item>
+    <item nodeId="node-1393">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">The road is blocked by Turkeys!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1374">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">The doors are shut fast, and because you are a turkey, they might as well be shut forever. You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1375"></child>
+        </children>
+    </item>
+    <item nodeId="node-1375">
+        <command xml:space="preserve">rules</command>
+        <result xml:space="preserve">Rules tracing now switched on. Type "rules off" to switch it off again, or "rules all" to include even rules which do not apply.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1376"></child>
+        </children>
+    </item>
+    <item nodeId="node-1376">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">[Rule "declare everything initially unmentioned rule" applies.]
+[Rule "standard set going variables rule" applies.]
+[Rule "announce items from multiple object lists rule" applies.]
+[Rule "set pronouns from items from multiple object lists rule" applies.]
+[Rule "before stage rule" applies.]
+[Rule "instead stage rule" applies.]
+[Rule "Instead of going nowhere from Turkey Street West" applies.]
+The doors are shut fast, and because you are a turkey, they might as well be shut forever. You can't go that way.
+
+[Rule "A first turn sequence rule" applies.]
+[Rule "every turn stage rule" applies.]
+[Rule "A last turn sequence rule" applies.]
+[Rule "notify score changes rule" applies.]
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1330">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">The doors are shut fast, and because you are a turkey, they might as well be shut forever. You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1345"></child>
+            <child nodeId="node-1331"></child>
+            <child nodeId="node-1337"></child>
+        </children>
+    </item>
+    <item nodeId="node-1337">
+        <command xml:space="preserve">x door</command>
+        <result xml:space="preserve">Which do you mean, Sainsburys Entrance door or Tesco Entrance door?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1338"></child>
+        </children>
+    </item>
+    <item nodeId="node-1338">
+        <command xml:space="preserve">x sainsburys entrance door</command>
+        <result xml:space="preserve">You see nothing special about Sainsburys Entrance door.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1339"></child>
+        </children>
+    </item>
+    <item nodeId="node-1339">
+        <command xml:space="preserve">close door</command>
+        <result xml:space="preserve">Which do you mean, Sainsburys Entrance door or Tesco Entrance door?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1340"></child>
+        </children>
+    </item>
+    <item nodeId="node-1340">
+        <command xml:space="preserve">close sainsbury door</command>
+        <result xml:space="preserve">You can't do that! You're a turkey!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1331">
+        <command xml:space="preserve">rules</command>
+        <result xml:space="preserve">Rules tracing now switched on. Type "rules off" to switch it off again, or "rules all" to include even rules which do not apply.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1332"></child>
+        </children>
+    </item>
+    <item nodeId="node-1332">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">[Rule "declare everything initially unmentioned rule" applies.]
+[Rule "standard set going variables rule" applies.]
+[Rule "announce items from multiple object lists rule" applies.]
+[Rule "set pronouns from items from multiple object lists rule" applies.]
+[Rule "before stage rule" applies.]
+[Rule "instead stage rule" applies.]
+[Rule "investigate player's awareness before action rule" applies.]
+[Rule "player aware of his own actions rule" applies.]
+[Rule "check stage rule" applies.]
+[Rule "can't travel in what's not a vehicle rule" applies.]
+[Rule "can't go through undescribed doors rule" applies.]
+[Rule "can't go through closed doors rule" applies.]
+[Rule "determine map connection rule" applies.]
+[Rule "can't go that way rule" applies.]
+You can't, since Sainsburys Entrance door leads nowhere.
+
+[Rule "A first turn sequence rule" applies.]
+[Rule "every turn stage rule" applies.]
+[Rule "A last turn sequence rule" applies.]
+[Rule "notify score changes rule" applies.]
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1345">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Turkey Street West
+DESCRIPTION WEST
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1255">
         <command xml:space="preserve">e</command>
@@ -320,6 +811,121 @@ DESCRIPTION
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
+    <item nodeId="node-1396">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">(first opening Station Entrance)
+You can't do that! You're a turkey!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1321">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Turkey Street Station
+DESCRIPTION
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1400"></child>
+            <child nodeId="node-1322"></child>
+        </children>
+    </item>
+    <item nodeId="node-1322">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">(first opening Station Entrance)
+You can't do that! You're a turkey!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1323"></child>
+        </children>
+    </item>
+    <item nodeId="node-1323">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Turkey Street West
+DESCRIPTION WEST
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1324"></child>
+        </children>
+    </item>
+    <item nodeId="node-1324">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">(first opening Sainsburys Entrance door)
+You can't do that! You're a turkey!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1325"></child>
+        </children>
+    </item>
+    <item nodeId="node-1325">
+        <command xml:space="preserve">rules</command>
+        <result xml:space="preserve">Rules tracing now switched on. Type "rules off" to switch it off again, or "rules all" to include even rules which do not apply.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1326"></child>
+        </children>
+    </item>
+    <item nodeId="node-1326">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">[Rule "declare everything initially unmentioned rule" applies.]
+[Rule "standard set going variables rule" applies.]
+[Rule "announce items from multiple object lists rule" applies.]
+[Rule "set pronouns from items from multiple object lists rule" applies.]
+[Rule "before stage rule" applies.]
+[Rule "instead stage rule" applies.]
+[Rule "investigate player's awareness before action rule" applies.]
+[Rule "player aware of his own actions rule" applies.]
+[Rule "check stage rule" applies.]
+[Rule "can't travel in what's not a vehicle rule" applies.]
+[Rule "can't go through undescribed doors rule" applies.]
+[Rule "can't go through closed doors rule" applies.]
+(first opening Sainsburys Entrance door)
+[Rule "announce items from multiple object lists rule" applies.]
+[Rule "set pronouns from items from multiple object lists rule" applies.]
+[Rule "before stage rule" applies.]
+[Rule "instead stage rule" applies.]
+[Rule "Instead of opening doors" applies.]
+You can't do that! You're a turkey!
+
+[Rule "A first turn sequence rule" applies.]
+[Rule "every turn stage rule" applies.]
+[Rule "A last turn sequence rule" applies.]
+[Rule "notify score changes rule" applies.]
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1400">
+        <command xml:space="preserve">look around</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1401"></child>
+        </children>
+    </item>
+    <item nodeId="node-1401">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Turkey Street Station
+DESCRIPTION
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1402"></child>
+        </children>
+    </item>
+    <item nodeId="node-1402">
+        <command xml:space="preserve">examine</command>
+        <result xml:space="preserve">(Station Entrance)
+You see nothing special about Station Entrance.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
     <item nodeId="node-1260">
         <command xml:space="preserve">look</command>
         <result xml:space="preserve">Roost
@@ -395,6 +1001,34 @@ blue door
     </item>
     <item nodeId="node-1263">
         <command xml:space="preserve">x chick</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1314">
+        <command xml:space="preserve">gobble child</command>
+        <result xml:space="preserve">GOBBLE GOBBLE GOBBLE!
+The child runs screaming
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1315"></child>
+        </children>
+    </item>
+    <item nodeId="node-1315">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">The Roost
+The roost smells faintly of sawdust, old eggs, and bourbon. The half-drunk bottle explains the half-drunk turkey. A chick is pacing back and forth, occasionally stopping to peck at itself.
+
+You can see a book here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1316"></child>
+        </children>
+    </item>
+    <item nodeId="node-1316">
+        <command xml:space="preserve">x book</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>

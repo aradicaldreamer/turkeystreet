@@ -76,7 +76,10 @@ Volume 3 - Mechanics
 
 Chapter 1 - Evidence
 
-Evidence is a kind of thing. Evidence can be either fixed in place or portable. It is usually fixed in place.
+Evidence is a kind of thing. Evidence can be either fixed in place or portable. It is usually fixed in place. Evidence can be seen or unseen.
+
+Carry out examining evidence:
+	now the noun is seen.
 
 Chapter 2 - Tracking What Players Have Seen
 
@@ -108,6 +111,19 @@ Closing doors is turkeylike behavior.
 
 Instead of turkeylike behavior, say "You can't do that! You're a turkey!"
 
+Chapter 4 - Getting Down From Supporters
+
+[From Example "Anchorite"]
+
+Understand "get down" as exiting.
+
+Instead of going down when the player is on a supporter:
+	try exiting.
+	
+Chapter 5 - Modified Rules
+
+
+
 Volume 6 - Locations
 
 Chapter 1 - Regions
@@ -123,11 +139,12 @@ North of The Roost is On the Case.
 
 The introduction of The Roost is "Back at the roost, there's two wild turkeys. One's a bottle and it's perfectly aged, one's a P.I. and it's aged perfectly. The name's Fowl Feathers. Uncompromising since 2015. In my line of work, you meet a lot of birds. And the birds always like a bad egg."
 
-A child is in The Roost.
+A child is in The Roost. It carries a book.
 
 Carry out gobbling the child:
 	say "GOBBLE GOBBLE GOBBLE!";
 	say "The child runs screaming";
+	move the book to the roost;
 	remove the noun from play.
 
 Section 2 - On the Case
@@ -140,15 +157,23 @@ Section 3 - Turkey Street Station
 
 Turkey Street Station is north of On the Case. "DESCRIPTION".
 
-South of Turkey Street Station is nowhere. [this is so you can not go back]
+South of Turkey Street Station is Station Entrance. It is a door and scenery.
+
+Instead of going south from Turkey Street Station, say "The doors are shut fast, and because you are a turkey, they might as well be shut forever. You can't go that way."
+
+[South of Turkey Street Station is nowhere.] [this is so you can not go back]
 
 Section 4 - Turkey Street West
 
 Turkey Street West is west of Turkey Street Station. "DESCRIPTION WEST".
 
-Sainsburys Entrance door is north of Turkey Street West. It is a door and scenery.
+Wall of Turkeys is west of Turkey Street West. Instead of going west from Turkey Street West, say "The road is blocked by Turkeys!"
 
-Tesco Entrance door is south of Turkey Street West. It is a door and scenery.
+Instead of going nowhere from Turkey Street West, say "The doors are shut fast, and because you are a turkey, they might as well be shut forever. You can't go that way."
+
+Sainsburys Entrance door is north of Turkey Street West. It is an open door and scenery.
+
+Tesco Entrance door is south of Turkey Street West. It is an open door and scenery.
 
 Section 5 - Turkey Street East
 
