@@ -76,7 +76,7 @@ Volume 3 - Mechanics
 
 Chapter 1 - Evidence
 
-Evidence is a kind of thing. Evidence can be either fixed in place or portable. It is usually fixed in place. Evidence can be seen or unseen.
+Evidence is a kind of thing. Evidence can be either fixed in place or portable. Evidence can be seen or unseen.
 
 Carry out examining evidence:
 	now the noun is seen.
@@ -134,16 +134,17 @@ Chapter 2 - Rooms
 
 Section 1 - The Roost
 
-North of The Roost is On the Case. 
-"The roost smells faintly of sawdust, old eggs, and bourbon. The half-drunk bottle explains the half-drunk turkey. A chick is pacing back and forth, occasionally stopping to peck at itself."
+North of The Roost is On the Case.
 
-The introduction of The Roost is "Back at the roost, there's two wild turkeys. One's a bottle and it's perfectly aged, one's a P.I. and it's aged perfectly. The name's Fowl Feathers. Uncompromising since 2015. In my line of work, you meet a lot of birds. And the birds always like a bad egg."
+The description of The Roost is "[if unvisited]Back at the roost, there's two wild turkeys. One's a bottle and it's perfectly aged, one's a P.I. and it's aged perfectly. The name's Fowl Feathers. Uncompromising since 2015. In my line of work, you meet a lot of birds. And the birds always like a bad egg. [paragraph break][end if]The roost smells faintly of sawdust, old eggs, and bourbon. The half-drunk bottle explains the half-drunk turkey. A chick is pacing back and forth, occasionally stopping to peck at itself."
 
-A child is in The Roost. It carries a book.
+[The introduction of The Roost is "Back at the roost, there's two wild turkeys. One's a bottle and it's perfectly aged, one's a P.I. and it's aged perfectly. The name's Fowl Feathers. Uncompromising since 2015. In my line of work, you meet a lot of birds. And the birds always like a bad egg."]
+
+A child is in The Roost.
 
 Carry out gobbling the child:
 	say "GOBBLE GOBBLE GOBBLE!";
-	say "The child runs screaming";
+	say "The child runs screaming, and appears to have dropped something";
 	move the book to the roost;
 	remove the noun from play.
 
@@ -186,6 +187,8 @@ Volume 1 - Beginning
 The Player is in Roost.
 
 Volume 2 - Evidence
+
+A book is evidence. The child carries it.
 
 Volume 3 - Characters
 

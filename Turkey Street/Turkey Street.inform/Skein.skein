@@ -10,11 +10,9 @@ An Interactive Fiction by Raymond Vermeulen and Matthew Deline
 Release 1 / Serial number 180501 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
 
 The Roost
-The roost smells faintly of sawdust, old eggs, and bourbon. The half-drunk bottle explains the half-drunk turkey. A chick is pacing back and forth, occasionally stopping to peck at itself.
+Back at the roost, there's two wild turkeys. One's a bottle and it's perfectly aged, one's a P.I. and it's aged perfectly. The name's Fowl Feathers. Uncompromising since 2015. In my line of work, you meet a lot of birds. And the birds always like a bad egg. The roost smells faintly of sawdust, old eggs, and bourbon. The half-drunk bottle explains the half-drunk turkey. A chick is pacing back and forth, occasionally stopping to peck at itself.
 
 You can see a child here.
-
-Back at the roost, there's two wild turkeys. One's a bottle and it's perfectly aged, one's a P.I. and it's aged perfectly. The name's Fowl Feathers. Uncompromising since 2015. In my line of work, you meet a lot of birds. And the birds always like a bad egg.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -1009,7 +1007,7 @@ blue door
     <item nodeId="node-1314">
         <command xml:space="preserve">gobble child</command>
         <result xml:space="preserve">GOBBLE GOBBLE GOBBLE!
-The child runs screaming
+The child runs screaming, and appears to have dropped something
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1315"></child>
