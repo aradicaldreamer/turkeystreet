@@ -233,7 +233,7 @@ Chapter 1 - Descriptions
 
 Turkey Street Station is north of On the Case. 
 
-The description of Turkey Street Station is "[if unvisited]A bang. A yelp. A corpse. A chicken with a chalk outline, leaving behind a ghost with nobody to haunt.  The pancaked poultry beckons from within the cordon. I'll have to do the haunting for it. [else if visited]All roads lead back to the scene of the crime. Futility, or just fatality? There's a metaphor here, if one cares to explore it. And also a station entrance. [end if]".
+The description of Turkey Street Station is "[if unvisited]A bang. A yelp. A corpse. A chicken with a chalk outline, leaving behind a ghost with nobody to haunt.  The pancaked poultry beckons from within the cordon. I'll have to do the haunting for it. [paragraph break][end if]All roads lead back to the scene of the crime. Futility, or just fatality? There's a metaphor here, if one cares to explore it. And also a station entrance."
 
 South of Turkey Street Station is Station Entrance. It is an open door and scenery.
 
@@ -254,7 +254,7 @@ Part 4 - Turkey Street West
 
 Chapter 1 - Descriptions
 
-Turkey Street West is west of Turkey Street Station. "[if unvisited]A cardinal direction. A cardinal sin. My corpse has taken another spin on the karmic wheel, helped along by some mundane ones. There's no justice on these streets. There's just us. [else if visited]The West End is known for two things. Good plays, and bad turns. Which explains the unfolding supermarket turf war. The cordon of turkeys is a recent addition. [end if]".
+Turkey Street West is west of Turkey Street Station. "[if unvisited]A cardinal direction. A cardinal sin. My corpse has taken another spin on the karmic wheel, helped along by some mundane ones. There's no justice on these streets. There's just us. [paragraph break][end if]The West End is known for two things. Good plays, and bad turns. Which explains the unfolding supermarket turf war. The cordon of turkeys is a recent addition."
 
 Wall of Turkeys West is west of Turkey Street West. Instead of going west from Turkey Street West, say "The road is blocked by Turkeys!"
 
@@ -297,7 +297,7 @@ Chapter 1 - Descriptions
 
 Turkey Street East is east of Turkey Street Station. 
 
-The description of Turkey Street East is "[if unvisited]People have always looked to the East for their panaceas. But Turkey Street is sick, rotten to the core. I can't cure what ails it--I can only burn it out. [else if visited]There's an edge to the air in East End, an edge I live on. And so do OBJECT and OBJECT2. For now, a cordon of turkeys joins me on the edge. [end if]".
+The description of Turkey Street East is "[if unvisited]People have always looked to the East for their panaceas. But Turkey Street is sick, rotten to the core. I can't cure what ails it--I can only burn it out. [paragraph break][end if]There's an edge to the air in East End, an edge I live on. And so do OBJECT and OBJECT2. For now, a cordon of turkeys joins me on the edge."
 
 Wall of Turkeys East is east of Turkey Street East. Instead of going east from Turkey Street East, say "The road is blocked by Turkeys!"
 
@@ -335,9 +335,9 @@ Part 6 - Placeholder4
 
 A placeholder4 is evidence. The eagle carries it.
 
-Part 7 - Placeholder5
+Part 7 - The Murder Weapon
 
-A placeholder5 is evidence. The owl carries it.
+A murder weapon is evidence.
 
 Book 3 - Characters
 
@@ -369,7 +369,7 @@ The Duck is a suspect in Turkey Street East. "Dark of wing and dull of bill. The
 
 Part 4 - The Heron
 
-The Heron is a suspect in Turkey Street West. "Herons like to feast on small prey. This one has a lean, hungry look to it. It knows something."
+The Heron is a suspect in Turkey Street West. "[if unseen]Herons like to feast on small prey. This one has a lean, hungry look to it. It knows something.[end if]"
 
 Part 5 - The Eagle
 
