@@ -365,19 +365,27 @@ Part 3 - The Duck
 
 [if you eat the bread, near the duck you'll get his piece of evidence]
 
+<<<<<<< HEAD
+The Duck is a suspect in Turkey Street West. "Dark of wing and dull of bill. The duck stands in a field, and wears no pants. It appears hungry. Hungry for the truth? Or for more murder?"
+=======
 The Duck is a suspect in Turkey Street East.
+>>>>>>> 1ebf3308ecb3bab7cf49118301e5506d77fd3029
 
 Part 4 - The Heron
 
-The Heron is a suspect in Turkey Street West.
+The Heron is a suspect in Turkey Street West. "Herons like to feast on small prey. This one has a lean, hungry look to it. It knows something."
 
 Part 5 - The Eagle
 
-The Eagle is a suspect in Turkey Street Station.
+The Eagle is a suspect in Turkey Street Station. "Glorious, majestic, and free in all the ways that I am not. I already hate this bird. The feeling is probably mutual."
 
 Part 6 - The Owl
 
+<<<<<<< HEAD
+The Owl is a suspect in Turkey Street East. "A winged killer, a seductive bird of prey. Once its yellow eye falls on you, it's already too late. Did it fall on the chicken?"
+=======
 The Owl is a suspect in Turkey Street West.
+>>>>>>> 1ebf3308ecb3bab7cf49118301e5506d77fd3029
 
 Part 7 - The Chick
 
