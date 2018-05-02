@@ -216,8 +216,6 @@ Section 2 - On the Case
 
 South of On the Case is nowhere.
 
-[This is a blank line!]
-
 The description of On the Case is "The chick's distress is still fresh and palpable. She can't help me now. I leave her to her clucking. With some luck, she'll still be there when I come home to roost. I spread my wings and glide away to the next case. A case more interesting than the typical cuckolding of henpecked husbands I get saddled with. The case of... WHY THE CHICKEN CROSSED THE ROAD."
 
 Section 3 - Turkey Street Station
