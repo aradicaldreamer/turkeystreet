@@ -8,9 +8,9 @@ Part 1 - To Do
 
 Chapter 1 - High Priority
 
-[
+[	
 	
-	- Finish Bread Puzzle
+	- Fix reporting evidence as examined.
 
 ]
 
@@ -67,6 +67,10 @@ Part 2 - Done
 	- Fix lamp post in turkey street station ✔
 	
 	- Make puzzle to get ring ✔
+	
+	- Update room descriptions to match when NPCs leave ✔
+	
+	- Finish Bread Puzzle ✔
 
 ]
 
@@ -140,9 +144,17 @@ Use scoring. The maximum score is 70.
 
 Evidence is a kind of thing. Evidence can be either fixed in place or portable. Evidence can be seen or unseen. Evidence can be lost or found or collected. Evidence is usually lost.
 
+[Understand "take [evidence]" as examining.]
+
 Carry out examining evidence when the noun is unseen:
 	increase score by 10;
-	now the noun is seen.
+	now the noun is seen;
+	
+[Rule for printing the name of evidence:
+	say "[printed name of noun]".
+]	[else if the noun is seen:
+		say "[printed name of noun] (examined)";
+	end if.]
 
 Book 2 - Tracking What Players Have Seen
 
@@ -345,7 +357,7 @@ Part 4 - Turkey Street West
 
 Chapter 1 - Descriptions
 
-Turkey Street West is west of Turkey Street Station. "[if unvisited]A cardinal direction. A cardinal sin. My corpse has taken another spin on the karmic wheel, helped along by some mundane ones. There's no justice on these streets. There's just us. [paragraph break][end if]The West End is known for two things. Good plays, and bad turns. Which explains the unfolding supermarket turf war. The cordon of turkeys is a recent addition."
+Turkey Street West is west of Turkey Street Station. "[if unvisited]A cardinal direction. A cardinal sin. My corpse has taken another spin on the karmic wheel, helped along by some mundane ones. There's no justice on these streets. There's just us. [paragraph break][end if]The West End is known for two things. Good plays, and bad turns. Which explains the unfolding supermarket turf war. The cordon of turkeys to the west is a recent addition."
 
 Wall of Turkeys West is west of Turkey Street West. Instead of going west from Turkey Street West, say "The road is blocked by Turkeys!"
 
@@ -375,10 +387,9 @@ Every turn when the player carries the herring and the player can see the heron:
 	say "Drooling, the heron eyes you closely with an intense stare. Are these the eyes of a chicken chaser, or of hunger?".
 	
 Instead of giving the herring to the heron:
-	say "The heron snaps the herring from your beak hungrily and flies away ungracefully. In the commotion, it drops a [torn photograph]";
+	say "The heron snaps the herring from your beak hungrily. In the commotion, it drops a [torn photograph]";
 	remove herring from play;
 	move torn photograph to Turkey Street West;
-	remove the heron from play.
 	
 Chapter 3 - The Murder Weapon
 
@@ -400,17 +411,22 @@ Chapter 1 - Descriptions
 
 Turkey Street East is east of Turkey Street Station. 
 
-The description of Turkey Street East is "[if unvisited]People have always looked to the East for their panaceas. But Turkey Street is sick, rotten to the core. I can't cure what ails it--I can only burn it out. [paragraph break][end if]There's an edge to the air in East End, an edge I live on. And so does an ornithophobic child cowering in fear from the spectre of a gluttonous duck feasting on [bits of bread] strewn everywhere. For now, a cordon of turkeys joins me on the edge."
+The description of Turkey Street East is "[if unvisited]People have always looked to the East for their panaceas. But Turkey Street is sick, rotten to the core. I can't cure what ails it--I can only burn it out. [paragraph break][end if]There's an edge to the air in East End, an edge I live on. [if the player can see the child and the bread is seen] And so does an ornithophobic child cowering in fear from the spectre of a gluttonous duck feasting on bread strewn everywhere. [else if the player can see the child and the bread is unseen]And so does an ornithophobic child cowering in fear from the spectre of an irate duck. [else if the child is unseen and the bread is seen]And so does a gluttonous duck feasting on bread strewn everywhere. [else if the child is unseen and the bread is unseen] And so does an irate duck.[end if]For now, a cordon of turkeys joins me on the edge to the east."
 
 Wall of Turkeys East is east of Turkey Street East. Instead of going east from Turkey Street East, say "The road is blocked by Turkeys!"
 
 Chapter 2 - Bread Puzzle
 
-Some bits of bread are in Turkey Street East. They are small and edible.
+Some bread is in Turkey Street East. It is small and edible and seen.
 
 Instead of taking bread:
-	say "YAY";
-	continue the action.
+	try eating bread.
+	
+Instead of eating bread:
+	now the bread is unseen;
+	remove bread from play;
+	move the rose to Turkey Street East;
+	say "'QUACK QUACK QU-AAAAACK!' The duck shouts at you furiously for finishing it's meal. It might as well be spitting! Digging into its feathers it tosses something red in your general direction."
 
 Volume 7 - The Case of Why the Chicken Crossed Turkey Street
 
@@ -427,6 +443,9 @@ Part 1 - The Book
 A book is evidence. The child carries it. The book is small.
 
 The description of the book is "'A Night Time Smoke'. Trashy and romantic. Like my life."
+
+Rule for printing the name of the book: 
+    say "[printed name of book][if the book is seen] (examined)[end if]".
 
 Part 2 - The Letter
 
@@ -476,7 +495,7 @@ A child is a suspect in Turkey Street East.
 
 The description of the child is "A small human with its back turned to you. Like all of its kind, the child delights in violence, and is acquainted with fear. Good."
 
-Carry out gobbling the child:
+Instead of gobbling the child:
 	say "GOBBLE GOBBLE GOBBLE!";
 	say "The child runs screaming, and appears to have dropped something";
 	move the book to Turkey Street East;
