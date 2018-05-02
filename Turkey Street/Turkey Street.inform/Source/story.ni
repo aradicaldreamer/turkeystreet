@@ -278,9 +278,9 @@ Wall of Turkeys West is west of Turkey Street West. Instead of going west from T
 
 Instead of going nowhere from Turkey Street West, say "The doors are shut fast, and because you are a turkey, they might as well be shut forever. You can't go that way."
 
-Sainsburys Entrance door is north of Turkey Street West. It is an open door and scenery.
+Sainsburys Entrance is in Turkey Street West. It is scenery.
 
-Tesco Entrance door is south of Turkey Street West. It is an open door and scenery.
+Tesco Entrance is in Turkey Street West. It is scenery.
 
 Chapter 2 - Herring Puzzle
 
