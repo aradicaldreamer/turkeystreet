@@ -268,9 +268,33 @@ Volume 2 - Evidence
 
 [Calculate maximum score based on the number of pieces of evidence]
 
+Book 1 - The Book
+
 A book is evidence. The child carries it.
 
+Book 2 - The Letter
+
 A letter is evidence. The chicken carries the letter.
+
+Book 3 - Torn Photograph
+
+A torn photograph is evidence. The heron carries it.
+
+Book 4 - Placeholder2
+
+A placeholder2 is evidence. The duck carries it.
+
+Book 5 - Placeholder3
+
+A placeholder3 is evidence. The fox carries it.
+
+Book 6 - Placeholder4
+
+A placeholder4 is evidence. The eagle carries it.
+
+Book 7 - Placeholder5
+
+A placeholder5 is evidence. The owl carries it.
 
 Volume 3 - Characters
 
