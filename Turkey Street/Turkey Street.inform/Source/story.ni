@@ -16,6 +16,8 @@ Chapter 1 - High Priority
 	
 	- Complete evidence list
 	
+	- Add description for each piece of evidence
+	
 	- Add evidence to each location
 	
 	- Add description for each NPC
@@ -205,6 +207,8 @@ Book 2 - Rooms
 
 Part 1 - The Roost
 
+[the chick is here]
+
 Chapter 1 - Descriptions
 
 North of The Roost is On the Case.
@@ -229,6 +233,8 @@ The description of On the Case is "The chick's distress is still fresh and palpa
 
 Part 3 - Turkey Street Station
 
+[the chicken and the crow are here]
+
 Chapter 1 - Descriptions
 
 Turkey Street Station is north of On the Case. 
@@ -251,6 +257,8 @@ Instead of examining the chicken when the letter is lost:
 	move the letter to Turkey Street Station.
 
 Part 4 - Turkey Street West
+
+[The heron and the owl are here]
 
 Chapter 1 - Descriptions
 
@@ -305,6 +313,8 @@ Instead of examining the garbage bin when the murder weapon is lost:
 
 Part 5 - Turkey Street East
 
+[The child and the duck are here]
+
 Chapter 1 - Descriptions
 
 Turkey Street East is east of Turkey Street Station. 
@@ -339,17 +349,19 @@ Part 4 - The Murder Weapon
 
 A murder weapon is evidence.
 
-Part 5 - Placeholder2
+Part 5 - The Rose
 
-A placeholder2 is evidence. The duck carries it.
+A rose is evidence. The duck carries it.
 
-Part 6 - Placeholder3
+Part 6 - The Locket
 
-A placeholder3 is evidence. The crow carries it.
+[The locket has a picture of the chicken and the chick in it]
 
-Part 7 - Placeholder4
+A locket is evidence. The crow carries it.
 
-A placeholder4 is evidence. The eagle carries it.
+Part 7 - The ring
+
+A ring is evidence. The eagle carries it.
 
 Book 3 - Characters
 
