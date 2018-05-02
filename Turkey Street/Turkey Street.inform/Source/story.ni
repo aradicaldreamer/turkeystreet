@@ -250,7 +250,7 @@ Chapter 1 - Descriptions
 
 Turkey Street West is west of Turkey Street Station. "[if unvisited]A cardinal direction. A cardinal sin. My corpse has taken another spin on the karmic wheel, helped along by some mundane ones. There's no justice on these streets. There's just us. [else if visited]The West End is known for two things. Good plays, and bad turns. Which explains the unfolding supermarket turf war. The cordon of turkeys is a recent addition. [end if]".
 
-Wall of Turkeys is west of Turkey Street West. Instead of going west from Turkey Street West, say "The road is blocked by Turkeys!"
+Wall of Turkeys West is west of Turkey Street West. Instead of going west from Turkey Street West, say "The road is blocked by Turkeys!"
 
 Instead of going nowhere from Turkey Street West, say "The doors are shut fast, and because you are a turkey, they might as well be shut forever. You can't go that way."
 
@@ -286,6 +286,8 @@ Part 5 - Turkey Street East
 Turkey Street East is east of Turkey Street Station. 
 
 The description of Turkey Street East is "[if unvisited]People have always looked to the East for their panaceas. But Turkey Street is sick, rotten to the core. I can't cure what ails it--I can only burn it out. [else if visited]There's an edge to the air in East End, an edge I live on. And so do OBJECT and OBJECT2. For now, a cordon of turkeys joins me on the edge. [end if]".
+
+Wall of Turkeys East is east of Turkey Street East. Instead of going east from Turkey Street East, say "The road is blocked by Turkeys!"
 
 Volume 7 - The Case of Why the Chicken Crossed Turkey Street
 
