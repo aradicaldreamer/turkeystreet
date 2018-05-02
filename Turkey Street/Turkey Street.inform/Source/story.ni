@@ -10,17 +10,13 @@ Chapter 1 - High Priority
 
 [
 	
-	- Add interactive items to Turkey Street East and Update description
-	
 	- Add ending description
-	
-	- Add description for the child
 	
 	- Finish Bread Puzzle
 	
-	- Make puzzle to get locket
-	
 	- Make puzzle to get ring
+	
+	- Fix lamp post in turkey street station
 
 ]
 
@@ -61,6 +57,16 @@ Part 2 - Done
 	- Add default gobbling statement ✔
 	
 	- Add description for each piece of evidence ✔
+	
+	- Add description for the child ✔
+	
+	- Add interactive items to Turkey Street East and Update description ✔
+	
+	- Fix so descriptions appear when examining ✔
+	
+	- Make all evidence small ✔
+	
+	- Make puzzle to get locket ✔
 
 ]
 
@@ -130,9 +136,9 @@ Book 1 - Evidence
 
 [We will use scoring to keep track of how many pieces of evidence have been collected and to end the game when all evidence has been examined]
 
-Use scoring. The maximum score is 50.
+Use scoring. The maximum score is 70.
 
-Evidence is a kind of thing. Evidence can be either fixed in place or portable. Evidence can be seen or unseen. Evidence can be lost or found. Evidence is usually lost.
+Evidence is a kind of thing. Evidence can be either fixed in place or portable. Evidence can be seen or unseen. Evidence can be lost or found or collected. Evidence is usually lost.
 
 Carry out examining evidence when the noun is unseen:
 	increase score by 10;
@@ -265,12 +271,26 @@ Instead of going south from Turkey Street Station, say "The doors to the station
 
 Chapter 2 - The Murder Victim
 
-A dead chicken is in Turkey Street Station. "This is an ex-chicken. The chicken has expired. It is no more. It it has danced its last dance, smiled at the reaper, and other such euphemisms to drive home the fact that it got run over in the middle of the street until it was dead, dead, dead. The question is, why? Why did the chicken cross Turkey Street? Why did the chicken... cross the road?".
+A dead chicken is in Turkey Street Station. 
+
+The description of the dead chicken is "This is an ex-chicken. The chicken has expired. It is no more. It it has danced its last dance, smiled at the reaper, and other such euphemisms to drive home the fact that it got run over in the middle of the street until it was dead, dead, dead. The question is, why? Why did the chicken cross Turkey Street? Why did the chicken... cross the road?".
 
 Instead of examining the chicken when the letter is lost:
 	now the letter is found;
 	say "This chicken is quite dead. Tire-tracks run down its spine and through its spilled guts. Still clutched in its beak, a letter!";
 	move the letter to Turkey Street Station.
+
+Chapter 3 - Locket Puzzle
+
+Instead of examining the crow when the locket is lost:
+	now the locket is found;
+	say "Upon closer examination, the crow appears to have a locket hanging from it's neck. Maybe you could scare the crow into dropping it somehow".
+
+Instead of gobbling the crow when the locket is found:
+	now the locket is collected;
+	say "You stare down the crow. It stares back at you. Time slows down. Eternity passes. 'Gobble. GOBBLE.' [paragraph break] 'Ca-kaw! Ca'kaw caKAW' The crow screeches and drops the locket just out of reach. You should take it to examine it elsewhere before it snatches it back!";
+	move the locket to Turkey Street Station.
+	
 
 Part 4 - Turkey Street West
 
@@ -353,31 +373,31 @@ Book 2 - Evidence
 
 Part 1 - The Book
 
-A book is evidence. The child carries it.
+A book is evidence. The child carries it. The book is small.
 
 The description of the book is "'A Night Time Smoke'. Trashy and romantic. Like my life."
 
 Part 2 - The Letter
 
-A letter is evidence. The chicken carries the letter.
+A letter is evidence. The chicken carries the letter. The letter is small.
 
 The description of the letter is "Is this... an ode to farts? Whatever it is, it's personal, sappy, and somewhat disgusting."
 
 Part 3 - Torn Photograph
 
-A torn photograph is evidence. The heron carries it.
+A torn photograph is evidence. The heron carries it. The torn photograph is small.
 
 The description of the torn photograph is "A picture of two near-identical chicks. Crudely torn apart by life's currents."
 
 Part 4 - The Murder Weapon
 
-A murder weapon is evidence.
+A murder weapon is evidence. The murder weapon is small.
 
 The description of the murder weapon is "It is such a simple thing. Small, yet incalculably valuable. And to the right bird, lethal."
 
 Part 5 - The Rose
 
-A rose is evidence. The duck carries it.
+A rose is evidence. The duck carries it. The rose is small.
 
 The description of the rose is "The symbolism of a rose is obvious: 'My love for you is transitory and based solely on your appearance'."
 
@@ -385,13 +405,13 @@ Part 6 - The Locket
 
 [The locket has a picture of the chicken and the chick in it]
 
-A locket is evidence. The crow carries it.
+A locket is evidence. The crow carries it. The locket is small.
 
 The description of the locket is "A small, heart-shaped locket. No inscription. Just a chicken... and a chick."
 
 Part 7 - The ring
 
-A ring is evidence. The eagle carries it.
+A ring is evidence. The eagle carries it. The ring is small.
 
 The description of the ring is "A small, shiny bauble. A white elephant."
 
@@ -401,7 +421,9 @@ Book 3 - Characters
 
 Part 1 - The Child
 
-A child is a suspect in Turkey Street East. "A small human with its back turned to you. Like all of its kind, the child delights in violence, and is acquainted with fear. Good."
+A child is a suspect in Turkey Street East. 
+
+The description of the child is "A small human with its back turned to you. Like all of its kind, the child delights in violence, and is acquainted with fear. Good."
 
 Carry out gobbling the child:
 	say "GOBBLE GOBBLE GOBBLE!";
@@ -415,7 +437,9 @@ Carry out gobbling the child:
 
 Part 2 - The Crow
 
-The Crow is a suspect in Turkey Street Station. "A pair of beady eyes stares at you. Crows. Scavengers, the murderous lot of them. I'd watch my belongings around them, if I could carry any."
+The Crow is a suspect in Turkey Street Station. 
+
+The description of the crow is "A pair of beady eyes stares at you. Crows. Scavengers, the murderous lot of them. I'd watch my belongings around them, if I could carry any.[if the locket is found] This one appears to have a locket that may not belong to them. Maybe you could scare it off of them somehow. [else if the locket is collected] This one appears to be very sullen now that you have stolen their treasure and is eyeing you ... dangerously[end if]"
 
 instead of gobbling the crow:
 	say "'Gobble, gobble.' 'Ca-kaw! Ca'kaw caKAW' Chattering away like a thief in the night."
@@ -424,28 +448,36 @@ Part 3 - The Duck
 
 [if you eat the bread, near the duck you'll get his piece of evidence]
 
-The Duck is a suspect in Turkey Street East. "A duck is dark of wing and dull of bill. The duck stands in a field, and wears no pants. It appears hungry. Hungry for the truth? Or for more murder?"
+The Duck is a suspect in Turkey Street East. 
+
+The description of the duck is "A duck is dark of wing and dull of bill. The duck stands in a field, and wears no pants. It appears hungry. Hungry for the truth? Or for more murder?"
 
 instead of gobbling the duck:
 	say "'Gobble, gobble.' My bill flaps in the breeze. The duck quaks back fiercely. It doesn't like my kind."
 
 Part 4 - The Heron
 
-The Heron is a suspect in Turkey Street West. "Herons like to feast on small prey.  One stands here, with a lean, hungry look to it. It knows something."
+The Heron is a suspect in Turkey Street West. 
+
+The description of the heron is "Herons like to feast on small prey.  One stands here, with a lean, hungry look to it. It knows something."
 
 instead of gobbling the heron:
 	say "'Gobble, gobble.' I gobble, futilely. The heron just watches. It knows the value of silence."
 
 Part 5 - The Eagle
 
-The Eagle is a suspect in Turkey Street Station. "An eagle observes the proceedings. Glorious, majestic, and free in all the ways that I am not. I already hate this bird. The feeling is probably mutual."
+The Eagle is a suspect in Turkey Street Station. 
+
+The description of the eagle is "An eagle observes the proceedings. Glorious, majestic, and free in all the ways that I am not. I already hate this bird. The feeling is probably mutual."
 
 instead of gobbling the eagle:
 	say "'Gobble, gob...b...le...' The eagle stares at me, and judges. The gobble dies in my throat. Its regal air brooks no gobbling, and it lets out a single, loud shriek. Freedom."
 
 Part 6 - The Owl
 
-The Owl is a suspect in Turkey Street West. "An owl is perched up high. A winged killer, a seductive bird of prey. Once its yellow eye falls on you, it's already too late. Did it fall on the chicken?"
+The Owl is a suspect in Turkey Street West. 
+
+The description of the owl is "An owl is perched up high. A winged killer, a seductive bird of prey. Once its yellow eye falls on you, it's already too late. Did it fall on the chicken?"
 
 instead of gobbling the owl:
 	say "; Gobble, gobble.' 'HOOT HOOT!' The owl screams back immediately. It can scream all it likes--we both know this ends in death."
