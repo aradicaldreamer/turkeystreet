@@ -108,7 +108,7 @@ Include Title Page by Jon Ingold.
 To say quotation:
 	say "Welcome to Turkey Street! You are about to embark upon a gritty and super serious parser adventure where you play as a turkey detective. Before you start, please be aware that some of the commands may be different from other games that you have played in the past.
 	
-	Commands are limited to directional travel (N, S, E, W), LOOK, EXAMINE (or X), TAKE, DROP, WAIT, and GOBBLE or GOBBLE AT (which refers to turkey speak, not the action of eating). You can also type UNDO to go back a turn, or SAVE to record your progress. Have fun!".
+	Commands are limited to directional travel (N, S, E, W), LOOK, EXAMINE (or X), GIVE, TAKE, DROP, WAIT, EAT, DRINK, and GOBBLE or GOBBLE AT (which refers to turkey speak, not the action of eating). You can also type COMMANDS to see this list again, UNDO to go back a turn, or SAVE to record your progress. Have fun!".
 
 Volume 3 - Mechanics
 
@@ -171,17 +171,24 @@ Chapter 5 - Cheating
 
 Cheating is an action applying to nothing. Understand "cheat" as cheating. Instead of cheating:
 	Increase score by 1000.
+	
+Chapter 6 - Command List
 
-Section 1 - Getting Down From Supporters
+Commanding is an action applying to nothing. Understand "Commands" or "help" as commanding. Instead of commanding:
+	say "Commands are limited to directional travel (N, S, E, W), LOOK, EXAMINE (or X), GIVE, TAKE, DROP, WAIT, EAT, DRINK, and GOBBLE or GOBBLE AT (which refers to turkey speak, not the action of eating). You can also type COMMANDS to see this list again, UNDO to go back a turn, or SAVE to record your progress. Have fun!".
+
+Section 1 - Supporters
 
 [From Example "Anchorite"]
 
-Understand "get down" as exiting.
+Understand "get on" and "go up" and "climb" and "climb on" as entering.
+
+Understand "get down"  and "go down" as exiting.
 
 Instead of going down when the player is on a supporter:
 	try exiting.
 	
-Chapter 6 - Inventory
+Chapter 7 - Inventory
 
 Instead of taking things when the player is carrying something:
 	say "Alas, you are a turkey and have nowhere else to carry things. Please drop what you have before picking this up".
@@ -210,8 +217,6 @@ Instead of drinking the bottle:
 
 A sign is in The Roost. The description is "A piece of wood lies against the entryway. It has been not so carefully pecked to read 'Fowl Feathers, Poultry Investigator'".
 
-An egg and a spoon are in the Roost. The egg is small.
-
 Section 2 - On the Case
 
 South of On the Case is nowhere.
@@ -222,15 +227,13 @@ Section 3 - Turkey Street Station
 
 Turkey Street Station is north of On the Case. "[if unvisited]A bang. A yelp. A corpse. A chicken with a chalk outline, leaving behind a ghost with nobody to haunt.  The pancaked poultry beckons from within the cordon. I'll have to do the haunting for it. [else if visited] The scene of the crime, the scene of the time.[end if]"
 
-South of Turkey Street Station is Station Entrance. It is a door and scenery.
+South of Turkey Street Station is Station Entrance. It is an open door and scenery.
 
-Instead of going south from Turkey Street Station, say "The doors are shut fast, and because you are a turkey, they might as well be shut forever. You can't go that way."
+Instead of going nowhere from Turkey Street Station, say "The doors to the station are shut fast behind you, and because you are a turkey, they might as well be shut forever. You can't go that way."
 
 [South of Turkey Street Station is nowhere.] [this is so you can not go back]
 
 A dead chicken is in Turkey Street Station. "A very dead chicken lies in the center of the road".
-
-A letter is evidence. The chicken carries the letter.
 
 Instead of examining the chicken when the letter is lost:
 	now the letter is found;
@@ -244,6 +247,8 @@ Turkey Street West is west of Turkey Street Station. "[if unvisited] West Turkey
 Wall of Turkeys is west of Turkey Street West. Instead of going west from Turkey Street West, say "The road is blocked by Turkeys!"
 
 Instead of going nowhere from Turkey Street West, say "The doors are shut fast, and because you are a turkey, they might as well be shut forever. You can't go that way."
+
+A bus stop is an enterable supporter in Turkey Street West. The description of the bus stop is "The bus stop appears to be in a state of disrepair. One side is slumped over and is low enough for you to climb on top of it."
 
 Sainsburys Entrance door is north of Turkey Street West. It is an open door and scenery.
 
@@ -265,6 +270,8 @@ Volume 2 - Evidence
 
 A book is evidence. The child carries it.
 
+A letter is evidence. The chicken carries the letter.
+
 Volume 3 - Characters
 
 [Fox, Duck, Child, Heron, Eagle, Chicken, Turkeys, Owl]
@@ -276,7 +283,7 @@ A child is a suspect in Turkey Street East. [Need to give it a description indic
 Carry out gobbling the child:
 	say "GOBBLE GOBBLE GOBBLE!";
 	say "The child runs screaming, and appears to have dropped something";
-	move the book to the roost;
+	move the book to Turkey Street East;
 	remove the noun from play.
 	
 [This is the child returning rule:
