@@ -4,15 +4,17 @@ Volume 1 - Brainstorming
 
 Book 1 - Task List
 
-Chapter 1 - To Do
+Part 1 - To Do
 
-Section 1 - High Priority
+Chapter 1 - High Priority
 
 [
 	
 	- Write place descriptions for each location
 	
 	- Add interactive items to each location
+	
+	- Complete evidence list
 	
 	- Add evidence to each location
 	
@@ -24,7 +26,7 @@ Section 1 - High Priority
 
 ]
 
-Section 2 - Low Priority
+Chapter 2 - Low Priority
 
 [
 	
@@ -34,7 +36,7 @@ Section 2 - Low Priority
 
 ]
 
-Chapter 2 - Done
+Part 2 - Done
 
 [
 
@@ -112,7 +114,7 @@ To say quotation:
 
 Volume 3 - Mechanics
 
-Chapter 1 - Evidence
+Book 1 - Evidence
 
 [We will use scoring to keep track of how many pieces of evidence have been collected and to end the game when all evidence has been examined]
 
@@ -124,13 +126,13 @@ Carry out examining evidence when the noun is unseen:
 	increase score by 10;
 	now the noun is seen.
 
-Chapter 2 - Tracking What Players Have Seen
+Book 2 - Tracking What Players Have Seen
 
 A thing can be seen or unseen.
 Carry out examining a thing: 
     now the noun is seen.
 
-Chapter 3 - Suspects
+Book 3 - Suspects
 
 A suspect is a kind of person.
 
@@ -138,17 +140,17 @@ Volume 4 - Phrases
 
 Volume 5 - Actions
 
-Chapter 1 - Gobbling
+Book 1 - Gobbling
 
 Gobbling is an action with past participle gobbled applying to one thing.
 
 Understand "Gobble at [something]" as gobbling. Understand "Gobble [something]" as gobbling.
 
-Chapter 2 - Observing
+Book 2 - Observing
 
 Understand the command "observe" as "examine".
 
-Chapter 3 - Turkey-like Behavior
+Book 3 - Turkey-like Behavior
 
 [Specific instance]
 
@@ -165,19 +167,9 @@ Closing doors is turkeylike behavior.
 
 Instead of turkeylike behavior, say "You can't do that! You're a turkey!"
 
-Chapter 4 - Modified Rules
+Book 4 - Modified Rules
 
-Chapter 5 - Cheating
-
-Cheating is an action applying to nothing. Understand "cheat" as cheating. Instead of cheating:
-	Increase score by 1000.
-	
-Chapter 6 - Command List
-
-Commanding is an action applying to nothing. Understand "Commands" or "help" as commanding. Instead of commanding:
-	say "Commands are limited to directional travel (N, S, E, W), LOOK, EXAMINE (or X), GIVE, TAKE, DROP, WAIT, EAT, DRINK, and GOBBLE or GOBBLE AT (which refers to turkey speak, not the action of eating). You can also type COMMANDS to see this list again, UNDO to go back a turn, or SAVE to record your progress. Have fun!".
-
-Section 1 - Supporters
+Part 1 - Supporters
 
 [From Example "Anchorite"]
 
@@ -187,21 +179,31 @@ Understand "get down"  and "go down" as exiting.
 
 Instead of going down when the player is on a supporter:
 	try exiting.
+
+Book 5 - Cheating
+
+Cheating is an action applying to nothing. Understand "cheat" as cheating. Instead of cheating:
+	Increase score by 1000.
 	
-Chapter 7 - Inventory
+Book 6 - Command List
+
+Commanding is an action applying to nothing. Understand "Commands" or "help" as commanding. Instead of commanding:
+	say "Commands are limited to directional travel (N, S, E, W), LOOK, EXAMINE (or X), GIVE, TAKE, DROP, WAIT, EAT, DRINK, and GOBBLE or GOBBLE AT (which refers to turkey speak, not the action of eating). You can also type COMMANDS to see this list again, UNDO to go back a turn, or SAVE to record your progress. Have fun!".
+	
+Book 7 - Inventory
 
 Instead of taking things when the player is carrying something:
 	say "Alas, you are a turkey and have nowhere else to carry things. Please drop what you have before picking this up".
 
 Volume 6 - Locations
 
-Chapter 1 - Regions
+Book 1 - Regions
 
 Turkey Street is a region. Turkey Street Station, Turkey Street East, and Turkey Street West are in Turkey Street.
 
-Chapter 2 - Rooms
+Book 2 - Rooms
 
-Section 1 - The Roost
+Part 1 - The Roost
 
 North of The Roost is On the Case.
 
@@ -217,13 +219,13 @@ Instead of drinking the bottle:
 
 A sign is in The Roost. The description is "A piece of wood lies against the entryway. It has been not so carefully pecked to read 'Fowl Feathers, Poultry Investigator'".
 
-Section 2 - On the Case
+Part 2 - On the Case
 
 South of On the Case is nowhere.
 
 The description of On the Case is "The chick's distress is still fresh and palpable. She can't help me now. I leave her to her clucking. With some luck, she'll still be there when I come home to roost. I spread my wings and glide away to the next case. A case more interesting than the typical cuckolding of henpecked husbands I get saddled with. The case of... WHY THE CHICKEN CROSSED THE ROAD."
 
-Section 3 - Turkey Street Station
+Part 3 - Turkey Street Station
 
 Turkey Street Station is north of On the Case. "[if unvisited]A bang. A yelp. A corpse. A chicken with a chalk outline, leaving behind a ghost with nobody to haunt.  The pancaked poultry beckons from within the cordon. I'll have to do the haunting for it. [else if visited]All roads lead back to the scene of the crime. Futility, or just fatality? There's a [metaphor] here, if one cares to explore it. And also a station entrance. [end if]"
 
@@ -240,7 +242,7 @@ Instead of examining the chicken when the letter is lost:
 	say "this chicken is definitely dead. And I found a letter!";
 	move the letter to Turkey Street Station.
 
-Section 4 - Turkey Street West
+Part 4 - Turkey Street West
 
 Turkey Street West is west of Turkey Street Station. "[if unvisited]A cardinal direction. A cardinal sin. My corpse has taken another spin on the karmic wheel, helped along by some mundane ones. There's no justice on these streets. There's just us. [else if visited]The West End is known for two things. Good plays, and bad turns. Which explains the unfolding supermarket turf war. The cordon of turkeys is a recent addition. [end if]".
 
@@ -250,33 +252,65 @@ Instead of going nowhere from Turkey Street West, say "The doors are shut fast, 
 
 A bus stop is an enterable supporter in Turkey Street West. The description of the bus stop is "The bus stop appears to be in a state of disrepair. One side is slumped over and is low enough for you to climb on top of it."
 
-Sainsburys Entrance door is north of Turkey Street West. It is an open door and scenery.
+A red herring is on top of the bus stop. It is small.
 
-Tesco Entrance door is south of Turkey Street West. It is an open door and scenery.
+Instead of taking the herring when the player is not on the bus stop:
+	say "The herring appears to be just out of reach. You may not be able to fly, but there's more than one way to pluck a chicken. Maybe there is another way to get up there?".
+	
+Instead of eating the herring:
+	say "I eat fishy business for breakfast, unfortunately I've already eaten lunch".
 
-Section 5 - Turkey Street East
+[Find a new shop name] Sainsburys Entrance door is north of Turkey Street West. It is an open door and scenery.
+
+[Find a new shop name] Tesco Entrance door is south of Turkey Street West. It is an open door and scenery.
+
+Part 5 - Turkey Street East
 
 Turkey Street East is east of Turkey Street Station. "[if unvisited]People have always looked to the East for their panaceas. But Turkey Street is sick, rotten to the core. I can't cure what ails it--I can only burn it out. [else if visited]There's an edge to the air in East End, an edge I live on. And so do [OBJECT] and [more OBJECT]. For now, a cordon of turkeys joins me on the edge. [end if]".
 
-Book 2 - The Case of Why the Chicken Crossed Turkey Street
+Volume 7 - The Case of Why the Chicken Crossed Turkey Street
 
-Volume 1 - Beginning
+Book 1 - Beginning
 
 The Player is in Roost.
 
-Volume 2 - Evidence
+Book 2 - Evidence
 
 [Calculate maximum score based on the number of pieces of evidence]
 
+Part 1 - The Book
+
 A book is evidence. The child carries it.
+
+Part 2 - The Letter
 
 A letter is evidence. The chicken carries the letter.
 
-Volume 3 - Characters
+Part 3 - Torn Photograph
+
+A torn photograph is evidence. The heron carries it.
+
+Part 4 - Placeholder2
+
+A placeholder2 is evidence. The duck carries it.
+
+Part 5 - Placeholder3
+
+A placeholder3 is evidence. The fox carries it.
+
+Part 6 - Placeholder4
+
+A placeholder4 is evidence. The eagle carries it.
+
+Part 7 - Placeholder5
+
+A placeholder5 is evidence. The owl carries it.
+
+Book 3 - Characters
 
 [Fox, Duck, Child, Heron, Eagle, Chicken, Turkeys, Owl]
 
-Book 1 - The Child
+Part 1 - The Child
 
 A child is a suspect in Turkey Street East. [Need to give it a description indicating that it is scared of people]
 
@@ -290,36 +324,36 @@ Carry out gobbling the child:
 	If the child has been in off-stage for 3 turns:
 		move the child to The Roost.]
 
-Book 2 - The Fox
+Part 2 - The Fox
 
 The Fox is a suspect in Turkey Street Station.
 
-Book 3 - The Duck
+Part 3 - The Duck
 
 [if you eat the bread, near the duck you'll get his piece of evidence]
 
 The Duck is a suspect in Turkey Street West.
 
-Book 4 - The Heron
+Part 4 - The Heron
 
 The Heron is a suspect in Turkey Street West.
 
-Book 5 - The Eagle
+Part 5 - The Eagle
 
 The Eagle is a suspect in Turkey Street Station.
 
-Book 6 - The Owl
+Part 6 - The Owl
 
 The Owl is a suspect in Turkey Street East.
 
-Book 7 - The Chick
+Part 7 - The Chick
 
 A chick is a person in The Roost. The description of the chick is "Young, blonde, and clearly stressed out. She smells like danger, a danger on which I will have to whet my beak."
 
 Instead of gobbling the chick:
 	say "'Cluck. Cluck. Cluck cluck CLUCK-AH.' She sings her sweet song to me."
 
-Volume 4 - Ending
+Book 4 - Ending
 
 Every turn:
 	if (score >= maximum score):
