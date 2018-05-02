@@ -289,7 +289,7 @@ Instead of giving the herring to the heron:
 	
 Chapter 3 - The Murder Weapon
 
-A garbage bin is an open opaque fixed in place container in Turkey Street West.
+A garbage bin is an closed opaque openable fixed in place container in Turkey Street West. Inside the bin is the murder weapon.
 
 Part 5 - Turkey Street East
 
