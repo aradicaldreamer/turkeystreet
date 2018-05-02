@@ -12,8 +12,6 @@ Chapter 1 - High Priority
 	
 	- Add interactive items to Turkey Street East and Update description
 	
-	- Add description for each piece of evidence
-	
 	- Add ending description
 	
 	- Finish Bread Puzzle
@@ -59,6 +57,8 @@ Part 2 - Done
 	- Write place descriptions for each location ✔
 	
 	- Add default gobbling statement ✔
+	
+	- Add description for each piece of evidence ✔
 
 ]
 
@@ -213,6 +213,8 @@ Book 1 - Regions
 
 Turkey Street is a region. Turkey Street Station, Turkey Street East, and Turkey Street West are in Turkey Street.
 
+Instead of going nowhere from Turkey Street, say "The doors to the shops are shut fast, and because you are a turkey, they might as well be shut forever. You can't go that way."
+
 Book 2 - Rooms
 
 Part 1 - The Roost
@@ -240,6 +242,8 @@ Part 2 - On the Case
 South of On the Case is nowhere.
 
 The description of On the Case is "The chick's distress is still fresh and palpable. She can't help me now. I leave her to her clucking. With some luck, she'll still be there when I come home to roost. I spread my wings and glide away to the next case. A case more interesting than the typical cuckolding of henpecked husbands I get saddled with. The case of... WHY THE CHICKEN CROSSED THE ROAD."
+
+Instead of going nowhere from On the Case, say "You can't go that way. You are ON. THE. CASE."
 
 Part 3 - Turkey Street Station
 
@@ -275,8 +279,6 @@ Chapter 1 - Descriptions
 Turkey Street West is west of Turkey Street Station. "[if unvisited]A cardinal direction. A cardinal sin. My corpse has taken another spin on the karmic wheel, helped along by some mundane ones. There's no justice on these streets. There's just us. [paragraph break][end if]The West End is known for two things. Good plays, and bad turns. Which explains the unfolding supermarket turf war. The cordon of turkeys is a recent addition."
 
 Wall of Turkeys West is west of Turkey Street West. Instead of going west from Turkey Street West, say "The road is blocked by Turkeys!"
-
-Instead of going nowhere from Turkey Street West, say "The doors to the shops are shut fast, and because you are a turkey, they might as well be shut forever. You can't go that way."
 
 Sainsburys Entrance is in Turkey Street West. It is scenery.
 
@@ -347,31 +349,31 @@ Part 1 - The Book
 
 A book is evidence. The child carries it.
 
-The description of a book is: "'A Night Time Smoke'. Trashy and romantic. Like my life."
+The description of the book is "'A Night Time Smoke'. Trashy and romantic. Like my life."
 
 Part 2 - The Letter
 
 A letter is evidence. The chicken carries the letter.
 
-The description of a letter is: "Is this... an ode to farts? Whatever it is, it's personal, sappy, and somewhat disgusting."
+The description of the letter is "Is this... an ode to farts? Whatever it is, it's personal, sappy, and somewhat disgusting."
 
 Part 3 - Torn Photograph
 
 A torn photograph is evidence. The heron carries it.
 
-The description of a torn photograph is: "A picture of two near-identical chicks. Crudely torn apart by life's currents."
+The description of the torn photograph is "A picture of two near-identical chicks. Crudely torn apart by life's currents."
 
 Part 4 - The Murder Weapon
 
 A murder weapon is evidence.
 
-The description of a murder weapon is: "It is such a simple thing. Small, yet incalculably valuable. And to the right bird, lethal."
+The description of the murder weapon is "It is such a simple thing. Small, yet incalculably valuable. And to the right bird, lethal."
 
 Part 5 - The Rose
 
 A rose is evidence. The duck carries it.
 
-The description of a rose is: "The symbolism of a rose is obvious: 'My love for you is transitory and based solely on your appearance'."
+The description of the rose is "The symbolism of a rose is obvious: 'My love for you is transitory and based solely on your appearance'."
 
 Part 6 - The Locket
 
@@ -379,13 +381,13 @@ Part 6 - The Locket
 
 A locket is evidence. The crow carries it.
 
-The description of a locket is: "A small, heart-shaped locket. No inscription. Just a chicken... and a chick."
+The description of the locket is "A small, heart-shaped locket. No inscription. Just a chicken... and a chick."
 
 Part 7 - The ring
 
 A ring is evidence. The eagle carries it.
 
-The description of a ring is: "A small, shiny bauble. A white elephant."
+The description of the ring is "A small, shiny bauble. A white elephant."
 
 Book 3 - Characters
 
