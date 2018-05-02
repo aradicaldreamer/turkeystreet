@@ -18,7 +18,8 @@ You can see a sign here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1277"></child>
+        <children><child nodeId="node-1492"></child>
+            <child nodeId="node-1277"></child>
             <child nodeId="node-1482"></child>
             <child nodeId="node-1264"></child>
             <child nodeId="node-1306"></child>
@@ -1617,6 +1618,73 @@ The child runs screaming
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1487"></child>
+        </children>
+    </item>
+    <item nodeId="node-1487">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+On the Case
+You are on the case! Keep heading north to reach Turkey Street
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1488"></child>
+        </children>
+    </item>
+    <item nodeId="node-1488">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Turkey Street Station
+DESCRIPTION
+
+A very dead chicken lies in the center of the road
+
+You can also see a fox and an Eagle here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1489"></child>
+        </children>
+    </item>
+    <item nodeId="node-1489">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Turkey Street West
+DESCRIPTION WEST
+
+You can see a Duck and a Heron here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1490"></child>
+        </children>
+    </item>
+    <item nodeId="node-1490">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Turkey Street Station
+DESCRIPTION
+
+A very dead chicken lies in the center of the road
+
+You can also see a fox and an Eagle here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1491"></child>
+        </children>
+    </item>
+    <item nodeId="node-1491">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Turkey Street East
+DESCRIPTION EAST
+
+You can see a child and an Owl here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1306">
         <command xml:space="preserve">gobble</command>
@@ -1814,6 +1882,13 @@ That's fixed in place.
     <item nodeId="node-1278">
         <command xml:space="preserve">open door</command>
         <result xml:space="preserve">You can't do that! You're a turkey!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1492">
+        <command xml:space="preserve">cheat</command>
+        <result xml:space="preserve">[Your score has just gone up by one thousand points.]
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>

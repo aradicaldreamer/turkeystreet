@@ -127,6 +127,11 @@ Instead of turkeylike behavior, say "You can't do that! You're a turkey!"
 
 Chapter 4 - Modified Rules
 
+Chapter 5 - Cheating
+
+Cheating is an action applying to nothing. Understand "cheat" as cheating. Instead of cheating:
+	Increase score by 1000.
+
 Section 1 - Getting Down From Supporters
 
 [From Example "Anchorite"]
@@ -136,7 +141,7 @@ Understand "get down" as exiting.
 Instead of going down when the player is on a supporter:
 	try exiting.
 	
-Chapter 5 - Inventory
+Chapter 6 - Inventory
 
 
 
@@ -237,7 +242,7 @@ Carry out gobbling the child:
 
 Book 2 - The Fox
 
-The fox is a suspect in Turkey Street Station.
+The Fox is a suspect in Turkey Street Station.
 
 Book 3 - The Duck
 
@@ -267,7 +272,8 @@ Instead of gobbling the chick:
 Volume 4 - Ending
 
 Every turn:
-	if score is maximum score:
+	if (score >= maximum score):
+		say "You have caught the culprit!";
 		end the story.
 
 [Include a check here to see if all the evidence has been 'seen'. Once this has occured. End the game!]
