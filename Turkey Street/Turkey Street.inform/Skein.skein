@@ -5,18 +5,23 @@
     <item nodeId="node-1241">
         <command xml:space="preserve">Turkey Street</command>
         <result xml:space="preserve">
-Turkey Street
-An Interactive Fiction by Raymond Vermeulen and Matthew Deline
-Release 1 / Serial number 180501 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
 
-The Roost
-Back at the roost, there's two wild turkeys. One's a bottle and it's perfectly aged, one's a P.I. and it's aged perfectly. The name's Fowl Feathers. Uncompromising since 2015. In my line of work, you meet a lot of birds. And the birds always like a bad egg. 
 
-The roost smells faintly of sawdust, old eggs, and bourbon. The half-drunk bottle explains the half-drunk turkey. A chick is pacing back and forth, occasionally stopping to peck at itself.
 
-You can see a child here.
+                                                                                                                                                                                                                                                                                  Turkey Street
+                                                                                                                                                                                                                                                                       by Raymond Vermeulen and Matthew Deline
 
-&gt;</result>
+
+
+                Welcome to Turkey Street! You are about to embark upon a gritty and super serious parser adventure where you play as a turkey detective. Before you start, please be aware that some of the commands may be different from other games that you have played in the past.
+
+Commands are limited to directional travel (N, S, E, W), LOOK, EXAMINE (or X), TAKE, DROP, WAIT, and GOBBLE or GOBBLE AT (which refers to turkey speak, not the action of eating). You can also type UNDO to go back a turn, or SAVE to record your progress. Have fun!
+
+
+   Start the story - from the beginning    :    (SPACE)
+                   - from a saved position :       R
+   Quit                                    :       Q
+</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1277"></child>
             <child nodeId="node-1264"></child>
@@ -24,14 +29,63 @@ You can see a child here.
             <child nodeId="node-1313"></child>
             <child nodeId="node-1311"></child>
             <child nodeId="node-1314"></child>
+            <child nodeId="node-1473"></child>
             <child nodeId="node-1260"></child>
             <child nodeId="node-1250"></child>
+            <child nodeId="node-1450"></child>
+            <child nodeId="node-1463"></child>
             <child nodeId="node-1275"></child>
             <child nodeId="node-1363"></child>
             <child nodeId="node-1249"></child>
+            <child nodeId="node-1466"></child>
             <child nodeId="node-1246"></child>
             <child nodeId="node-1242"></child>
+            <child nodeId="node-1474"></child>
+            <child nodeId="node-1462"></child>
+            <child nodeId="node-1471"></child>
         </children>
+    </item>
+    <item nodeId="node-1471">
+        <command xml:space="preserve">x sign</command>
+        <result xml:space="preserve">You see nothing special about the sign.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1472"></child>
+        </children>
+    </item>
+    <item nodeId="node-1472">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">The Roost
+The roost smells faintly of sawdust, old eggs, and bourbon. The half-drunk bottle explains the half-drunk turkey. A chick is pacing back and forth, occasionally stopping to peck at itself.
+
+A piece of wood lies against the entryway. It has been not so carefully pecked to read "Fowl Feathers, Poultry Investigator"
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1462">
+        <command xml:space="preserve">x chick</command>
+        <result xml:space="preserve">You see nothing special about the chick.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1474">
+        <command xml:space="preserve">x bottle</command>
+        <result xml:space="preserve"> Wild Turkey, 101 proof. It's cheap, but it gets the job done
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1475"></child>
+        </children>
+    </item>
+    <item nodeId="node-1475">
+        <command xml:space="preserve">x bottle</command>
+        <result xml:space="preserve"> Wild Turkey, 101 proof. It's cheap, but it gets the job done
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1242">
         <command xml:space="preserve">x</command>
@@ -151,6 +205,49 @@ You can see a book here.
         <command xml:space="preserve">look</command>
         <result xml:space="preserve">Roost
 The roost smells faintly of sawdust, old eggs, and bourbon. The half-drunk bottle explains the half-drunk turkey. A chick is pacing back and forth, occasionally stopping to peck at itself.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1466">
+        <command xml:space="preserve">take bottle</command>
+        <result xml:space="preserve">The bottle is far too large to take with you. You're a turkey!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1467"></child>
+        </children>
+    </item>
+    <item nodeId="node-1467">
+        <command xml:space="preserve">drink bottle</command>
+        <result xml:space="preserve">There's nothing suitable to drink here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1468"></child>
+        </children>
+    </item>
+    <item nodeId="node-1468">
+        <command xml:space="preserve">take sign</command>
+        <result xml:space="preserve">That's fixed in place.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1469"></child>
+        </children>
+    </item>
+    <item nodeId="node-1469">
+        <command xml:space="preserve">read sign</command>
+        <result xml:space="preserve">You see nothing special about the sign.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1470"></child>
+        </children>
+    </item>
+    <item nodeId="node-1470">
+        <command xml:space="preserve">x sign</command>
+        <result xml:space="preserve">You see nothing special about the sign.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -361,6 +458,149 @@ Are you sure you want to quit? </result>
         <command xml:space="preserve">close door</command>
         <result xml:space="preserve">That's already closed.
 
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1463">
+        <command xml:space="preserve">open bottle</command>
+        <result xml:space="preserve">It isn't something you can open.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1464"></child>
+        </children>
+    </item>
+    <item nodeId="node-1464">
+        <command xml:space="preserve">x bottle</command>
+        <result xml:space="preserve">You see nothing special about the bottle.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1465"></child>
+        </children>
+    </item>
+    <item nodeId="node-1465">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">The Roost
+The roost smells faintly of sawdust, old eggs, and bourbon. The half-drunk bottle explains the half-drunk turkey. A chick is pacing back and forth, occasionally stopping to peck at itself.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1450">
+        <command xml:space="preserve">observe</command>
+        <result xml:space="preserve">(the child)
+You see nothing special about the child.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1451"></child>
+        </children>
+    </item>
+    <item nodeId="node-1451">
+        <command xml:space="preserve">look at</command>
+        <result xml:space="preserve">(the child)
+You see nothing special about the child.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1452"></child>
+        </children>
+    </item>
+    <item nodeId="node-1452">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">The Roost
+The roost smells faintly of sawdust, old eggs, and bourbon. The half-drunk bottle explains the half-drunk turkey. A chick is pacing back and forth, occasionally stopping to peck at itself.
+
+You can see a child here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1453"></child>
+        </children>
+    </item>
+    <item nodeId="node-1453">
+        <command xml:space="preserve">gobble child</command>
+        <result xml:space="preserve">GOBBLE GOBBLE GOBBLE!
+The child runs screaming, and appears to have dropped something
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1454"></child>
+        </children>
+    </item>
+    <item nodeId="node-1454">
+        <command xml:space="preserve">gobble at the book</command>
+        <result xml:space="preserve">&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1455"></child>
+        </children>
+    </item>
+    <item nodeId="node-1455">
+        <command xml:space="preserve">UNDO</command>
+        <result xml:space="preserve">The Roost
+[Previous turn undone.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1456"></child>
+        </children>
+    </item>
+    <item nodeId="node-1456">
+        <command xml:space="preserve">UNDO</command>
+        <result xml:space="preserve">The Roost
+[Previous turn undone.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1457"></child>
+        </children>
+    </item>
+    <item nodeId="node-1457">
+        <command xml:space="preserve">UNDO</command>
+        <result xml:space="preserve">The Roost
+[Previous turn undone.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1458"></child>
+        </children>
+    </item>
+    <item nodeId="node-1458">
+        <command xml:space="preserve">UNDO</command>
+        <result xml:space="preserve">The Roost
+[Previous turn undone.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1459"></child>
+        </children>
+    </item>
+    <item nodeId="node-1459">
+        <command xml:space="preserve">UNDO</command>
+        <result xml:space="preserve">The Roost
+[Previous turn undone.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1460"></child>
+        </children>
+    </item>
+    <item nodeId="node-1460">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">The Roost
+The roost smells faintly of sawdust, old eggs, and bourbon. The half-drunk bottle explains the half-drunk turkey. A chick is pacing back and forth, occasionally stopping to peck at itself.
+
+You can see a child here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1461"></child>
+        </children>
+    </item>
+    <item nodeId="node-1461">
+        <command xml:space="preserve">gobble at the child</command>
+        <result xml:space="preserve">GOBBLE GOBBLE GOBBLE!
+The child runs screaming, and appears to have dropped something
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
@@ -1095,6 +1335,13 @@ blue door
     <item nodeId="node-1263">
         <command xml:space="preserve">x chick</command>
         <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1473">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying nothing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>

@@ -1,7 +1,5 @@
 "Turkey Street" by Raymond Vermeulen and Matthew Deline
 
-Book 1 - Global Settings
-
 Volume 1 - Brainstorming
 
 Book 1 - To Do List
@@ -56,9 +54,15 @@ Book 2 - Notes
 
 Volume 2 - Extensions
 
+Book 1 - User Interface
+
 Include Exit Lister by Eric Eve.
 
+Book 2 - Descriptions
+
 Include Introductions by Emily Short.
+
+Book 3 - Title Page
 
 Include Title Page by Jon Ingold.
 
@@ -68,9 +72,6 @@ To say quotation:
 	say "Welcome to Turkey Street! You are about to embark upon a gritty and super serious parser adventure where you play as a turkey detective. Before you start, please be aware that some of the commands may be different from other games that you have played in the past.
 	
 	Commands are limited to directional travel (N, S, E, W), LOOK, EXAMINE (or X), TAKE, DROP, WAIT, and GOBBLE or GOBBLE AT (which refers to turkey speak, not the action of eating). You can also type UNDO to go back a turn, or SAVE to record your progress. Have fun!".
-	
-	[If you are unfamiliar with parser based games, you can type HELP or COMMANDS to get a full list, and SAVE to save your progress.]
-
 
 Volume 3 - Mechanics
 
@@ -88,9 +89,13 @@ Carry out examining evidence when the noun is unseen:
 
 Chapter 2 - Tracking What Players Have Seen
 
-[A thing can be seen or unseen.
+A thing can be seen or unseen.
 Carry out examining a thing: 
-    now the noun is seen.]
+    now the noun is seen.
+
+Chapter 3 - Suspects
+
+A suspect is a kind of person.
 
 Volume 4 - Phrases
 
@@ -104,6 +109,8 @@ Understand "Gobble at [something]" as gobbling. Understand "Gobble [something]" 
 
 Chapter 2 - Observing
 
+Understand the command "observe" as "examine".
+
 Chapter 3 - Turkey-like Behavior
 
 [Specific instance]
@@ -114,9 +121,13 @@ Instead of opening doors, say "You can't do that! You're a turkey!"
 
 Closing doors is turkeylike behavior.
 
+[Taking things is turkeylike behavior.]
+
 Instead of turkeylike behavior, say "You can't do that! You're a turkey!"
 
-Chapter 4 - Getting Down From Supporters
+Chapter 4 - Modified Rules
+
+Section 1 - Getting Down From Supporters
 
 [From Example "Anchorite"]
 
@@ -125,7 +136,7 @@ Understand "get down" as exiting.
 Instead of going down when the player is on a supporter:
 	try exiting.
 	
-Chapter 5 - Modified Rules
+Chapter 5 - Inventory
 
 
 
@@ -141,7 +152,14 @@ Section 1 - The Roost
 
 North of The Roost is On the Case.
 
-The description of The Roost is "[if unvisited]Back at the roost, there's two wild turkeys. One's a bottle and it's perfectly aged, one's a P.I. and it's aged perfectly. The name's Fowl Feathers. Uncompromising since 2015. In my line of work, you meet a lot of birds. And the birds always like a bad egg. [paragraph break][end if]The roost smells faintly of sawdust, old eggs, and bourbon. The half-drunk bottle explains the half-drunk turkey. A chick is pacing back and forth, occasionally stopping to peck at itself."
+The description of The Roost is "[if unvisited]Back at the roost, there's two wild turkeys. One's a bottle and it's perfectly aged, one's a P.I. and it's aged perfectly. The name's Fowl Feathers. Uncompromising since 2015. In my line of work, you meet a lot of birds. And the birds always like a bad egg. [paragraph break][end if]The roost smells faintly of sawdust, old eggs, and bourbon. The half-drunk [bottle] explains the half-drunk turkey. A [chick] is pacing back and forth, occasionally stopping to peck at itself."
+
+A bottle is in The Roost. The description of the bottle is "Wild Turkey, 101 proof. It's cheap, but it gets the job done. +101 proof."
+
+Instead of taking the bottle:
+	say "The bottle is far too large to take with you. You're a turkey!"	
+
+A sign is in The Roost. "A piece of wood lies against the entryway. It has been not so carefully pecked to read 'Fowl Feathers, Poultry Investigator'".
 
 Section 2 - On the Case
 
@@ -202,7 +220,7 @@ Volume 3 - Characters
 
 Book 1 - The Child
 
-A child is in The Roost. [Need to give it a description indicating that it is scared of people]
+A child is a suspect in Turkey Street East. [Need to give it a description indicating that it is scared of people]
 
 Carry out gobbling the child:
 	say "GOBBLE GOBBLE GOBBLE!";
@@ -216,15 +234,27 @@ Carry out gobbling the child:
 
 Book 2 - The Fox
 
+The fox is a suspect in Turkey Street Station.
+
 Book 3 - The Duck
+
+The Duck is a suspect in Turkey Street West.
 
 Book 4 - The Heron
 
+The Heron is a suspect in Turkey Street West.
+
 Book 5 - The Eagle
+
+The Eagle is a suspect in Turkey Street Station.
 
 Book 6 - The Owl
 
+The Owl is a suspect in Turkey Street East.
+
 Book 7 - The Chick
+
+A chick is a person in The Roost.
 
 Volume 4 - Ending
 
