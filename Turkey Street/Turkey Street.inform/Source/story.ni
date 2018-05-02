@@ -347,21 +347,31 @@ Part 1 - The Book
 
 A book is evidence. The child carries it.
 
+The description of a book is: "'A Night Time Smoke'. Trashy and romantic. Like my life."
+
 Part 2 - The Letter
 
 A letter is evidence. The chicken carries the letter.
+
+The description of a letter is: "Is this... an ode to farts? Whatever it is, it's personal, sappy, and somewhat disgusting."
 
 Part 3 - Torn Photograph
 
 A torn photograph is evidence. The heron carries it.
 
+The description of a torn photograph is: "A picture of two near-identical chicks. Crudely torn apart by life's currents."
+
 Part 4 - The Murder Weapon
 
 A murder weapon is evidence.
 
+The description of a murder weapon is: "It is such a simple thing. Small, yet incalculably valuable. And to the right bird, lethal."
+
 Part 5 - The Rose
 
 A rose is evidence. The duck carries it.
+
+The description of a rose is: "The symbolism of a rose is obvious: 'My love for you is transitory and based solely on your appearance'."
 
 Part 6 - The Locket
 
@@ -369,9 +379,13 @@ Part 6 - The Locket
 
 A locket is evidence. The crow carries it.
 
+The description of a locket is: "A small, heart-shaped locket. No inscription. Just a chicken... and a chick."
+
 Part 7 - The ring
 
 A ring is evidence. The eagle carries it.
+
+The description of a ring is: "A small, shiny bauble. A white elephant."
 
 Book 3 - Characters
 
