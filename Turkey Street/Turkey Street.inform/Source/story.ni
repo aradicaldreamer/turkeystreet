@@ -177,11 +177,13 @@ Chapter 6 - Command List
 Commanding is an action applying to nothing. Understand "Commands" or "help" as commanding. Instead of commanding:
 	say "Commands are limited to directional travel (N, S, E, W), LOOK, EXAMINE (or X), GIVE, TAKE, DROP, WAIT, EAT, DRINK, and GOBBLE or GOBBLE AT (which refers to turkey speak, not the action of eating). You can also type COMMANDS to see this list again, UNDO to go back a turn, or SAVE to record your progress. Have fun!".
 
-Section 1 - Getting Down From Supporters
+Section 1 - Supporters
 
 [From Example "Anchorite"]
 
-Understand "get down" as exiting.
+Understand "get on" and "go up" and "climb" and "climb on" as entering.
+
+Understand "get down"  and "go down" as exiting.
 
 Instead of going down when the player is on a supporter:
 	try exiting.
@@ -225,9 +227,9 @@ Section 3 - Turkey Street Station
 
 Turkey Street Station is north of On the Case. "DESCRIPTION".
 
-South of Turkey Street Station is Station Entrance. It is a door and scenery.
+South of Turkey Street Station is Station Entrance. It is an open door and scenery.
 
-Instead of going south from Turkey Street Station, say "The doors are shut fast, and because you are a turkey, they might as well be shut forever. You can't go that way."
+Instead of going nowhere from Turkey Street Station, say "The doors to the station are shut fast behind you, and because you are a turkey, they might as well be shut forever. You can't go that way."
 
 [South of Turkey Street Station is nowhere.] [this is so you can not go back]
 
@@ -245,6 +247,8 @@ Turkey Street West is west of Turkey Street Station. "DESCRIPTION WEST".
 Wall of Turkeys is west of Turkey Street West. Instead of going west from Turkey Street West, say "The road is blocked by Turkeys!"
 
 Instead of going nowhere from Turkey Street West, say "The doors are shut fast, and because you are a turkey, they might as well be shut forever. You can't go that way."
+
+A bus stop is an enterable supporter in Turkey Street West. The description of the bus stop is "The bus stop appears to be in a state of disrepair. One side is slumped over and is low enough for you to climb on top of it."
 
 Sainsburys Entrance door is north of Turkey Street West. It is an open door and scenery.
 
@@ -279,7 +283,7 @@ A child is a suspect in Turkey Street East. [Need to give it a description indic
 Carry out gobbling the child:
 	say "GOBBLE GOBBLE GOBBLE!";
 	say "The child runs screaming, and appears to have dropped something";
-	move the book to the roost;
+	move the book to Turkey Street East;
 	remove the noun from play.
 	
 [This is the child returning rule:
