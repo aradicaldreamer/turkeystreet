@@ -14,6 +14,8 @@ Chapter 1 - High Priority
 	
 	- Add interactive items to each location
 	
+	- Complete evidence list
+	
 	- Add evidence to each location
 	
 	- Add description for each NPC
@@ -252,10 +254,11 @@ A bus stop is an enterable supporter in Turkey Street West. The description of t
 
 A red herring is on top of the bus stop. It is small.
 
-Instead of taking the herring when the player is not inside the bus stop:
+Instead of taking the herring when the player is not on the bus stop:
 	say "The herring appears to be just out of reach. You may not be able to fly, but there's more than one way to pluck a chicken. Maybe there is another way to get up there?".
 	
-
+Instead of eating the herring:
+	say "I eat fishy business for breakfast, unfortunately I've already eaten lunch".
 
 [Find a new shop name] Sainsburys Entrance door is north of Turkey Street West. It is an open door and scenery.
 
