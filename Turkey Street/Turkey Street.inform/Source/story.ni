@@ -10,8 +10,6 @@ Chapter 1 - High Priority
 
 [
 	
-	- Add ending description
-	
 	- Finish Bread Puzzle
 	
 	- Make puzzle to get ring
@@ -67,6 +65,8 @@ Part 2 - Done
 	- Make all evidence small ✔
 	
 	- Make puzzle to get locket ✔
+	
+	- Add ending description ✔
 
 ]
 
@@ -261,9 +261,13 @@ Chapter 1 - Descriptions
 
 Turkey Street Station is north of On the Case. 
 
-The description of Turkey Street Station is "[if unvisited]A bang. A yelp. A corpse. A chicken with a chalk outline, leaving behind a ghost with nobody to haunt.  The pancaked poultry beckons from within the cordon. I'll have to do the haunting for it. [paragraph break][end if]All roads lead back to the scene of the crime. Futility, or just fatality? There's a metaphor here, if one cares to explore it. And also a station entrance. A lonely lamppost stands across the street, like a lighthouse for a shipwrecked life."
+The description of Turkey Street Station is "[if unvisited]A bang. A yelp. A corpse. A chicken with a chalk outline, leaving behind a ghost with nobody to haunt.  The pancaked poultry beckons from within the cordon. I'll have to do the haunting for it. [paragraph break][end if]All roads lead back to the scene of the crime. Futility, or just fatality? There's a metaphor here, if one cares to explore it. And also a station entrance. A lonely [lamppost] stands across the street near a Nando's, like a lighthouse for a shipwrecked life."
 
 Station Entrance is in Turkey Street Station. It is scenery.
+
+A lamppost is in Turkey Street Station. It is scenery.
+
+A Nando's is in Turkey Street Station. It is scenery. The description of Nando's is "THE HORROR!"
 
 Instead of going south from Turkey Street Station, say "The doors to the station are shut fast behind you, and because you are a turkey, they might as well be shut forever. You can't go that way."
 
