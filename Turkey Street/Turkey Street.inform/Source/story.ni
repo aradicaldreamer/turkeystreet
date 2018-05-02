@@ -205,6 +205,8 @@ Book 2 - Rooms
 
 Part 1 - The Roost
 
+Chapter 1 - Descriptions
+
 North of The Roost is On the Case.
 
 The description of The Roost is "[if unvisited]Back at the roost, there's two wild turkeys. One's a bottle and it's perfectly aged, one's a P.I. and it's aged perfectly. The name's Fowl Feathers. Uncompromising since 2015. In my line of work, you meet a lot of birds. And the birds always like a bad egg. [paragraph break][end if]The roost smells faintly of sawdust, old eggs, and bourbon. The half-drunk [bottle] explains the half-drunk turkey. A [chick] is pacing back and forth, occasionally stopping to peck at itself."
@@ -227,6 +229,8 @@ The description of On the Case is "The chick's distress is still fresh and palpa
 
 Part 3 - Turkey Street Station
 
+Chapter 1 - Descriptions
+
 Turkey Street Station is north of On the Case. 
 
 The description of Turkey Street Station is "[if unvisited]A bang. A yelp. A corpse. A chicken with a chalk outline, leaving behind a ghost with nobody to haunt.  The pancaked poultry beckons from within the cordon. I'll have to do the haunting for it. [else if visited]All roads lead back to the scene of the crime. Futility, or just fatality? There's a metaphor here, if one cares to explore it. And also a station entrance. [end if]".
@@ -236,6 +240,8 @@ South of Turkey Street Station is Station Entrance. It is an open door and scene
 Instead of going nowhere from Turkey Street Station, say "The doors to the station are shut fast behind you, and because you are a turkey, they might as well be shut forever. You can't go that way."
 
 [South of Turkey Street Station is nowhere.] [this is so you can not go back]
+
+Chapter 2 - The Murder Victim
 
 A dead chicken is in Turkey Street Station. "A very dead chicken lies in the center of the road".
 
@@ -282,6 +288,8 @@ Instead of giving the herring to the heron:
 	remove the heron from play.
 
 Part 5 - Turkey Street East
+
+Chapter 1 - Descriptions
 
 Turkey Street East is east of Turkey Street Station. 
 
@@ -353,7 +361,7 @@ Part 3 - The Duck
 
 [if you eat the bread, near the duck you'll get his piece of evidence]
 
-The Duck is a suspect in Turkey Street West.
+The Duck is a suspect in Turkey Street East.
 
 Part 4 - The Heron
 
@@ -365,7 +373,7 @@ The Eagle is a suspect in Turkey Street Station.
 
 Part 6 - The Owl
 
-The Owl is a suspect in Turkey Street East.
+The Owl is a suspect in Turkey Street West.
 
 Part 7 - The Chick
 
