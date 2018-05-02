@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 
-<Skein rootNode="node-1241">
+<Skein rootNode="node-1496">
     <generator>Inform Mac Client (Inform version 1.65/6.33/6M62)</generator>
-    <item nodeId="node-1241">
+    <item nodeId="node-1496">
         <command xml:space="preserve">Turkey Street</command>
         <result xml:space="preserve">
 
@@ -23,42 +23,42 @@ Commands are limited to directional travel (N, S, E, W), LOOK, EXAMINE (or X), T
    Quit                                    :       Q
 </result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1492"></child>
-            <child nodeId="node-1277"></child>
-            <child nodeId="node-1482"></child>
-            <child nodeId="node-1264"></child>
-            <child nodeId="node-1306"></child>
-            <child nodeId="node-1486"></child>
-            <child nodeId="node-1313"></child>
-            <child nodeId="node-1311"></child>
-            <child nodeId="node-1477"></child>
-            <child nodeId="node-1314"></child>
-            <child nodeId="node-1473"></child>
-            <child nodeId="node-1260"></child>
-            <child nodeId="node-1250"></child>
-            <child nodeId="node-1450"></child>
-            <child nodeId="node-1463"></child>
-            <child nodeId="node-1275"></child>
-            <child nodeId="node-1363"></child>
-            <child nodeId="node-1249"></child>
-            <child nodeId="node-1466"></child>
-            <child nodeId="node-1246"></child>
-            <child nodeId="node-1242"></child>
-            <child nodeId="node-1474"></child>
-            <child nodeId="node-1462"></child>
-            <child nodeId="node-1471"></child>
+        <children><child nodeId="node-1671"></child>
+            <child nodeId="node-1657"></child>
+            <child nodeId="node-1656"></child>
+            <child nodeId="node-1653"></child>
+            <child nodeId="node-1650"></child>
+            <child nodeId="node-1644"></child>
+            <child nodeId="node-1643"></child>
+            <child nodeId="node-1641"></child>
+            <child nodeId="node-1639"></child>
+            <child nodeId="node-1618"></child>
+            <child nodeId="node-1617"></child>
+            <child nodeId="node-1608"></child>
+            <child nodeId="node-1547"></child>
+            <child nodeId="node-1535"></child>
+            <child nodeId="node-1532"></child>
+            <child nodeId="node-1530"></child>
+            <child nodeId="node-1523"></child>
+            <child nodeId="node-1522"></child>
+            <child nodeId="node-1517"></child>
+            <child nodeId="node-1514"></child>
+            <child nodeId="node-1504"></child>
+            <child nodeId="node-1500"></child>
+            <child nodeId="node-1499"></child>
+            <child nodeId="node-1497"></child>
         </children>
     </item>
-    <item nodeId="node-1471">
+    <item nodeId="node-1497">
         <command xml:space="preserve">x sign</command>
         <result xml:space="preserve">A piece of wood lies against the entryway. It has been not so carefully pecked to read "Fowl Feathers, Poultry Investigator"
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1472"></child>
+        <children><child nodeId="node-1498"></child>
         </children>
     </item>
-    <item nodeId="node-1472">
+    <item nodeId="node-1498">
         <command xml:space="preserve">look</command>
         <result xml:space="preserve">The Roost
 The roost smells faintly of sawdust, old eggs, and bourbon. The half-drunk bottle explains the half-drunk turkey. A chick is pacing back and forth, occasionally stopping to peck at itself.
@@ -68,76 +68,76 @@ You can see a sign here.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1462">
+    <item nodeId="node-1499">
         <command xml:space="preserve">x chick</command>
         <result xml:space="preserve">Young, blonde, and clearly stressed out. She smells like danger, a danger on which I will have to whet my beak.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1474">
+    <item nodeId="node-1500">
         <command xml:space="preserve">x bottle</command>
         <result xml:space="preserve">Wild Turkey, 101 proof. It's cheap, but it gets the job done. +101 proof.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1484"></child>
-            <child nodeId="node-1475"></child>
+        <children><child nodeId="node-1502"></child>
+            <child nodeId="node-1501"></child>
         </children>
     </item>
-    <item nodeId="node-1475">
+    <item nodeId="node-1501">
         <command xml:space="preserve">x bottle</command>
         <result xml:space="preserve"> Wild Turkey, 101 proof. It's cheap, but it gets the job done
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1484">
+    <item nodeId="node-1502">
         <command xml:space="preserve">drink bottle</command>
         <result xml:space="preserve">You have had enough... for now
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1485"></child>
+        <children><child nodeId="node-1503"></child>
         </children>
     </item>
-    <item nodeId="node-1485">
+    <item nodeId="node-1503">
         <command xml:space="preserve">eat bottle</command>
         <result xml:space="preserve">That's plainly inedible.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1242">
+    <item nodeId="node-1504">
         <command xml:space="preserve">x</command>
         <result xml:space="preserve">(the child)
 You see nothing special about the child.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1444"></child>
-            <child nodeId="node-1243"></child>
+        <children><child nodeId="node-1508"></child>
+            <child nodeId="node-1505"></child>
         </children>
     </item>
-    <item nodeId="node-1243">
+    <item nodeId="node-1505">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">You see nothing unexpected in that direction.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1244"></child>
+        <children><child nodeId="node-1506"></child>
         </children>
     </item>
-    <item nodeId="node-1244">
+    <item nodeId="node-1506">
         <command xml:space="preserve">look</command>
         <result xml:space="preserve">Roost
 The roost smells faintly of sawdust, old eggs, and bourbon. The half-drunk bottle explains the half-drunk turkey. A chick is pacing back and forth, occasionally stopping to peck at itself.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1245"></child>
+        <children><child nodeId="node-1507"></child>
         </children>
     </item>
-    <item nodeId="node-1245">
+    <item nodeId="node-1507">
         <command xml:space="preserve">look</command>
         <result xml:space="preserve">Roost
 The roost smells faintly of sawdust, old eggs, and bourbon. The half-drunk bottle explains the half-drunk turkey. A chick is pacing back and forth, occasionally stopping to peck at itself.
@@ -145,16 +145,16 @@ The roost smells faintly of sawdust, old eggs, and bourbon. The half-drunk bottl
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1444">
+    <item nodeId="node-1508">
         <command xml:space="preserve">gobble child</command>
         <result xml:space="preserve">GOBBLE GOBBLE GOBBLE!
 The child runs screaming, and appears to have dropped something
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1445"></child>
+        <children><child nodeId="node-1509"></child>
         </children>
     </item>
-    <item nodeId="node-1445">
+    <item nodeId="node-1509">
         <command xml:space="preserve">x</command>
         <result xml:space="preserve">(the book)
 You see nothing special about the book.
@@ -163,37 +163,37 @@ You see nothing special about the book.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1446"></child>
+        <children><child nodeId="node-1510"></child>
         </children>
     </item>
-    <item nodeId="node-1446">
+    <item nodeId="node-1510">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1447"></child>
+        <children><child nodeId="node-1511"></child>
         </children>
     </item>
-    <item nodeId="node-1447">
+    <item nodeId="node-1511">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1448"></child>
+        <children><child nodeId="node-1512"></child>
         </children>
     </item>
-    <item nodeId="node-1448">
+    <item nodeId="node-1512">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1449"></child>
+        <children><child nodeId="node-1513"></child>
         </children>
     </item>
-    <item nodeId="node-1449">
+    <item nodeId="node-1513">
         <command xml:space="preserve">look</command>
         <result xml:space="preserve">The Roost
 The roost smells faintly of sawdust, old eggs, and bourbon. The half-drunk bottle explains the half-drunk turkey. A chick is pacing back and forth, occasionally stopping to peck at itself.
@@ -203,25 +203,25 @@ You can see a book here.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1246">
+    <item nodeId="node-1514">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1247"></child>
+        <children><child nodeId="node-1515"></child>
         </children>
     </item>
-    <item nodeId="node-1247">
+    <item nodeId="node-1515">
         <command xml:space="preserve">x</command>
         <result xml:space="preserve">What do you want to examine?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1248"></child>
+        <children><child nodeId="node-1516"></child>
         </children>
     </item>
-    <item nodeId="node-1248">
+    <item nodeId="node-1516">
         <command xml:space="preserve">look</command>
         <result xml:space="preserve">Roost
 The roost smells faintly of sawdust, old eggs, and bourbon. The half-drunk bottle explains the half-drunk turkey. A chick is pacing back and forth, occasionally stopping to peck at itself.
@@ -229,75 +229,75 @@ The roost smells faintly of sawdust, old eggs, and bourbon. The half-drunk bottl
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1466">
+    <item nodeId="node-1517">
         <command xml:space="preserve">take bottle</command>
         <result xml:space="preserve">The bottle is far too large to take with you. You're a turkey!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1467"></child>
+        <children><child nodeId="node-1518"></child>
         </children>
     </item>
-    <item nodeId="node-1467">
+    <item nodeId="node-1518">
         <command xml:space="preserve">drink bottle</command>
         <result xml:space="preserve">There's nothing suitable to drink here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1468"></child>
+        <children><child nodeId="node-1519"></child>
         </children>
     </item>
-    <item nodeId="node-1468">
+    <item nodeId="node-1519">
         <command xml:space="preserve">take sign</command>
         <result xml:space="preserve">That's fixed in place.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1469"></child>
+        <children><child nodeId="node-1520"></child>
         </children>
     </item>
-    <item nodeId="node-1469">
+    <item nodeId="node-1520">
         <command xml:space="preserve">read sign</command>
         <result xml:space="preserve">You see nothing special about the sign.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1470"></child>
+        <children><child nodeId="node-1521"></child>
         </children>
     </item>
-    <item nodeId="node-1470">
+    <item nodeId="node-1521">
         <command xml:space="preserve">x sign</command>
         <result xml:space="preserve">You see nothing special about the sign.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1249">
+    <item nodeId="node-1522">
         <command xml:space="preserve">save</command>
         <result xml:space="preserve">Save failed.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1363">
+    <item nodeId="node-1523">
         <command xml:space="preserve">rules</command>
         <result xml:space="preserve">Rules tracing now switched on. Type "rules off" to switch it off again, or "rules all" to include even rules which do not apply.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1364"></child>
+        <children><child nodeId="node-1524"></child>
         </children>
     </item>
-    <item nodeId="node-1364">
+    <item nodeId="node-1524">
         <command xml:space="preserve">rulesn</command>
         <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1365"></child>
+        <children><child nodeId="node-1525"></child>
         </children>
     </item>
-    <item nodeId="node-1365">
+    <item nodeId="node-1525">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">[Rule "declare everything initially unmentioned rule" applies.]
 [Rule "standard set going variables rule" applies.]
@@ -361,19 +361,19 @@ DESCRIPTION
 [Rule "notify score changes rule" applies.]
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1366"></child>
+        <children><child nodeId="node-1526"></child>
         </children>
     </item>
-    <item nodeId="node-1366">
+    <item nodeId="node-1526">
         <command xml:space="preserve"></command>
         <result xml:space="preserve">I beg your pardon?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1367"></child>
+        <children><child nodeId="node-1527"></child>
         </children>
     </item>
-    <item nodeId="node-1367">
+    <item nodeId="node-1527">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">[Rule "declare everything initially unmentioned rule" applies.]
 [Rule "standard set going variables rule" applies.]
@@ -445,10 +445,10 @@ DESCRIPTION
 [Rule "notify score changes rule" applies.]
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1368"></child>
+        <children><child nodeId="node-1528"></child>
         </children>
     </item>
-    <item nodeId="node-1368">
+    <item nodeId="node-1528">
         <command xml:space="preserve">q</command>
         <result xml:space="preserve">[Rule "declare everything initially unmentioned rule" applies.]
 [Rule "investigate player's awareness before action rule" applies.]
@@ -457,49 +457,49 @@ DESCRIPTION
 [Rule "carry out stage rule" applies.]
 Are you sure you want to quit? </result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1369"></child>
+        <children><child nodeId="node-1529"></child>
         </children>
     </item>
-    <item nodeId="node-1369">
+    <item nodeId="node-1529">
         <command xml:space="preserve">y</command>
         <result xml:space="preserve"></result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1275">
+    <item nodeId="node-1530">
         <command xml:space="preserve">open door</command>
         <result xml:space="preserve">You can't do that! You're a turkey!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1276"></child>
+        <children><child nodeId="node-1531"></child>
         </children>
     </item>
-    <item nodeId="node-1276">
+    <item nodeId="node-1531">
         <command xml:space="preserve">close door</command>
         <result xml:space="preserve">That's already closed.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1463">
+    <item nodeId="node-1532">
         <command xml:space="preserve">open bottle</command>
         <result xml:space="preserve">It isn't something you can open.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1464"></child>
+        <children><child nodeId="node-1533"></child>
         </children>
     </item>
-    <item nodeId="node-1464">
+    <item nodeId="node-1533">
         <command xml:space="preserve">x bottle</command>
         <result xml:space="preserve">You see nothing special about the bottle.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1465"></child>
+        <children><child nodeId="node-1534"></child>
         </children>
     </item>
-    <item nodeId="node-1465">
+    <item nodeId="node-1534">
         <command xml:space="preserve">look</command>
         <result xml:space="preserve">The Roost
 The roost smells faintly of sawdust, old eggs, and bourbon. The half-drunk bottle explains the half-drunk turkey. A chick is pacing back and forth, occasionally stopping to peck at itself.
@@ -507,27 +507,27 @@ The roost smells faintly of sawdust, old eggs, and bourbon. The half-drunk bottl
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1450">
+    <item nodeId="node-1535">
         <command xml:space="preserve">observe</command>
         <result xml:space="preserve">(the child)
 You see nothing special about the child.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1451"></child>
+        <children><child nodeId="node-1536"></child>
         </children>
     </item>
-    <item nodeId="node-1451">
+    <item nodeId="node-1536">
         <command xml:space="preserve">look at</command>
         <result xml:space="preserve">(the child)
 You see nothing special about the child.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1452"></child>
+        <children><child nodeId="node-1537"></child>
         </children>
     </item>
-    <item nodeId="node-1452">
+    <item nodeId="node-1537">
         <command xml:space="preserve">look</command>
         <result xml:space="preserve">The Roost
 The roost smells faintly of sawdust, old eggs, and bourbon. The half-drunk bottle explains the half-drunk turkey. A chick is pacing back and forth, occasionally stopping to peck at itself.
@@ -536,76 +536,76 @@ You can see a child here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1453"></child>
+        <children><child nodeId="node-1538"></child>
         </children>
     </item>
-    <item nodeId="node-1453">
+    <item nodeId="node-1538">
         <command xml:space="preserve">gobble child</command>
         <result xml:space="preserve">GOBBLE GOBBLE GOBBLE!
 The child runs screaming, and appears to have dropped something
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1454"></child>
+        <children><child nodeId="node-1539"></child>
         </children>
     </item>
-    <item nodeId="node-1454">
+    <item nodeId="node-1539">
         <command xml:space="preserve">gobble at the book</command>
         <result xml:space="preserve">&gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1455"></child>
+        <children><child nodeId="node-1540"></child>
         </children>
     </item>
-    <item nodeId="node-1455">
+    <item nodeId="node-1540">
         <command xml:space="preserve">UNDO</command>
         <result xml:space="preserve">The Roost
 [Previous turn undone.]
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1456"></child>
+        <children><child nodeId="node-1541"></child>
         </children>
     </item>
-    <item nodeId="node-1456">
+    <item nodeId="node-1541">
         <command xml:space="preserve">UNDO</command>
         <result xml:space="preserve">The Roost
 [Previous turn undone.]
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1457"></child>
+        <children><child nodeId="node-1542"></child>
         </children>
     </item>
-    <item nodeId="node-1457">
+    <item nodeId="node-1542">
         <command xml:space="preserve">UNDO</command>
         <result xml:space="preserve">The Roost
 [Previous turn undone.]
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1458"></child>
+        <children><child nodeId="node-1543"></child>
         </children>
     </item>
-    <item nodeId="node-1458">
+    <item nodeId="node-1543">
         <command xml:space="preserve">UNDO</command>
         <result xml:space="preserve">The Roost
 [Previous turn undone.]
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1459"></child>
+        <children><child nodeId="node-1544"></child>
         </children>
     </item>
-    <item nodeId="node-1459">
+    <item nodeId="node-1544">
         <command xml:space="preserve">UNDO</command>
         <result xml:space="preserve">The Roost
 [Previous turn undone.]
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1460"></child>
+        <children><child nodeId="node-1545"></child>
         </children>
     </item>
-    <item nodeId="node-1460">
+    <item nodeId="node-1545">
         <command xml:space="preserve">look</command>
         <result xml:space="preserve">The Roost
 The roost smells faintly of sawdust, old eggs, and bourbon. The half-drunk bottle explains the half-drunk turkey. A chick is pacing back and forth, occasionally stopping to peck at itself.
@@ -614,17 +614,17 @@ You can see a child here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1461"></child>
+        <children><child nodeId="node-1546"></child>
         </children>
     </item>
-    <item nodeId="node-1461">
+    <item nodeId="node-1546">
         <command xml:space="preserve">gobble at the child</command>
         <result xml:space="preserve">GOBBLE GOBBLE GOBBLE!
 The child runs screaming, and appears to have dropped something
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1250">
+    <item nodeId="node-1547">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 On the Case
@@ -632,21 +632,21 @@ You are on the case! Keep heading north to reach Turkey Street
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1253"></child>
-            <child nodeId="node-1251"></child>
+        <children><child nodeId="node-1550"></child>
+            <child nodeId="node-1548"></child>
         </children>
     </item>
-    <item nodeId="node-1251">
+    <item nodeId="node-1548">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">
 Roost
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1252"></child>
+        <children><child nodeId="node-1549"></child>
         </children>
     </item>
-    <item nodeId="node-1252">
+    <item nodeId="node-1549">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 On the Case
@@ -654,7 +654,7 @@ On the Case
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1253">
+    <item nodeId="node-1550">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 Turkey Street Station
@@ -664,22 +664,22 @@ A very dead chicken lies in the center of the road
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1321"></child>
-            <child nodeId="node-1396"></child>
-            <child nodeId="node-1254"></child>
-            <child nodeId="node-1408"></child>
+        <children><child nodeId="node-1599"></child>
+            <child nodeId="node-1598"></child>
+            <child nodeId="node-1554"></child>
+            <child nodeId="node-1551"></child>
         </children>
     </item>
-    <item nodeId="node-1408">
+    <item nodeId="node-1551">
         <command xml:space="preserve">x chicken</command>
         <result xml:space="preserve">this chicken is definitely dead. And I found a letter!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1412"></child>
+        <children><child nodeId="node-1552"></child>
         </children>
     </item>
-    <item nodeId="node-1412">
+    <item nodeId="node-1552">
         <command xml:space="preserve">look</command>
         <result xml:space="preserve">Turkey Street Station
 DESCRIPTION
@@ -690,17 +690,17 @@ You can also see a letter here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1413"></child>
+        <children><child nodeId="node-1553"></child>
         </children>
     </item>
-    <item nodeId="node-1413">
+    <item nodeId="node-1553">
         <command xml:space="preserve">x chicken</command>
         <result xml:space="preserve">You see nothing special about the dead chicken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1254">
+    <item nodeId="node-1554">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 Turkey Street West
@@ -708,42 +708,42 @@ DESCRIPTION WEST
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1282"></child>
-            <child nodeId="node-1255"></child>
-            <child nodeId="node-1330"></child>
-            <child nodeId="node-1349"></child>
+        <children><child nodeId="node-1587"></child>
+            <child nodeId="node-1582"></child>
+            <child nodeId="node-1574"></child>
+            <child nodeId="node-1555"></child>
         </children>
     </item>
-    <item nodeId="node-1349">
+    <item nodeId="node-1555">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">The road is blocked by Turkeys!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1374"></child>
-            <child nodeId="node-1350"></child>
+        <children><child nodeId="node-1571"></child>
+            <child nodeId="node-1556"></child>
         </children>
     </item>
-    <item nodeId="node-1350">
+    <item nodeId="node-1556">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">The road is blocked by Turkeys!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1382"></child>
-            <child nodeId="node-1361"></child>
+        <children><child nodeId="node-1559"></child>
+            <child nodeId="node-1557"></child>
         </children>
     </item>
-    <item nodeId="node-1361">
+    <item nodeId="node-1557">
         <command xml:space="preserve">rules</command>
         <result xml:space="preserve">Rules tracing now switched on. Type "rules off" to switch it off again, or "rules all" to include even rules which do not apply.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1362"></child>
+        <children><child nodeId="node-1558"></child>
         </children>
     </item>
-    <item nodeId="node-1362">
+    <item nodeId="node-1558">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">[Rule "declare everything initially unmentioned rule" applies.]
 [Rule "standard set going variables rule" applies.]
@@ -768,7 +768,7 @@ You can't go that way.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1382">
+    <item nodeId="node-1559">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">
 Turkey Street Station
@@ -776,10 +776,10 @@ DESCRIPTION
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1383"></child>
+        <children><child nodeId="node-1560"></child>
         </children>
     </item>
-    <item nodeId="node-1383">
+    <item nodeId="node-1560">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">
 Turkey Street East
@@ -787,10 +787,10 @@ DESCRIPTION EAST
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1384"></child>
+        <children><child nodeId="node-1561"></child>
         </children>
     </item>
-    <item nodeId="node-1384">
+    <item nodeId="node-1561">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 Turkey Street Station
@@ -798,10 +798,10 @@ DESCRIPTION
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1385"></child>
+        <children><child nodeId="node-1562"></child>
         </children>
     </item>
-    <item nodeId="node-1385">
+    <item nodeId="node-1562">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 Turkey Street West
@@ -809,37 +809,37 @@ DESCRIPTION WEST
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1386"></child>
+        <children><child nodeId="node-1563"></child>
         </children>
     </item>
-    <item nodeId="node-1386">
+    <item nodeId="node-1563">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">The road is blocked by Turkeys!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1387"></child>
+        <children><child nodeId="node-1564"></child>
         </children>
     </item>
-    <item nodeId="node-1387">
+    <item nodeId="node-1564">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">The doors are shut fast, and because you are a turkey, they might as well be shut forever. You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1388"></child>
+        <children><child nodeId="node-1565"></child>
         </children>
     </item>
-    <item nodeId="node-1388">
+    <item nodeId="node-1565">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">The doors are shut fast, and because you are a turkey, they might as well be shut forever. You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1389"></child>
+        <children><child nodeId="node-1566"></child>
         </children>
     </item>
-    <item nodeId="node-1389">
+    <item nodeId="node-1566">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">
 Turkey Street Station
@@ -847,10 +847,10 @@ DESCRIPTION
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1390"></child>
+        <children><child nodeId="node-1567"></child>
         </children>
     </item>
-    <item nodeId="node-1390">
+    <item nodeId="node-1567">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">
 Turkey Street East
@@ -858,10 +858,10 @@ DESCRIPTION EAST
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1391"></child>
+        <children><child nodeId="node-1568"></child>
         </children>
     </item>
-    <item nodeId="node-1391">
+    <item nodeId="node-1568">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 Turkey Street Station
@@ -869,10 +869,10 @@ DESCRIPTION
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1392"></child>
+        <children><child nodeId="node-1569"></child>
         </children>
     </item>
-    <item nodeId="node-1392">
+    <item nodeId="node-1569">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 Turkey Street West
@@ -880,35 +880,35 @@ DESCRIPTION WEST
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1393"></child>
+        <children><child nodeId="node-1570"></child>
         </children>
     </item>
-    <item nodeId="node-1393">
+    <item nodeId="node-1570">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">The road is blocked by Turkeys!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1374">
+    <item nodeId="node-1571">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">The doors are shut fast, and because you are a turkey, they might as well be shut forever. You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1375"></child>
+        <children><child nodeId="node-1572"></child>
         </children>
     </item>
-    <item nodeId="node-1375">
+    <item nodeId="node-1572">
         <command xml:space="preserve">rules</command>
         <result xml:space="preserve">Rules tracing now switched on. Type "rules off" to switch it off again, or "rules all" to include even rules which do not apply.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1376"></child>
+        <children><child nodeId="node-1573"></child>
         </children>
     </item>
-    <item nodeId="node-1376">
+    <item nodeId="node-1573">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">[Rule "declare everything initially unmentioned rule" applies.]
 [Rule "standard set going variables rule" applies.]
@@ -926,61 +926,61 @@ The doors are shut fast, and because you are a turkey, they might as well be shu
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1330">
+    <item nodeId="node-1574">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">The doors are shut fast, and because you are a turkey, they might as well be shut forever. You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1345"></child>
-            <child nodeId="node-1331"></child>
-            <child nodeId="node-1337"></child>
+        <children><child nodeId="node-1581"></child>
+            <child nodeId="node-1579"></child>
+            <child nodeId="node-1575"></child>
         </children>
     </item>
-    <item nodeId="node-1337">
+    <item nodeId="node-1575">
         <command xml:space="preserve">x door</command>
         <result xml:space="preserve">Which do you mean, Sainsburys Entrance door or Tesco Entrance door?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1338"></child>
+        <children><child nodeId="node-1576"></child>
         </children>
     </item>
-    <item nodeId="node-1338">
+    <item nodeId="node-1576">
         <command xml:space="preserve">x sainsburys entrance door</command>
         <result xml:space="preserve">You see nothing special about Sainsburys Entrance door.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1339"></child>
+        <children><child nodeId="node-1577"></child>
         </children>
     </item>
-    <item nodeId="node-1339">
+    <item nodeId="node-1577">
         <command xml:space="preserve">close door</command>
         <result xml:space="preserve">Which do you mean, Sainsburys Entrance door or Tesco Entrance door?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1340"></child>
+        <children><child nodeId="node-1578"></child>
         </children>
     </item>
-    <item nodeId="node-1340">
+    <item nodeId="node-1578">
         <command xml:space="preserve">close sainsbury door</command>
         <result xml:space="preserve">You can't do that! You're a turkey!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1331">
+    <item nodeId="node-1579">
         <command xml:space="preserve">rules</command>
         <result xml:space="preserve">Rules tracing now switched on. Type "rules off" to switch it off again, or "rules all" to include even rules which do not apply.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1332"></child>
+        <children><child nodeId="node-1580"></child>
         </children>
     </item>
-    <item nodeId="node-1332">
+    <item nodeId="node-1580">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">[Rule "declare everything initially unmentioned rule" applies.]
 [Rule "standard set going variables rule" applies.]
@@ -1005,7 +1005,7 @@ You can't, since Sainsburys Entrance door leads nowhere.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1345">
+    <item nodeId="node-1581">
         <command xml:space="preserve">look</command>
         <result xml:space="preserve">Turkey Street West
 DESCRIPTION WEST
@@ -1013,7 +1013,7 @@ DESCRIPTION WEST
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1255">
+    <item nodeId="node-1582">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">
 Turkey Street Station
@@ -1021,10 +1021,10 @@ DESCRIPTION
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1256"></child>
+        <children><child nodeId="node-1583"></child>
         </children>
     </item>
-    <item nodeId="node-1256">
+    <item nodeId="node-1583">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 Turkey Street West
@@ -1032,10 +1032,10 @@ DESCRIPTION WEST
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1257"></child>
+        <children><child nodeId="node-1584"></child>
         </children>
     </item>
-    <item nodeId="node-1257">
+    <item nodeId="node-1584">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">
 Turkey Street Station
@@ -1043,10 +1043,10 @@ DESCRIPTION
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1258"></child>
+        <children><child nodeId="node-1585"></child>
         </children>
     </item>
-    <item nodeId="node-1258">
+    <item nodeId="node-1585">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">
 Turkey Street East
@@ -1054,10 +1054,10 @@ DESCRIPTION EAST
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1259"></child>
+        <children><child nodeId="node-1586"></child>
         </children>
     </item>
-    <item nodeId="node-1259">
+    <item nodeId="node-1586">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 Turkey Street Station
@@ -1066,97 +1066,97 @@ DESCRIPTION
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1282">
+    <item nodeId="node-1587">
         <command xml:space="preserve">clear</command>
         <result xml:space="preserve">What do you want to clear?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1283"></child>
+        <children><child nodeId="node-1588"></child>
         </children>
     </item>
-    <item nodeId="node-1283">
+    <item nodeId="node-1588">
         <command xml:space="preserve">clear screen</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1284"></child>
+        <children><child nodeId="node-1589"></child>
         </children>
     </item>
-    <item nodeId="node-1284">
+    <item nodeId="node-1589">
         <command xml:space="preserve">help</command>
         <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1285"></child>
+        <children><child nodeId="node-1590"></child>
         </children>
     </item>
-    <item nodeId="node-1285">
+    <item nodeId="node-1590">
         <command xml:space="preserve">HELP</command>
         <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1286"></child>
+        <children><child nodeId="node-1591"></child>
         </children>
     </item>
-    <item nodeId="node-1286">
+    <item nodeId="node-1591">
         <command xml:space="preserve">HELP</command>
         <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1287"></child>
+        <children><child nodeId="node-1592"></child>
         </children>
     </item>
-    <item nodeId="node-1287">
+    <item nodeId="node-1592">
         <command xml:space="preserve">COMMANDS</command>
         <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1288"></child>
+        <children><child nodeId="node-1593"></child>
         </children>
     </item>
-    <item nodeId="node-1288">
+    <item nodeId="node-1593">
         <command xml:space="preserve">COMMANDS</command>
         <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1289"></child>
+        <children><child nodeId="node-1594"></child>
         </children>
     </item>
-    <item nodeId="node-1289">
+    <item nodeId="node-1594">
         <command xml:space="preserve">command</command>
         <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1290"></child>
+        <children><child nodeId="node-1595"></child>
         </children>
     </item>
-    <item nodeId="node-1290">
+    <item nodeId="node-1595">
         <command xml:space="preserve">commands</command>
         <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1291"></child>
+        <children><child nodeId="node-1596"></child>
         </children>
     </item>
-    <item nodeId="node-1291">
+    <item nodeId="node-1596">
         <command xml:space="preserve">help</command>
         <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1292"></child>
+        <children><child nodeId="node-1597"></child>
         </children>
     </item>
-    <item nodeId="node-1292">
+    <item nodeId="node-1597">
         <command xml:space="preserve">UNDO</command>
         <result xml:space="preserve">Turkey Street West
 [Previous turn undone.]
@@ -1164,7 +1164,7 @@ DESCRIPTION
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1396">
+    <item nodeId="node-1598">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">(first opening Station Entrance)
 You can't do that! You're a turkey!
@@ -1172,28 +1172,28 @@ You can't do that! You're a turkey!
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1321">
+    <item nodeId="node-1599">
         <command xml:space="preserve">look</command>
         <result xml:space="preserve">Turkey Street Station
 DESCRIPTION
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1400"></child>
-            <child nodeId="node-1322"></child>
+        <children><child nodeId="node-1605"></child>
+            <child nodeId="node-1600"></child>
         </children>
     </item>
-    <item nodeId="node-1322">
+    <item nodeId="node-1600">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">(first opening Station Entrance)
 You can't do that! You're a turkey!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1323"></child>
+        <children><child nodeId="node-1601"></child>
         </children>
     </item>
-    <item nodeId="node-1323">
+    <item nodeId="node-1601">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 Turkey Street West
@@ -1201,29 +1201,29 @@ DESCRIPTION WEST
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1324"></child>
+        <children><child nodeId="node-1602"></child>
         </children>
     </item>
-    <item nodeId="node-1324">
+    <item nodeId="node-1602">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">(first opening Sainsburys Entrance door)
 You can't do that! You're a turkey!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1325"></child>
+        <children><child nodeId="node-1603"></child>
         </children>
     </item>
-    <item nodeId="node-1325">
+    <item nodeId="node-1603">
         <command xml:space="preserve">rules</command>
         <result xml:space="preserve">Rules tracing now switched on. Type "rules off" to switch it off again, or "rules all" to include even rules which do not apply.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1326"></child>
+        <children><child nodeId="node-1604"></child>
         </children>
     </item>
-    <item nodeId="node-1326">
+    <item nodeId="node-1604">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">[Rule "declare everything initially unmentioned rule" applies.]
 [Rule "standard set going variables rule" applies.]
@@ -1252,26 +1252,26 @@ You can't do that! You're a turkey!
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1400">
+    <item nodeId="node-1605">
         <command xml:space="preserve">look around</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1401"></child>
+        <children><child nodeId="node-1606"></child>
         </children>
     </item>
-    <item nodeId="node-1401">
+    <item nodeId="node-1606">
         <command xml:space="preserve">look</command>
         <result xml:space="preserve">Turkey Street Station
 DESCRIPTION
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1402"></child>
+        <children><child nodeId="node-1607"></child>
         </children>
     </item>
-    <item nodeId="node-1402">
+    <item nodeId="node-1607">
         <command xml:space="preserve">examine</command>
         <result xml:space="preserve">(Station Entrance)
 You see nothing special about Station Entrance.
@@ -1279,141 +1279,141 @@ You see nothing special about Station Entrance.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1260">
+    <item nodeId="node-1608">
         <command xml:space="preserve">look</command>
         <result xml:space="preserve">Roost
 The roost smells faintly of sawdust, old eggs, and bourbon. The half-drunk bottle explains the half-drunk turkey. A chick is pacing back and forth, occasionally stopping to peck at itself.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1261"></child>
-            <child nodeId="node-1270"></child>
+        <children><child nodeId="node-1614"></child>
+            <child nodeId="node-1609"></child>
         </children>
     </item>
-    <item nodeId="node-1270">
+    <item nodeId="node-1609">
         <command xml:space="preserve">x door</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1271"></child>
+        <children><child nodeId="node-1610"></child>
         </children>
     </item>
-    <item nodeId="node-1271">
+    <item nodeId="node-1610">
         <command xml:space="preserve">x blue door</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1272"></child>
+        <children><child nodeId="node-1611"></child>
         </children>
     </item>
-    <item nodeId="node-1272">
+    <item nodeId="node-1611">
         <command xml:space="preserve">open blue door</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1273"></child>
+        <children><child nodeId="node-1612"></child>
         </children>
     </item>
-    <item nodeId="node-1273">
+    <item nodeId="node-1612">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 blue door
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1274"></child>
+        <children><child nodeId="node-1613"></child>
         </children>
     </item>
-    <item nodeId="node-1274">
+    <item nodeId="node-1613">
         <command xml:space="preserve">open door</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1261">
+    <item nodeId="node-1614">
         <command xml:space="preserve">x</command>
         <result xml:space="preserve">What do you want to examine?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1262"></child>
+        <children><child nodeId="node-1615"></child>
         </children>
     </item>
-    <item nodeId="node-1262">
+    <item nodeId="node-1615">
         <command xml:space="preserve">look at chick</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1263"></child>
+        <children><child nodeId="node-1616"></child>
         </children>
     </item>
-    <item nodeId="node-1263">
+    <item nodeId="node-1616">
         <command xml:space="preserve">x chick</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1473">
+    <item nodeId="node-1617">
         <command xml:space="preserve">i</command>
         <result xml:space="preserve">You are carrying nothing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1314">
+    <item nodeId="node-1618">
         <command xml:space="preserve">gobble child</command>
         <result xml:space="preserve">GOBBLE GOBBLE GOBBLE!
 The child runs screaming, and appears to have dropped something
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1315"></child>
-            <child nodeId="node-1415"></child>
-            <child nodeId="node-1431"></child>
+        <children><child nodeId="node-1636"></child>
+            <child nodeId="node-1631"></child>
+            <child nodeId="node-1619"></child>
         </children>
     </item>
-    <item nodeId="node-1431">
+    <item nodeId="node-1619">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1432"></child>
+        <children><child nodeId="node-1620"></child>
         </children>
     </item>
-    <item nodeId="node-1432">
+    <item nodeId="node-1620">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1433"></child>
+        <children><child nodeId="node-1621"></child>
         </children>
     </item>
-    <item nodeId="node-1433">
+    <item nodeId="node-1621">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1434"></child>
+        <children><child nodeId="node-1622"></child>
         </children>
     </item>
-    <item nodeId="node-1434">
+    <item nodeId="node-1622">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1435"></child>
+        <children><child nodeId="node-1623"></child>
         </children>
     </item>
-    <item nodeId="node-1435">
+    <item nodeId="node-1623">
         <command xml:space="preserve">look</command>
         <result xml:space="preserve">The Roost
 The roost smells faintly of sawdust, old eggs, and bourbon. The half-drunk bottle explains the half-drunk turkey. A chick is pacing back and forth, occasionally stopping to peck at itself.
@@ -1422,19 +1422,19 @@ You can see a book here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1436"></child>
+        <children><child nodeId="node-1624"></child>
         </children>
     </item>
-    <item nodeId="node-1436">
+    <item nodeId="node-1624">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1437"></child>
+        <children><child nodeId="node-1625"></child>
         </children>
     </item>
-    <item nodeId="node-1437">
+    <item nodeId="node-1625">
         <command xml:space="preserve">look</command>
         <result xml:space="preserve">The Roost
 The roost smells faintly of sawdust, old eggs, and bourbon. The half-drunk bottle explains the half-drunk turkey. A chick is pacing back and forth, occasionally stopping to peck at itself.
@@ -1443,19 +1443,19 @@ You can see a book here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1438"></child>
+        <children><child nodeId="node-1626"></child>
         </children>
     </item>
-    <item nodeId="node-1438">
+    <item nodeId="node-1626">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1439"></child>
+        <children><child nodeId="node-1627"></child>
         </children>
     </item>
-    <item nodeId="node-1439">
+    <item nodeId="node-1627">
         <command xml:space="preserve">look</command>
         <result xml:space="preserve">The Roost
 The roost smells faintly of sawdust, old eggs, and bourbon. The half-drunk bottle explains the half-drunk turkey. A chick is pacing back and forth, occasionally stopping to peck at itself.
@@ -1464,19 +1464,19 @@ You can see a book here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1440"></child>
+        <children><child nodeId="node-1628"></child>
         </children>
     </item>
-    <item nodeId="node-1440">
+    <item nodeId="node-1628">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1441"></child>
+        <children><child nodeId="node-1629"></child>
         </children>
     </item>
-    <item nodeId="node-1441">
+    <item nodeId="node-1629">
         <command xml:space="preserve">look</command>
         <result xml:space="preserve">The Roost
 The roost smells faintly of sawdust, old eggs, and bourbon. The half-drunk bottle explains the half-drunk turkey. A chick is pacing back and forth, occasionally stopping to peck at itself.
@@ -1485,35 +1485,35 @@ You can see a book here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1442"></child>
+        <children><child nodeId="node-1630"></child>
         </children>
     </item>
-    <item nodeId="node-1442">
+    <item nodeId="node-1630">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1415">
+    <item nodeId="node-1631">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1416"></child>
+        <children><child nodeId="node-1632"></child>
         </children>
     </item>
-    <item nodeId="node-1416">
+    <item nodeId="node-1632">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1417"></child>
+        <children><child nodeId="node-1633"></child>
         </children>
     </item>
-    <item nodeId="node-1417">
+    <item nodeId="node-1633">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 On the Case
@@ -1521,10 +1521,10 @@ You are on the case! Keep heading north to reach Turkey Street
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1418"></child>
+        <children><child nodeId="node-1634"></child>
         </children>
     </item>
-    <item nodeId="node-1418">
+    <item nodeId="node-1634">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 Turkey Street Station
@@ -1534,10 +1534,10 @@ A very dead chicken lies in the center of the road
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1419"></child>
+        <children><child nodeId="node-1635"></child>
         </children>
     </item>
-    <item nodeId="node-1419">
+    <item nodeId="node-1635">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">(first opening Station Entrance)
 You can't do that! You're a turkey!
@@ -1545,7 +1545,7 @@ You can't do that! You're a turkey!
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1315">
+    <item nodeId="node-1636">
         <command xml:space="preserve">look</command>
         <result xml:space="preserve">The Roost
 The roost smells faintly of sawdust, old eggs, and bourbon. The half-drunk bottle explains the half-drunk turkey. A chick is pacing back and forth, occasionally stopping to peck at itself.
@@ -1554,10 +1554,10 @@ You can see a book here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1316"></child>
+        <children><child nodeId="node-1637"></child>
         </children>
     </item>
-    <item nodeId="node-1316">
+    <item nodeId="node-1637">
         <command xml:space="preserve">x book</command>
         <result xml:space="preserve">You see nothing special about the book.
 
@@ -1572,61 +1572,61 @@ In that game you scored 50 out of a possible 50, in 3 turns.
 Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
 &gt; </result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1426"></child>
+        <children><child nodeId="node-1638"></child>
         </children>
     </item>
-    <item nodeId="node-1426">
+    <item nodeId="node-1638">
         <command xml:space="preserve">x book</command>
         <result xml:space="preserve">You see nothing special about the book.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1477">
+    <item nodeId="node-1639">
         <command xml:space="preserve">gobble chick</command>
         <result xml:space="preserve">&gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1478"></child>
+        <children><child nodeId="node-1640"></child>
         </children>
     </item>
-    <item nodeId="node-1478">
+    <item nodeId="node-1640">
         <command xml:space="preserve">x chick</command>
         <result xml:space="preserve">You see nothing special about the chick.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1311">
+    <item nodeId="node-1641">
         <command xml:space="preserve">gobble book</command>
         <result xml:space="preserve">I didn't understand that sentence.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1312"></child>
+        <children><child nodeId="node-1642"></child>
         </children>
     </item>
-    <item nodeId="node-1312">
+    <item nodeId="node-1642">
         <command xml:space="preserve">gobble at book</command>
         <result xml:space="preserve">&gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1313">
+    <item nodeId="node-1643">
         <command xml:space="preserve">gobble at child</command>
         <result xml:space="preserve">GOBBLE GOBBLE GOBBLE!
 The child runs screaming
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1486">
+    <item nodeId="node-1644">
         <command xml:space="preserve">gobble at chick</command>
         <result xml:space="preserve">"Cluck. Cluck. Cluck cluck CLUCK-AH." She sings her sweet song to me.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1487"></child>
+        <children><child nodeId="node-1645"></child>
         </children>
     </item>
-    <item nodeId="node-1487">
+    <item nodeId="node-1645">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 On the Case
@@ -1634,10 +1634,10 @@ You are on the case! Keep heading north to reach Turkey Street
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1488"></child>
+        <children><child nodeId="node-1646"></child>
         </children>
     </item>
-    <item nodeId="node-1488">
+    <item nodeId="node-1646">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 Turkey Street Station
@@ -1649,10 +1649,10 @@ You can also see a fox and an Eagle here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1489"></child>
+        <children><child nodeId="node-1647"></child>
         </children>
     </item>
-    <item nodeId="node-1489">
+    <item nodeId="node-1647">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 Turkey Street West
@@ -1662,10 +1662,10 @@ You can see a Duck and a Heron here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1490"></child>
+        <children><child nodeId="node-1648"></child>
         </children>
     </item>
-    <item nodeId="node-1490">
+    <item nodeId="node-1648">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">
 Turkey Street Station
@@ -1677,10 +1677,10 @@ You can also see a fox and an Eagle here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1491"></child>
+        <children><child nodeId="node-1649"></child>
         </children>
     </item>
-    <item nodeId="node-1491">
+    <item nodeId="node-1649">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">
 Turkey Street East
@@ -1691,122 +1691,122 @@ You can see a child and an Owl here.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1306">
+    <item nodeId="node-1650">
         <command xml:space="preserve">gobble</command>
         <result xml:space="preserve">What do you want to gobble?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1308"></child>
-            <child nodeId="node-1310"></child>
+        <children><child nodeId="node-1652"></child>
+            <child nodeId="node-1651"></child>
         </children>
     </item>
-    <item nodeId="node-1310">
+    <item nodeId="node-1651">
         <command xml:space="preserve">gobble at</command>
         <result xml:space="preserve">What do you want to gobble at?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1308">
+    <item nodeId="node-1652">
         <command xml:space="preserve">gobbble</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1264">
+    <item nodeId="node-1653">
         <command xml:space="preserve">exit</command>
         <result xml:space="preserve">But you aren't in anything at the moment.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1265"></child>
+        <children><child nodeId="node-1654"></child>
         </children>
     </item>
-    <item nodeId="node-1265">
+    <item nodeId="node-1654">
         <command xml:space="preserve">quit</command>
         <result xml:space="preserve">Are you sure you want to quit? </result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1266"></child>
+        <children><child nodeId="node-1655"></child>
         </children>
     </item>
-    <item nodeId="node-1266">
+    <item nodeId="node-1655">
         <command xml:space="preserve">y</command>
         <result xml:space="preserve"></result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1482">
+    <item nodeId="node-1656">
         <command xml:space="preserve">drink bottle</command>
         <result xml:space="preserve">You have had enough
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1277">
+    <item nodeId="node-1657">
         <command xml:space="preserve">close door</command>
         <result xml:space="preserve">You can't do that! You're a turkey!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1278"></child>
-            <child nodeId="node-1294"></child>
+        <children><child nodeId="node-1670"></child>
+            <child nodeId="node-1658"></child>
         </children>
     </item>
-    <item nodeId="node-1294">
+    <item nodeId="node-1658">
         <command xml:space="preserve">speak</command>
         <result xml:space="preserve">I didn't understand that sentence.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1295"></child>
+        <children><child nodeId="node-1659"></child>
         </children>
     </item>
-    <item nodeId="node-1295">
+    <item nodeId="node-1659">
         <command xml:space="preserve">talk</command>
         <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1296"></child>
+        <children><child nodeId="node-1660"></child>
         </children>
     </item>
-    <item nodeId="node-1296">
+    <item nodeId="node-1660">
         <command xml:space="preserve">talk to</command>
         <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1297"></child>
+        <children><child nodeId="node-1661"></child>
         </children>
     </item>
-    <item nodeId="node-1297">
+    <item nodeId="node-1661">
         <command xml:space="preserve">verds</command>
         <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1298"></child>
+        <children><child nodeId="node-1662"></child>
         </children>
     </item>
-    <item nodeId="node-1298">
+    <item nodeId="node-1662">
         <command xml:space="preserve">verbs</command>
         <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1299"></child>
+        <children><child nodeId="node-1663"></child>
         </children>
     </item>
-    <item nodeId="node-1299">
+    <item nodeId="node-1663">
         <command xml:space="preserve">LIST</command>
         <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1300"></child>
+        <children><child nodeId="node-1664"></child>
         </children>
     </item>
-    <item nodeId="node-1300">
+    <item nodeId="node-1664">
         <command xml:space="preserve">SHOWME</command>
         <result xml:space="preserve">The Roost - room
     yourself - person
@@ -1814,47 +1814,47 @@ You can see a child and an Owl here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1301"></child>
+        <children><child nodeId="node-1665"></child>
         </children>
     </item>
-    <item nodeId="node-1301">
+    <item nodeId="node-1665">
         <command xml:space="preserve">COMMAND</command>
         <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1302"></child>
+        <children><child nodeId="node-1666"></child>
         </children>
     </item>
-    <item nodeId="node-1302">
+    <item nodeId="node-1666">
         <command xml:space="preserve">COMMANDS</command>
         <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1303"></child>
+        <children><child nodeId="node-1667"></child>
         </children>
     </item>
-    <item nodeId="node-1303">
+    <item nodeId="node-1667">
         <command xml:space="preserve">RULES</command>
         <result xml:space="preserve">Rules tracing now switched on. Type "rules off" to switch it off again, or "rules all" to include even rules which do not apply.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1304"></child>
+        <children><child nodeId="node-1668"></child>
         </children>
     </item>
-    <item nodeId="node-1304">
+    <item nodeId="node-1668">
         <command xml:space="preserve">RULES</command>
         <result xml:space="preserve">[Rule "declare everything initially unmentioned rule" applies.]
 Rules tracing now switched on. Type "rules off" to switch it off again, or "rules all" to include even rules which do not apply.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1305"></child>
+        <children><child nodeId="node-1669"></child>
         </children>
     </item>
-    <item nodeId="node-1305">
+    <item nodeId="node-1669">
         <command xml:space="preserve">take</command>
         <result xml:space="preserve">(the exit door)
 [Rule "declare everything initially unmentioned rule" applies.]
@@ -1884,14 +1884,14 @@ That's fixed in place.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1278">
+    <item nodeId="node-1670">
         <command xml:space="preserve">open door</command>
         <result xml:space="preserve">You can't do that! You're a turkey!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1492">
+    <item nodeId="node-1671">
         <command xml:space="preserve">cheat</command>
         <result xml:space="preserve">You have caught the culprit!
 

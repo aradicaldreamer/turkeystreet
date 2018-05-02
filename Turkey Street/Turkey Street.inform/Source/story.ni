@@ -2,7 +2,41 @@
 
 Volume 1 - Brainstorming
 
-Book 1 - To Do List
+Book 1 - Task List
+
+Chapter 1 - To Do
+
+Section 1 - High Priority
+
+[
+	
+	- Write place descriptions for each location
+	
+	- Add interactive items to each location
+	
+	- Add evidence to each location
+	
+	- Add description for each NPC
+	
+	- Add Gobble interaction to each NPC
+	
+	- Add ending description
+
+]
+
+Section 2 - Low Priority
+
+[
+
+	- Limit inventory to one item at a time ( Nice to have but not necessary)
+	
+	- Add behavior to the NPCs
+	
+	- Create Puzzles to find each piece of evidence (for now the player just needs to find stuff to win)
+
+]
+
+Chapter 2 - Done
 
 [
 
@@ -12,19 +46,7 @@ Book 1 - To Do List
 	
 	- Make it so that the player can not open doors ✔
 	
-	- Limit inventory to one item at a time ( Nice to have but not necessary)
-	
-	- Write place descriptions for each location
-	
-	- Add interactive items to each location
-	
-	- Add evidence to each location
-	
 	- Add NPCs to each location ✔
-	
-	- Add behavior to the NPCs
-	
-	- Add ending description
 
 ]
 
@@ -56,7 +78,10 @@ Book 3 - Sources
 
 [
 
-	- Turkey Street Cover Art https://www.clipartqueen.com/thanksgiving-clipart.html
+	- Turkey Street Cover Art images:
+	https://www.clipartqueen.com/thanksgiving-clipart.html
+	http://scienceofillogic.blogspot.co.uk/2010/11/lies-of-thanksgiving-tryptophan.html
+	
 
 ]
 
