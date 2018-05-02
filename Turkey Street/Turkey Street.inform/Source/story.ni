@@ -266,7 +266,11 @@ Tesco Entrance door is south of Turkey Street West. It is an open door and scene
 
 Chapter 2 - Herring Puzzle
 
-A bus stop is an enterable supporter in Turkey Street West. The description of the bus stop is "The bus stop appears to be in a state of disrepair. One side is slumped over and is low enough for you to climb on top of it."
+A bus stop is an enterable supporter in Turkey Street West. The description of the bus stop is "The bus stop appears to be in a state of disrepair. One side is slumped over and is low enough for you to get on it."
+
+Rule for printing the name of the bus stop: 
+    say "[printed name of the bus stop]";
+    omit contents in listing.
 
 A fish is a kind of thing.
 
@@ -289,7 +293,15 @@ Instead of giving the herring to the heron:
 	
 Chapter 3 - The Murder Weapon
 
-A garbage bin is an closed opaque openable fixed in place container in Turkey Street West. Inside the bin is the murder weapon.
+A garbage bin is an open opaque openable fixed in place container in Turkey Street West. In it is the murder weapon.
+
+Rule for printing the name of the garbage bin: 
+    say "[printed name of garbage bin]";
+    omit contents in listing.
+
+Instead of examining the garbage bin when the murder weapon is lost:
+	now the murder weapon is found;
+	say "This garbage bin is utterly filthy, like your sense of humor. In the depths of this filth (within the bin, not yourself) lies ... THE MURDER WEAPON."
 
 Part 5 - Turkey Street East
 
@@ -323,21 +335,21 @@ Part 3 - Torn Photograph
 
 A torn photograph is evidence. The heron carries it.
 
-Part 4 - Placeholder2
+Part 4 - The Murder Weapon
+
+A murder weapon is evidence.
+
+Part 5 - Placeholder2
 
 A placeholder2 is evidence. The duck carries it.
 
-Part 5 - Placeholder3
+Part 6 - Placeholder3
 
 A placeholder3 is evidence. The crow carries it.
 
-Part 6 - Placeholder4
+Part 7 - Placeholder4
 
 A placeholder4 is evidence. The eagle carries it.
-
-Part 7 - The Murder Weapon
-
-A murder weapon is evidence.
 
 Book 3 - Characters
 
@@ -369,7 +381,7 @@ The Duck is a suspect in Turkey Street East. "Dark of wing and dull of bill. The
 
 Part 4 - The Heron
 
-The Heron is a suspect in Turkey Street West. "[if unseen]Herons like to feast on small prey. This one has a lean, hungry look to it. It knows something.[end if]"
+The Heron is a suspect in Turkey Street West. "Herons like to feast on small prey. This one has a lean, hungry look to it. It knows something."
 
 Part 5 - The Eagle
 
