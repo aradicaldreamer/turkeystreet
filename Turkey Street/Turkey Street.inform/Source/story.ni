@@ -108,7 +108,7 @@ Include Title Page by Jon Ingold.
 [Introduction text inspired by the opening text in The Wizard Sniffer by Buster Hudson]
 
 To say quotation:
-	say "Welcome to Turkey Street! You are about to embark upon a gritty and super serious parser adventure where you play as a turkey detective. Before you start, please be aware that some of the commands may be different from other games that you have played in the past.
+	say "Welcome to Turkey Street! You are about to embark upon a gritty and super serious parser adventure where you play as a turkey detective. Before you start, please be aware that some of the commands may be different from other games that you have played in the past. Examine all of the evidence to solve the case!
 	
 	Commands are limited to directional travel (N, S, E, W), LOOK, EXAMINE (or X), GIVE, TAKE, DROP, WAIT, EAT, DRINK, and GOBBLE or GOBBLE AT (which refers to turkey speak, not the action of eating). You can also type COMMANDS to see this list again, UNDO to go back a turn, or SAVE to record your progress. Have fun!".
 
@@ -173,9 +173,9 @@ Part 1 - Supporters
 
 [From Example "Anchorite"]
 
-Understand "get on" and "go up" and "climb" and "climb on" as entering.
+Understand "U" and "up" and "get on" and "go up" and "climb" and "climb on" as entering.
 
-Understand "get down"  and "go down" as exiting.
+Understand "D" and "down" and "get down"  and "go down" as exiting.
 
 Instead of going down when the player is on a supporter:
 	try exiting.
@@ -188,7 +188,7 @@ Cheating is an action applying to nothing. Understand "cheat" as cheating. Inste
 Book 6 - Command List
 
 Commanding is an action applying to nothing. Understand "Commands" or "help" as commanding. Instead of commanding:
-	say "Commands are limited to directional travel (N, S, E, W), LOOK, EXAMINE (or X), GIVE, TAKE, DROP, WAIT, EAT, DRINK, and GOBBLE or GOBBLE AT (which refers to turkey speak, not the action of eating). You can also type COMMANDS to see this list again, UNDO to go back a turn, or SAVE to record your progress. Have fun!".
+	say "If you're stuck, don't forget to examine anything that might be evidence. Once you examine Commands are limited to directional travel (N, S, E, W, U, D), LOOK, EXAMINE (or X), GIVE, TAKE, DROP, WAIT, EAT, DRINK, and GOBBLE or GOBBLE AT (which refers to turkey speak, not the action of eating). You can also type COMMANDS to see this list again, UNDO to go back a turn, or SAVE to record your progress. Have fun!".
 	
 Book 7 - Inventory
 
