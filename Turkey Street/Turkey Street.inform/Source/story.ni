@@ -62,7 +62,7 @@ Book 2 - Notes
 	
 	- Turkey Name: Detective Fowl Feathers, Poultry Investigator
 	
-	- NPCs, Fox, Duck, Child, Heron, Eagle, Chicken, Turkeys, Owl
+	- NPCs, Crow, Duck, Child, Heron, Eagle, Chicken, Turkeys, Owl
 	
 	- Who did it? OWL.
 	
@@ -108,7 +108,7 @@ Include Title Page by Jon Ingold.
 [Introduction text inspired by the opening text in The Wizard Sniffer by Buster Hudson]
 
 To say quotation:
-	say "Welcome to Turkey Street! You are about to embark upon a gritty and super serious parser adventure where you play as a turkey detective. Before you start, please be aware that some of the commands may be different from other games that you have played in the past.
+	say "Welcome to Turkey Street! You are about to embark upon a gritty and super serious parser adventure where you play as a turkey detective. Before you start, please be aware that some of the commands may be different from other games that you have played in the past. Examine all of the evidence to solve the case!
 	
 	Commands are limited to directional travel (N, S, E, W), LOOK, EXAMINE (or X), GIVE, TAKE, DROP, WAIT, EAT, DRINK, and GOBBLE or GOBBLE AT (which refers to turkey speak, not the action of eating). You can also type COMMANDS to see this list again, UNDO to go back a turn, or SAVE to record your progress. Have fun!".
 
@@ -173,9 +173,9 @@ Part 1 - Supporters
 
 [From Example "Anchorite"]
 
-Understand "get on" and "go up" and "climb" and "climb on" as entering.
+Understand "U" and "up" and "get on" and "go up" and "climb" and "climb on" as entering.
 
-Understand "get down"  and "go down" as exiting.
+Understand "D" and "down" and "get down"  and "go down" as exiting.
 
 Instead of going down when the player is on a supporter:
 	try exiting.
@@ -188,7 +188,7 @@ Cheating is an action applying to nothing. Understand "cheat" as cheating. Inste
 Book 6 - Command List
 
 Commanding is an action applying to nothing. Understand "Commands" or "help" as commanding. Instead of commanding:
-	say "Commands are limited to directional travel (N, S, E, W), LOOK, EXAMINE (or X), GIVE, TAKE, DROP, WAIT, EAT, DRINK, and GOBBLE or GOBBLE AT (which refers to turkey speak, not the action of eating). You can also type COMMANDS to see this list again, UNDO to go back a turn, or SAVE to record your progress. Have fun!".
+	say "If you're stuck, don't forget to examine anything that might be evidence. Once you examine Commands are limited to directional travel (N, S, E, W, U, D), LOOK, EXAMINE (or X), GIVE, TAKE, DROP, WAIT, EAT, DRINK, and GOBBLE or GOBBLE AT (which refers to turkey speak, not the action of eating). You can also type COMMANDS to see this list again, UNDO to go back a turn, or SAVE to record your progress. Have fun!".
 	
 Book 7 - Inventory
 
@@ -204,6 +204,8 @@ Turkey Street is a region. Turkey Street Station, Turkey Street East, and Turkey
 Book 2 - Rooms
 
 Part 1 - The Roost
+
+Chapter 1 - Descriptions
 
 North of The Roost is On the Case.
 
@@ -227,6 +229,8 @@ The description of On the Case is "The chick's distress is still fresh and palpa
 
 Part 3 - Turkey Street Station
 
+Chapter 1 - Descriptions
+
 Turkey Street Station is north of On the Case. 
 
 The description of Turkey Street Station is "[if unvisited]A bang. A yelp. A corpse. A chicken with a chalk outline, leaving behind a ghost with nobody to haunt.  The pancaked poultry beckons from within the cordon. I'll have to do the haunting for it. [else if visited]All roads lead back to the scene of the crime. Futility, or just fatality? There's a metaphor here, if one cares to explore it. And also a station entrance. [end if]".
@@ -236,6 +240,8 @@ South of Turkey Street Station is Station Entrance. It is an open door and scene
 Instead of going nowhere from Turkey Street Station, say "The doors to the station are shut fast behind you, and because you are a turkey, they might as well be shut forever. You can't go that way."
 
 [South of Turkey Street Station is nowhere.] [this is so you can not go back]
+
+Chapter 2 - The Murder Victim
 
 A dead chicken is in Turkey Street Station. "A very dead chicken lies in the center of the road".
 
@@ -250,7 +256,7 @@ Chapter 1 - Descriptions
 
 Turkey Street West is west of Turkey Street Station. "[if unvisited]A cardinal direction. A cardinal sin. My corpse has taken another spin on the karmic wheel, helped along by some mundane ones. There's no justice on these streets. There's just us. [else if visited]The West End is known for two things. Good plays, and bad turns. Which explains the unfolding supermarket turf war. The cordon of turkeys is a recent addition. [end if]".
 
-Wall of Turkeys is west of Turkey Street West. Instead of going west from Turkey Street West, say "The road is blocked by Turkeys!"
+Wall of Turkeys West is west of Turkey Street West. Instead of going west from Turkey Street West, say "The road is blocked by Turkeys!"
 
 Instead of going nowhere from Turkey Street West, say "The doors are shut fast, and because you are a turkey, they might as well be shut forever. You can't go that way."
 
@@ -280,12 +286,20 @@ Instead of giving the herring to the heron:
 	remove herring from play;
 	move torn photograph to Turkey Street West;
 	remove the heron from play.
+	
+Chapter 3 - The Murder Weapon
+
+A garbage bin is an open opaque fixed in place container in Turkey Street West.
 
 Part 5 - Turkey Street East
+
+Chapter 1 - Descriptions
 
 Turkey Street East is east of Turkey Street Station. 
 
 The description of Turkey Street East is "[if unvisited]People have always looked to the East for their panaceas. But Turkey Street is sick, rotten to the core. I can't cure what ails it--I can only burn it out. [else if visited]There's an edge to the air in East End, an edge I live on. And so do OBJECT and OBJECT2. For now, a cordon of turkeys joins me on the edge. [end if]".
+
+Wall of Turkeys East is east of Turkey Street East. Instead of going east from Turkey Street East, say "The road is blocked by Turkeys!"
 
 Volume 7 - The Case of Why the Chicken Crossed Turkey Street
 
@@ -315,7 +329,7 @@ A placeholder2 is evidence. The duck carries it.
 
 Part 5 - Placeholder3
 
-A placeholder3 is evidence. The fox carries it.
+A placeholder3 is evidence. The crow carries it.
 
 Part 6 - Placeholder4
 
@@ -327,7 +341,7 @@ A placeholder5 is evidence. The owl carries it.
 
 Book 3 - Characters
 
-[Fox, Duck, Child, Heron, Eagle, Chicken, Turkeys, Owl]
+[Crow, Duck, Child, Heron, Eagle, Chicken, Turkeys, Owl]
 
 Part 1 - The Child
 
@@ -343,15 +357,19 @@ Carry out gobbling the child:
 	If the child has been in off-stage for 3 turns:
 		move the child to The Roost.]
 
-Part 2 - The Fox
+Part 2 - The Crow
 
-The Fox is a suspect in Turkey Street Station.
+The Crow is a suspect in Turkey Street Station.
 
 Part 3 - The Duck
 
 [if you eat the bread, near the duck you'll get his piece of evidence]
 
+<<<<<<< HEAD
 The Duck is a suspect in Turkey Street West. "Dark of wing and dull of bill. The duck stands in a field, and wears no pants. It appears hungry. Hungry for the truth? Or for more murder?"
+=======
+The Duck is a suspect in Turkey Street East.
+>>>>>>> 1ebf3308ecb3bab7cf49118301e5506d77fd3029
 
 Part 4 - The Heron
 
@@ -363,7 +381,11 @@ The Eagle is a suspect in Turkey Street Station. "Glorious, majestic, and free i
 
 Part 6 - The Owl
 
+<<<<<<< HEAD
 The Owl is a suspect in Turkey Street East. "A winged killer, a seductive bird of prey. Once its yellow eye falls on you, it's already too late. Did it fall on the chicken?"
+=======
+The Owl is a suspect in Turkey Street West.
+>>>>>>> 1ebf3308ecb3bab7cf49118301e5506d77fd3029
 
 Part 7 - The Chick
 
