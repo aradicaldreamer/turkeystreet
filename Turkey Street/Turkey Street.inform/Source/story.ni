@@ -108,7 +108,7 @@ Include Title Page by Jon Ingold.
 To say quotation:
 	say "Welcome to Turkey Street! You are about to embark upon a gritty and super serious parser adventure where you play as a turkey detective. Before you start, please be aware that some of the commands may be different from other games that you have played in the past.
 	
-	Commands are limited to directional travel (N, S, E, W), LOOK, EXAMINE (or X), TAKE, DROP, WAIT, and GOBBLE or GOBBLE AT (which refers to turkey speak, not the action of eating). You can also type UNDO to go back a turn, or SAVE to record your progress. Have fun!".
+	Commands are limited to directional travel (N, S, E, W), LOOK, EXAMINE (or X), GIVE, TAKE, DROP, WAIT, EAT, DRINK, and GOBBLE or GOBBLE AT (which refers to turkey speak, not the action of eating). You can also type COMMANDS to see this list again, UNDO to go back a turn, or SAVE to record your progress. Have fun!".
 
 Volume 3 - Mechanics
 
@@ -171,6 +171,11 @@ Chapter 5 - Cheating
 
 Cheating is an action applying to nothing. Understand "cheat" as cheating. Instead of cheating:
 	Increase score by 1000.
+	
+Chapter 6 - Command List
+
+Commanding is an action applying to nothing. Understand "Commands" or "help" as commanding. Instead of commanding:
+	say "Commands are limited to directional travel (N, S, E, W), LOOK, EXAMINE (or X), GIVE, TAKE, DROP, WAIT, EAT, DRINK, and GOBBLE or GOBBLE AT (which refers to turkey speak, not the action of eating). You can also type COMMANDS to see this list again, UNDO to go back a turn, or SAVE to record your progress. Have fun!".
 
 Section 1 - Getting Down From Supporters
 
@@ -181,7 +186,7 @@ Understand "get down" as exiting.
 Instead of going down when the player is on a supporter:
 	try exiting.
 	
-Chapter 6 - Inventory
+Chapter 7 - Inventory
 
 Instead of taking things when the player is carrying something:
 	say "Alas, you are a turkey and have nowhere else to carry things. Please drop what you have before picking this up".
@@ -210,8 +215,6 @@ Instead of drinking the bottle:
 
 A sign is in The Roost. The description is "A piece of wood lies against the entryway. It has been not so carefully pecked to read 'Fowl Feathers, Poultry Investigator'".
 
-An egg and a spoon are in the Roost. The egg is small.
-
 Section 2 - On the Case
 
 South of On the Case is nowhere.
@@ -229,8 +232,6 @@ Instead of going south from Turkey Street Station, say "The doors are shut fast,
 [South of Turkey Street Station is nowhere.] [this is so you can not go back]
 
 A dead chicken is in Turkey Street Station. "A very dead chicken lies in the center of the road".
-
-A letter is evidence. The chicken carries the letter.
 
 Instead of examining the chicken when the letter is lost:
 	now the letter is found;
@@ -264,6 +265,8 @@ Volume 2 - Evidence
 [Calculate maximum score based on the number of pieces of evidence]
 
 A book is evidence. The child carries it.
+
+A letter is evidence. The chicken carries the letter.
 
 Volume 3 - Characters
 
