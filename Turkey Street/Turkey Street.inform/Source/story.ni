@@ -244,25 +244,34 @@ Instead of examining the chicken when the letter is lost:
 
 Part 4 - Turkey Street West
 
+Chapter 1 - Descriptions
+
 Turkey Street West is west of Turkey Street Station. "[if unvisited] West Turkey Street. A hive of scum and villainy and great savings if there ever were one.".
 
 Wall of Turkeys is west of Turkey Street West. Instead of going west from Turkey Street West, say "The road is blocked by Turkeys!"
 
 Instead of going nowhere from Turkey Street West, say "The doors are shut fast, and because you are a turkey, they might as well be shut forever. You can't go that way."
 
+Sainsburys Entrance door is north of Turkey Street West. It is an open door and scenery.
+
+Tesco Entrance door is south of Turkey Street West. It is an open door and scenery.
+
+Chapter 2 - Herring Puzzle
+
 A bus stop is an enterable supporter in Turkey Street West. The description of the bus stop is "The bus stop appears to be in a state of disrepair. One side is slumped over and is low enough for you to climb on top of it."
 
-A red herring is on top of the bus stop. It is small.
+A fish is a kind of thing.
+
+A red herring is a fish that is on top of the bus stop. It is small.
 
 Instead of taking the herring when the player is not on the bus stop:
 	say "The herring appears to be just out of reach. You may not be able to fly, but there's more than one way to pluck a chicken. Maybe there is another way to get up there?".
 	
 Instead of eating the herring:
 	say "I eat fishy business for breakfast, unfortunately I've already eaten lunch".
-
-[Find a new shop name] Sainsburys Entrance door is north of Turkey Street West. It is an open door and scenery.
-
-[Find a new shop name] Tesco Entrance door is south of Turkey Street West. It is an open door and scenery.
+	
+Every turn when the player carries the herring and the player can see the heron:
+	say "FISHY".
 
 Part 5 - Turkey Street East
 
