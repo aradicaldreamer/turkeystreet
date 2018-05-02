@@ -273,7 +273,13 @@ Instead of eating the herring:
 	say "I eat fishy business for breakfast, unfortunately I've already eaten lunch".
 	
 Every turn when the player carries the herring and the player can see the heron:
-	say "FISHY".
+	say "Drooling, the heron eyes you closely with an intense stare. Are these the eyes of a chicken chaser, or of hunger?".
+	
+Instead of giving the herring to the heron:
+	say "The heron snaps the herring from your beak hungrily and flies away ungracefully. In the commotion, it drops a [torn photograph]";
+	remove herring from play;
+	move torn photograph to Turkey Street West;
+	remove the heron from play.
 
 Part 5 - Turkey Street East
 
