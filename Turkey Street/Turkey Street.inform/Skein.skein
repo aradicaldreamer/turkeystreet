@@ -5,18 +5,23 @@
     <item nodeId="node-1241">
         <command xml:space="preserve">Turkey Street</command>
         <result xml:space="preserve">
-Turkey Street
-An Interactive Fiction by Raymond Vermeulen and Matthew Deline
-Release 1 / Serial number 180502 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
 
-The Roost
-Back at the roost, there's two wild turkeys. One's a bottle and it's perfectly aged, one's a P.I. and it's aged perfectly. The name's Fowl Feathers. Uncompromising since 2015. In my line of work, you meet a lot of birds. And the birds always like a bad egg. 
 
-The roost smells faintly of sawdust, old eggs, and bourbon. The half-drunk bottle explains the half-drunk turkey. A chick is pacing back and forth, occasionally stopping to peck at itself.
 
-You can see a sign here.
+                                                                                                                                                                                                                                                                                  Turkey Street
+                                                                                                                                                                                                                                                                       by Raymond Vermeulen and Matthew Deline
 
-&gt;</result>
+
+
+                Welcome to Turkey Street! You are about to embark upon a gritty and super serious parser adventure where you play as a turkey detective. Before you start, please be aware that some of the commands may be different from other games that you have played in the past.
+
+Commands are limited to directional travel (N, S, E, W), LOOK, EXAMINE (or X), TAKE, DROP, WAIT, and GOBBLE or GOBBLE AT (which refers to turkey speak, not the action of eating). You can also type UNDO to go back a turn, or SAVE to record your progress. Have fun!
+
+
+   Start the story - from the beginning    :    (SPACE)
+                   - from a saved position :       R
+   Quit                                    :       Q
+</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1492"></child>
             <child nodeId="node-1277"></child>
@@ -1888,9 +1893,18 @@ That's fixed in place.
     </item>
     <item nodeId="node-1492">
         <command xml:space="preserve">cheat</command>
-        <result xml:space="preserve">[Your score has just gone up by one thousand points.]
+        <result xml:space="preserve">You have caught the culprit!
 
-&gt;</result>
+
+
+    *** The End ***
+
+
+In that game you scored 1000 out of a possible 50, in 1 turn.
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
         <commentary xml:space="preserve"></commentary>
     </item>
 </Skein>

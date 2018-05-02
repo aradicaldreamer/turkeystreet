@@ -12,7 +12,7 @@ Book 1 - To Do List
 	
 	- Make it so that the player can not open doors ✔
 	
-	- Limit inventory to one item at a time
+	- Limit inventory to one item at a time ( Nice to have but not necessary)
 	
 	- Write place descriptions for each location
 	
@@ -20,7 +20,7 @@ Book 1 - To Do List
 	
 	- Add evidence to each location
 	
-	- Add NPCs to each location
+	- Add NPCs to each location ✔
 	
 	- Add behavior to the NPCs
 	
@@ -51,6 +51,18 @@ Book 2 - Notes
 	- Limit inventory to one item at a time?
 
 ]
+
+Book 3 - Sources
+
+[
+
+	- Turkey Street Cover Art https://www.clipartqueen.com/thanksgiving-clipart.html
+
+]
+
+Book 4 - Building for Release
+
+Release along with cover art ("A turkey detective").
 
 Volume 2 - Extensions
 

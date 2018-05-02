@@ -13,8 +13,8 @@ release to "/Users/mattdeline/Documents/GitHub/turkeystreet/Turkey Street/Turkey
 storyfile leafname "Turkey Street.gblorb"
 storyfile "/Users/mattdeline/Documents/GitHub/turkeystreet/Turkey Street/Turkey Street.inform/Build/output.ulx" include
 ifiction "/Users/mattdeline/Documents/GitHub/turkeystreet/Turkey Street/Turkey Street.inform/Metadata.iFiction" include
-cover "/Applications/Inform.app/Contents/Resources/Internal/Miscellany/Cover.jpg"
-picture 1 "/Applications/Inform.app/Contents/Resources/Internal/Miscellany/Cover.jpg"
+cover "/Users/mattdeline/Documents/GitHub/turkeystreet/Turkey Street/Turkey Street.materials/Cover.png"
+picture 1 "/Users/mattdeline/Documents/GitHub/turkeystreet/Turkey Street/Turkey Street.materials/Cover.png"
 
 ! Placeholder variables
 
@@ -27,7 +27,7 @@ placeholder [BLURB] = "A work of interactive fiction."
 
 ! Other material to release
 
-status alternative ||Using 'Release along with cover art', to provide something more distinctive than the default artwork above&nbsp;<a href=inform:/doc403.html><img border=0 src=inform:/doc_images/help.png></a>||
+status instruction ||&nbsp;<a href="source:story.ni#line65"><img border=0 src=inform:/doc_images/Reveal.tif></a>||
 status alternative ||Using 'Release along with a website'&nbsp;<a href=inform:/doc405.html><img border=0 src=inform:/doc_images/help.png></a>||
 status alternative ||Using 'Release along with an interpreter', for in-browser play on your website&nbsp;<a href=inform:/doc406.html><img border=0 src=inform:/doc_images/help.png></a>||
 status alternative ||Using 'Release along with a file of "Such-and-Such" called "whatever.pdf"', perhaps to add a manual, or a welcoming note&nbsp;<a href=inform:/doc401.html><img border=0 src=inform:/doc_images/help.png></a>||
