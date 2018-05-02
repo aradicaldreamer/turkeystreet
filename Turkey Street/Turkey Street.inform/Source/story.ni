@@ -14,6 +14,8 @@ Chapter 1 - High Priority
 	
 	- Add ending description
 	
+	- Add description for the child
+	
 	- Finish Bread Puzzle
 	
 	- Make puzzle to get locket
@@ -331,9 +333,13 @@ Chapter 1 - Descriptions
 
 Turkey Street East is east of Turkey Street Station. 
 
-The description of Turkey Street East is "[if unvisited]People have always looked to the East for their panaceas. But Turkey Street is sick, rotten to the core. I can't cure what ails it--I can only burn it out. [paragraph break][end if]There's an edge to the air in East End, an edge I live on. And so do OBJECT and OBJECT2. For now, a cordon of turkeys joins me on the edge."
+The description of Turkey Street East is "[if unvisited]People have always looked to the East for their panaceas. But Turkey Street is sick, rotten to the core. I can't cure what ails it--I can only burn it out. [paragraph break][end if]There's an edge to the air in East End, an edge I live on. And so does an ornithophobic child cowering in fear from the spectre of a gluttonous duck feasting on [bits of bread] strewn everywhere. For now, a cordon of turkeys joins me on the edge."
 
 Wall of Turkeys East is east of Turkey Street East. Instead of going east from Turkey Street East, say "The road is blocked by Turkeys!"
+
+Chapter 2 - Bread Puzzle
+
+Some bits of bread are in Turkey Street East.
 
 Volume 7 - The Case of Why the Chicken Crossed Turkey Street
 
