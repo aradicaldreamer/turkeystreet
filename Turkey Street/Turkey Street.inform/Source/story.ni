@@ -158,8 +158,11 @@ A bottle is in The Roost. The description of the bottle is "Wild Turkey, 101 pro
 
 Instead of taking the bottle:
 	say "The bottle is far too large to take with you. You're a turkey!"	
+	
+Instead of drinking the bottle:
+	say "You have had enough... for now".
 
-A sign is in The Roost. "A piece of wood lies against the entryway. It has been not so carefully pecked to read 'Fowl Feathers, Poultry Investigator'".
+A sign is in The Roost. The description is "A piece of wood lies against the entryway. It has been not so carefully pecked to read 'Fowl Feathers, Poultry Investigator'".
 
 Section 2 - On the Case
 
@@ -238,6 +241,8 @@ The fox is a suspect in Turkey Street Station.
 
 Book 3 - The Duck
 
+[if you eat the bread, near the duck you'll get his piece of evidence]
+
 The Duck is a suspect in Turkey Street West.
 
 Book 4 - The Heron
@@ -254,7 +259,10 @@ The Owl is a suspect in Turkey Street East.
 
 Book 7 - The Chick
 
-A chick is a person in The Roost.
+A chick is a person in The Roost. The description of the chick is "Young, blonde, and clearly stressed out. She smells like danger, a danger on which I will have to whet my beak."
+
+Instead of gobbling the chick:
+	say "'Cluck. Cluck. Cluck cluck CLUCK-AH.' She sings her sweet song to me."
 
 Volume 4 - Ending
 

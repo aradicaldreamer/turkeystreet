@@ -5,29 +5,27 @@
     <item nodeId="node-1241">
         <command xml:space="preserve">Turkey Street</command>
         <result xml:space="preserve">
+Turkey Street
+An Interactive Fiction by Raymond Vermeulen and Matthew Deline
+Release 1 / Serial number 180502 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
 
+The Roost
+Back at the roost, there's two wild turkeys. One's a bottle and it's perfectly aged, one's a P.I. and it's aged perfectly. The name's Fowl Feathers. Uncompromising since 2015. In my line of work, you meet a lot of birds. And the birds always like a bad egg. 
 
+The roost smells faintly of sawdust, old eggs, and bourbon. The half-drunk bottle explains the half-drunk turkey. A chick is pacing back and forth, occasionally stopping to peck at itself.
 
-                                                                                                                                                                                                                                                                                  Turkey Street
-                                                                                                                                                                                                                                                                       by Raymond Vermeulen and Matthew Deline
+You can see a sign here.
 
-
-
-                Welcome to Turkey Street! You are about to embark upon a gritty and super serious parser adventure where you play as a turkey detective. Before you start, please be aware that some of the commands may be different from other games that you have played in the past.
-
-Commands are limited to directional travel (N, S, E, W), LOOK, EXAMINE (or X), TAKE, DROP, WAIT, and GOBBLE or GOBBLE AT (which refers to turkey speak, not the action of eating). You can also type UNDO to go back a turn, or SAVE to record your progress. Have fun!
-
-
-   Start the story - from the beginning    :    (SPACE)
-                   - from a saved position :       R
-   Quit                                    :       Q
-</result>
+&gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1277"></child>
+            <child nodeId="node-1482"></child>
             <child nodeId="node-1264"></child>
             <child nodeId="node-1306"></child>
+            <child nodeId="node-1486"></child>
             <child nodeId="node-1313"></child>
             <child nodeId="node-1311"></child>
+            <child nodeId="node-1477"></child>
             <child nodeId="node-1314"></child>
             <child nodeId="node-1473"></child>
             <child nodeId="node-1260"></child>
@@ -47,7 +45,7 @@ Commands are limited to directional travel (N, S, E, W), LOOK, EXAMINE (or X), T
     </item>
     <item nodeId="node-1471">
         <command xml:space="preserve">x sign</command>
-        <result xml:space="preserve">You see nothing special about the sign.
+        <result xml:space="preserve">A piece of wood lies against the entryway. It has been not so carefully pecked to read "Fowl Feathers, Poultry Investigator"
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -59,30 +57,46 @@ Commands are limited to directional travel (N, S, E, W), LOOK, EXAMINE (or X), T
         <result xml:space="preserve">The Roost
 The roost smells faintly of sawdust, old eggs, and bourbon. The half-drunk bottle explains the half-drunk turkey. A chick is pacing back and forth, occasionally stopping to peck at itself.
 
-A piece of wood lies against the entryway. It has been not so carefully pecked to read "Fowl Feathers, Poultry Investigator"
+You can see a sign here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1462">
         <command xml:space="preserve">x chick</command>
-        <result xml:space="preserve">You see nothing special about the chick.
+        <result xml:space="preserve">Young, blonde, and clearly stressed out. She smells like danger, a danger on which I will have to whet my beak.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1474">
         <command xml:space="preserve">x bottle</command>
-        <result xml:space="preserve"> Wild Turkey, 101 proof. It's cheap, but it gets the job done
+        <result xml:space="preserve">Wild Turkey, 101 proof. It's cheap, but it gets the job done. +101 proof.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1475"></child>
+        <children><child nodeId="node-1484"></child>
+            <child nodeId="node-1475"></child>
         </children>
     </item>
     <item nodeId="node-1475">
         <command xml:space="preserve">x bottle</command>
         <result xml:space="preserve"> Wild Turkey, 101 proof. It's cheap, but it gets the job done
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1484">
+        <command xml:space="preserve">drink bottle</command>
+        <result xml:space="preserve">You have had enough... for now
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1485"></child>
+        </children>
+    </item>
+    <item nodeId="node-1485">
+        <command xml:space="preserve">eat bottle</command>
+        <result xml:space="preserve">That's plainly inedible.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -1562,6 +1576,20 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
+    <item nodeId="node-1477">
+        <command xml:space="preserve">gobble chick</command>
+        <result xml:space="preserve">&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1478"></child>
+        </children>
+    </item>
+    <item nodeId="node-1478">
+        <command xml:space="preserve">x chick</command>
+        <result xml:space="preserve">You see nothing special about the chick.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
     <item nodeId="node-1311">
         <command xml:space="preserve">gobble book</command>
         <result xml:space="preserve">I didn't understand that sentence.
@@ -1580,6 +1608,13 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
         <command xml:space="preserve">gobble at child</command>
         <result xml:space="preserve">GOBBLE GOBBLE GOBBLE!
 The child runs screaming
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1486">
+        <command xml:space="preserve">gobble at chick</command>
+        <result xml:space="preserve">"Cluck. Cluck. Cluck cluck CLUCK-AH." She sings her sweet song to me.
+
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
@@ -1626,6 +1661,12 @@ The child runs screaming
     <item nodeId="node-1266">
         <command xml:space="preserve">y</command>
         <result xml:space="preserve"></result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1482">
+        <command xml:space="preserve">drink bottle</command>
+        <result xml:space="preserve">You have had enough
+&gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1277">

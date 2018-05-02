@@ -172,112 +172,112 @@
     </dict>
     <key>24</key><dict>
         <key>Filename</key><string>/Users/mattdeline/Documents/GitHub/turkeystreet/Turkey Street/Turkey Street.inform/Source/story.ni</string>
-        <key>Line</key><integer>164</integer>
+        <key>Line</key><integer>167</integer>
         <key>Title</key><string>Section 2 - On the Case</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>25</key><dict>
         <key>Filename</key><string>/Users/mattdeline/Documents/GitHub/turkeystreet/Turkey Street/Turkey Street.inform/Source/story.ni</string>
-        <key>Line</key><integer>170</integer>
+        <key>Line</key><integer>173</integer>
         <key>Title</key><string>Section 3 - Turkey Street Station</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>26</key><dict>
         <key>Filename</key><string>/Users/mattdeline/Documents/GitHub/turkeystreet/Turkey Street/Turkey Street.inform/Source/story.ni</string>
-        <key>Line</key><integer>189</integer>
+        <key>Line</key><integer>192</integer>
         <key>Title</key><string>Section 4 - Turkey Street West</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>27</key><dict>
         <key>Filename</key><string>/Users/mattdeline/Documents/GitHub/turkeystreet/Turkey Street/Turkey Street.inform/Source/story.ni</string>
-        <key>Line</key><integer>201</integer>
+        <key>Line</key><integer>204</integer>
         <key>Title</key><string>Section 5 - Turkey Street East</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>28</key><dict>
         <key>Filename</key><string>/Users/mattdeline/Documents/GitHub/turkeystreet/Turkey Street/Turkey Street.inform/Source/story.ni</string>
-        <key>Line</key><integer>205</integer>
+        <key>Line</key><integer>208</integer>
         <key>Title</key><string>Book 2 - The Case of Why the Chicken Crossed Turkey Street</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>29</key><dict>
         <key>Filename</key><string>/Users/mattdeline/Documents/GitHub/turkeystreet/Turkey Street/Turkey Street.inform/Source/story.ni</string>
-        <key>Line</key><integer>207</integer>
+        <key>Line</key><integer>210</integer>
         <key>Title</key><string>Volume 1 - Beginning</string>
         <key>Level</key><integer>1</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>30</key><dict>
         <key>Filename</key><string>/Users/mattdeline/Documents/GitHub/turkeystreet/Turkey Street/Turkey Street.inform/Source/story.ni</string>
-        <key>Line</key><integer>211</integer>
+        <key>Line</key><integer>214</integer>
         <key>Title</key><string>Volume 2 - Evidence</string>
         <key>Level</key><integer>1</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>31</key><dict>
         <key>Filename</key><string>/Users/mattdeline/Documents/GitHub/turkeystreet/Turkey Street/Turkey Street.inform/Source/story.ni</string>
-        <key>Line</key><integer>217</integer>
+        <key>Line</key><integer>220</integer>
         <key>Title</key><string>Volume 3 - Characters</string>
         <key>Level</key><integer>1</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>32</key><dict>
         <key>Filename</key><string>/Users/mattdeline/Documents/GitHub/turkeystreet/Turkey Street/Turkey Street.inform/Source/story.ni</string>
-        <key>Line</key><integer>221</integer>
+        <key>Line</key><integer>224</integer>
         <key>Title</key><string>Book 1 - The Child</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>33</key><dict>
         <key>Filename</key><string>/Users/mattdeline/Documents/GitHub/turkeystreet/Turkey Street/Turkey Street.inform/Source/story.ni</string>
-        <key>Line</key><integer>235</integer>
+        <key>Line</key><integer>238</integer>
         <key>Title</key><string>Book 2 - The Fox</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>34</key><dict>
         <key>Filename</key><string>/Users/mattdeline/Documents/GitHub/turkeystreet/Turkey Street/Turkey Street.inform/Source/story.ni</string>
-        <key>Line</key><integer>239</integer>
+        <key>Line</key><integer>242</integer>
         <key>Title</key><string>Book 3 - The Duck</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>35</key><dict>
         <key>Filename</key><string>/Users/mattdeline/Documents/GitHub/turkeystreet/Turkey Street/Turkey Street.inform/Source/story.ni</string>
-        <key>Line</key><integer>243</integer>
+        <key>Line</key><integer>248</integer>
         <key>Title</key><string>Book 4 - The Heron</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>36</key><dict>
         <key>Filename</key><string>/Users/mattdeline/Documents/GitHub/turkeystreet/Turkey Street/Turkey Street.inform/Source/story.ni</string>
-        <key>Line</key><integer>247</integer>
+        <key>Line</key><integer>252</integer>
         <key>Title</key><string>Book 5 - The Eagle</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>37</key><dict>
         <key>Filename</key><string>/Users/mattdeline/Documents/GitHub/turkeystreet/Turkey Street/Turkey Street.inform/Source/story.ni</string>
-        <key>Line</key><integer>251</integer>
+        <key>Line</key><integer>256</integer>
         <key>Title</key><string>Book 6 - The Owl</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>38</key><dict>
         <key>Filename</key><string>/Users/mattdeline/Documents/GitHub/turkeystreet/Turkey Street/Turkey Street.inform/Source/story.ni</string>
-        <key>Line</key><integer>255</integer>
+        <key>Line</key><integer>260</integer>
         <key>Title</key><string>Book 7 - The Chick</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>39</key><dict>
         <key>Filename</key><string>/Users/mattdeline/Documents/GitHub/turkeystreet/Turkey Street/Turkey Street.inform/Source/story.ni</string>
-        <key>Line</key><integer>259</integer>
+        <key>Line</key><integer>267</integer>
         <key>Title</key><string>Volume 4 - Ending</string>
         <key>Level</key><integer>1</integer>
         <key>Indentation</key><integer>1</integer>
