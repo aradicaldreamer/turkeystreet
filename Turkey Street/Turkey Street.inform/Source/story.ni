@@ -27,8 +27,6 @@ Section 1 - High Priority
 Section 2 - Low Priority
 
 [
-
-	- Limit inventory to one item at a time ( Nice to have but not necessary)
 	
 	- Add behavior to the NPCs
 	
@@ -47,6 +45,8 @@ Chapter 2 - Done
 	- Make it so that the player can not open doors ✔
 	
 	- Add NPCs to each location ✔
+	
+	- Limit inventory to one item at a time ( Nice to have but not necessary) ✔
 
 ]
 
