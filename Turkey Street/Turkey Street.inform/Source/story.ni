@@ -302,7 +302,7 @@ Instead of taking the herring when the player is not on the bus stop:
 	say "The herring appears to be just out of reach. You may not be able to fly, but there's more than one way to pluck a chicken. Maybe there is another way to get up there?".
 	
 Instead of eating the herring:
-	say "I eat fishy business for breakfast, unfortunately I've already eaten lunch".
+	say "I eat fishy business for breakfast, unfortunately I've already had bourbon instead.".
 	
 Every turn when the player carries the herring and the player can see the heron:
 	say "Drooling, the heron eyes you closely with an intense stare. Are these the eyes of a chicken chaser, or of hunger?".
@@ -461,7 +461,11 @@ Book 4 - Ending
 
 Every turn:
 	if (score >= maximum score):
-		say "You have caught the culprit!";
+		say "In my line of work, you meet a lot of birds. And the birds always like a bad egg. But the bad eggs... don't always like the birds."
+		say "The rose, the picture, the locket, the book, the ring... they tell a story of a chicken consumed with love. But the letter... the letter tells the story of a forbidden love. Love that cannot, should not be."
+		say "It wasn't the car that killed the chicken. It wasn't the tire pressing down on the spine, it wasn't the sudden egress of organs. It was the simplest thing in the world."
+		say "The chicken was killed with love. Love drove it out into the street, love drove it out to find an ending."
+		say "Why did the chicken cross Turkey Street? Why did the chicken cross the road? We all know this one. The chicken crossed the road... to get to the other side. ";
 		end the story.
 
 [Include a check here to see if all the evidence has been 'seen'. Once this has occured. End the game!]
