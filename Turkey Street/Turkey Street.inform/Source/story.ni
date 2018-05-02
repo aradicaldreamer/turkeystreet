@@ -493,11 +493,11 @@ Book 4 - Ending
 
 Every turn:
 	if (score >= maximum score):
-		say "In my line of work, you meet a lot of birds. And the birds always like a bad egg. But the bad eggs... don't always like the birds."
-		say "The rose, the picture, the locket, the book, the ring... they tell a story of a chicken consumed with love. But the letter... the letter tells the story of a forbidden love. Love that cannot, should not be."
-		say "It wasn't the car that killed the chicken. It wasn't the tire pressing down on the spine, it wasn't the sudden egress of organs. It was the simplest thing in the world."
-		say "The chicken was killed with love. Love drove it out into the street, love drove it out to find an ending."
-		say "Why did the chicken cross Turkey Street? Why did the chicken cross the road? We all know this one. The chicken crossed the road... to get to the other side. ";
+		say "In my line of work, you meet a lot of birds. And the birds always like a bad egg. But the bad eggs... don't always like the birds. [paragraph break]
+		The rose, the picture, the locket, the book, the ring... they tell a story of a chicken consumed with love. But the letter... the letter tells the story of a forbidden love. Love that cannot, should not be. [paragraph break]
+		It wasn't the car that killed the chicken. It wasn't the tire pressing down on the spine, it wasn't the sudden egress of organs. It was the simplest thing in the world. [paragraph break]
+		The chicken was killed with love. Love drove it out into the street, love drove it out to find an ending. [paragraph break]
+		Why did the chicken cross Turkey Street? Why did the chicken cross the road? We all know this one. The chicken crossed the road... to get to the other side. ";
 		end the story.
 
 [Include a check here to see if all the evidence has been 'seen'. Once this has occured. End the game!]
