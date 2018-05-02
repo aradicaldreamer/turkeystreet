@@ -11,10 +11,6 @@ Chapter 1 - High Priority
 [
 	
 	- Finish Bread Puzzle
-	
-	- Make puzzle to get ring
-	
-	- Fix lamp post in turkey street station
 
 ]
 
@@ -67,6 +63,10 @@ Part 2 - Done
 	- Make puzzle to get locket ✔
 	
 	- Add ending description ✔
+	
+	- Fix lamp post in turkey street station ✔
+	
+	- Make puzzle to get ring ✔
 
 ]
 
@@ -233,7 +233,7 @@ Chapter 1 - Descriptions
 
 North of The Roost is On the Case.
 
-The description of The Roost is "[if unvisited]Back at the roost, there's two wild turkeys. One's a bottle and it's perfectly aged, one's a P.I. and it's aged perfectly. The name's Fowl Feathers. Uncompromising since 2015. In my line of work, you meet a lot of birds. And the birds always like a bad egg. [paragraph break][end if]The roost smells faintly of sawdust, old eggs, and bourbon. The half-drunk [bottle] explains the half-drunk turkey. A [chick] is pacing back and forth, occasionally stopping to peck at itself."
+The description of The Roost is "[if unvisited]Back at the roost, there's two wild turkeys. One's a bottle and it's perfectly aged, one's a P.I. and it's aged perfectly. The name's Fowl Feathers. Uncompromising since 2015. In my line of work, you meet a lot of birds. And the birds always like a bad egg. [paragraph break][end if]The roost smells faintly of sawdust, old eggs, and bourbon. The half-drunk [bottle] explains the half-drunk turkey. A [chick] is pacing back and forth, occasionally stopping to peck at itself. The exit towards Turkey Street is to the north"
 
 A bottle is in The Roost. The description of the bottle is "Wild Turkey, 101 proof. It's cheap, but it gets the job done. "
 
@@ -249,7 +249,7 @@ Part 2 - On the Case
 
 South of On the Case is nowhere.
 
-The description of On the Case is "The chick's distress is still fresh and palpable. She can't help me now. I leave her to her clucking. With some luck, she'll still be there when I come home to roost. I spread my wings and glide away to the next case. A case more interesting than the typical cuckolding of henpecked husbands I get saddled with. The case of... WHY THE CHICKEN CROSSED THE ROAD."
+The description of On the Case is "The chick's distress is still fresh and palpable. She can't help me now. I leave her to her clucking. With some luck, she'll still be there when I come home to roost. I spread my wings and glide away to the next case. A case more interesting than the typical cuckolding of henpecked husbands I get saddled with. The case of... WHY THE CHICKEN CROSSED THE ROAD. [paragraph break]This road continues north ... to Turkey Street."
 
 Instead of going nowhere from On the Case, say "You can't go that way. You are ON. THE. CASE."
 
@@ -267,7 +267,7 @@ Station Entrance is in Turkey Street Station. It is scenery.
 
 A lamppost is in Turkey Street Station. It is scenery.
 
-A Nando's is in Turkey Street Station. It is scenery. The description of Nando's is "THE HORROR!"
+A Nando's is in Turkey Street Station. It is scenery. The description of Nando's is "OH THE HORROR!"
 
 Instead of going south from Turkey Street Station, say "The doors to the station are shut fast behind you, and because you are a turkey, they might as well be shut forever. You can't go that way."
 
@@ -284,7 +284,51 @@ Instead of examining the chicken when the letter is lost:
 	say "This chicken is quite dead. Tire-tracks run down its spine and through its spilled guts. Still clutched in its beak, a letter!";
 	move the letter to Turkey Street Station.
 
-Chapter 3 - Locket Puzzle
+Chapter 3 - Ring Puzzle
+
+[rube goldberg type puzzle where a mouse has the ring and is scared by the crow, then eaten by the eagle]
+
+Section 1 - The Box
+
+A cardboard box is a closed unopenable fixed in place container in Turkey Street Station. 
+
+Rule for printing the name of the cardboard box: 
+    say "[printed name of cardboard box] with a hole in it";
+    omit contents in listing.
+
+Instead of examining the cardboard box when the ring is lost:
+	say "You can hear chittering inside the box and can see the glint of something furry and shiny through the darkness. It must be important!"
+
+Instead of opening box:
+	say "Try as you might, neither your feathers or your intellect will allow you to open this box. It's sealed tight."
+
+Section 2 - The Mouse
+
+[A mouse is a kind of thing.]
+
+There is a field mouse. The description of the field mouse is "The mouse is running around the room terrified. Birds everywhere!".
+
+Every turn when the player can see the crow and the locket is collected and the field mouse is unseen:	
+	now the field mouse is seen;
+	now the ring is found;
+	move the field mouse to Turkey Street Station;
+	say "Your standoff with the crow has terrified the mouse. It no longer feels safe inside it's cardboard box and is escaping for freedom with the shiny thing. Catch it!"
+
+Instead of taking the ring when the player can see the field mouse:
+	say "The mouse is far to quick for you to catch"
+	
+Section 3 - The Eagle
+
+[add a turn counter to this if time permits]
+
+Every turn when the player can see the eagle and the player can see the field mouse:
+	let x be a random number from 1 to 10;
+	if x < 6:
+		move the ring to Turkey Street Station;
+		remove the field mouse from play;
+		say "Death swoops in from above and in a flash of beak and squeak, the mouse is gone. The eagle returns to his perch, leaving the shiny ring on the ground."
+		
+Chapter 4 - Locket Puzzle
 
 Instead of examining the crow when the locket is lost:
 	now the locket is found;
@@ -294,7 +338,6 @@ Instead of gobbling the crow when the locket is found:
 	now the locket is collected;
 	say "You stare down the crow. It stares back at you. Time slows down. Eternity passes. 'Gobble. GOBBLE.' [paragraph break] 'Ca-kaw! Ca'kaw caKAW' The crow screeches and drops the locket just out of reach. You should take it to examine it elsewhere before it snatches it back!";
 	move the locket to Turkey Street Station.
-	
 
 Part 4 - Turkey Street West
 
@@ -363,7 +406,11 @@ Wall of Turkeys East is east of Turkey Street East. Instead of going east from T
 
 Chapter 2 - Bread Puzzle
 
-Some bits of bread are in Turkey Street East.
+Some bits of bread are in Turkey Street East. They are small and edible.
+
+Instead of taking bread:
+	say "YAY";
+	continue the action.
 
 Volume 7 - The Case of Why the Chicken Crossed Turkey Street
 
@@ -415,7 +462,7 @@ The description of the locket is "A small, heart-shaped locket. No inscription. 
 
 Part 7 - The ring
 
-A ring is evidence. The eagle carries it. The ring is small.
+A ring is evidence. The field mouse carries it. The ring is small.
 
 The description of the ring is "A small, shiny bauble. A white elephant."
 
