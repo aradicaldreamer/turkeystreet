@@ -227,7 +227,9 @@ The description of On the Case is "The chick's distress is still fresh and palpa
 
 Part 3 - Turkey Street Station
 
-Turkey Street Station is north of On the Case. "[if unvisited]A bang. A yelp. A corpse. A chicken with a chalk outline, leaving behind a ghost with nobody to haunt.  The pancaked poultry beckons from within the cordon. I'll have to do the haunting for it. [else if visited]All roads lead back to the scene of the crime. Futility, or just fatality? There's a [metaphor] here, if one cares to explore it. And also a station entrance. [end if]"
+Turkey Street Station is north of On the Case. 
+
+The description of Turkey Street Station is "[if unvisited]A bang. A yelp. A corpse. A chicken with a chalk outline, leaving behind a ghost with nobody to haunt.  The pancaked poultry beckons from within the cordon. I'll have to do the haunting for it. [else if visited]All roads lead back to the scene of the crime. Futility, or just fatality? There's a metaphor here, if one cares to explore it. And also a station entrance. [end if]".
 
 South of Turkey Street Station is Station Entrance. It is an open door and scenery.
 
@@ -244,13 +246,9 @@ Instead of examining the chicken when the letter is lost:
 
 Part 4 - Turkey Street West
 
-<<<<<<< HEAD
 Chapter 1 - Descriptions
 
-Turkey Street West is west of Turkey Street Station. "[if unvisited] West Turkey Street. A hive of scum and villainy and great savings if there ever were one.".
-=======
 Turkey Street West is west of Turkey Street Station. "[if unvisited]A cardinal direction. A cardinal sin. My corpse has taken another spin on the karmic wheel, helped along by some mundane ones. There's no justice on these streets. There's just us. [else if visited]The West End is known for two things. Good plays, and bad turns. Which explains the unfolding supermarket turf war. The cordon of turkeys is a recent addition. [end if]".
->>>>>>> 56deceead076c69c86bcf5b339884099df06e5f9
 
 Wall of Turkeys is west of Turkey Street West. Instead of going west from Turkey Street West, say "The road is blocked by Turkeys!"
 
@@ -279,7 +277,9 @@ Every turn when the player carries the herring and the player can see the heron:
 
 Part 5 - Turkey Street East
 
-Turkey Street East is east of Turkey Street Station. "[if unvisited]People have always looked to the East for their panaceas. But Turkey Street is sick, rotten to the core. I can't cure what ails it--I can only burn it out. [else if visited]There's an edge to the air in East End, an edge I live on. And so do [OBJECT] and [more OBJECT]. For now, a cordon of turkeys joins me on the edge. [end if]".
+Turkey Street East is east of Turkey Street Station. 
+
+The description of Turkey Street East is "[if unvisited]People have always looked to the East for their panaceas. But Turkey Street is sick, rotten to the core. I can't cure what ails it--I can only burn it out. [else if visited]There's an edge to the air in East End, an edge I live on. And so do OBJECT and OBJECT2. For now, a cordon of turkeys joins me on the edge. [end if]".
 
 Volume 7 - The Case of Why the Chicken Crossed Turkey Street
 
