@@ -400,25 +400,22 @@ instead of gobbling the duck:
 Part 4 - The Heron
 
 The Heron is a suspect in Turkey Street West. "Herons like to feast on small prey. This one has a lean, hungry look to it. It knows something."
-<<<<<<< HEAD
 
 instead of gobbling the heron:
 	say "'Gobble, gobble.' I gobble, futilely. The heron just watches. It knows the value of silence."
-=======
->>>>>>> f1862731005ec28bba5983f2e98cb56fde443a51
 
 Part 5 - The Eagle
 
 The Eagle is a suspect in Turkey Street Station. "Glorious, majestic, and free in all the ways that I am not. I already hate this bird. The feeling is probably mutual."
 
-instead of gobbling at the eagle:
+instead of gobbling the eagle:
 	say "'Gobble, gob...b...le...' The eagle stares at me, and judges. The gobble dies in my throat. Its regal air brooks no gobbling, and it lets out a single, loud shriek. Freedom."
 
 Part 6 - The Owl
 
 The Owl is a suspect in Turkey Street West. "A winged killer, a seductive bird of prey. Once its yellow eye falls on you, it's already too late. Did it fall on the chicken?"
 
-instead of gobbling at the owl:
+instead of gobbling the owl:
 	say "; Gobble, gobble.' 'HOOT HOOT!' The owl screams back immediately. It can scream all it likes--we both know this ends in death."
 
 Part 7 - The Chick
