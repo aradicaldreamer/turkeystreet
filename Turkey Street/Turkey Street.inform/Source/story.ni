@@ -259,11 +259,11 @@ Instead of going south from Turkey Street Station, say "The doors to the station
 
 Chapter 2 - The Murder Victim
 
-A dead chicken is in Turkey Street Station. "A very dead chicken lies in the center of the road".
+A dead chicken is in Turkey Street Station. "This is an ex-chicken. The chicken has expired. It is no more. It it has danced its last dance, smiled at the reaper, and other such euphemisms to drive home the fact that it got run over in the middle of the street until it was dead, dead, dead. The question is, why? Why did the chicken cross Turkey Street? Why did the chicken... cross the road?".
 
 Instead of examining the chicken when the letter is lost:
 	now the letter is found;
-	say "this chicken is definitely dead. And I found a letter!";
+	say "This chicken is quite dead. Still clutched in its beak, a letter!";
 	move the letter to Turkey Street Station.
 
 Part 4 - Turkey Street West
