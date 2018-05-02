@@ -10,21 +10,17 @@ Chapter 1 - High Priority
 
 [
 	
-	- Write place descriptions for each location
-	
-	- Add interactive items to each location
-	
-	- Complete evidence list
+	- Add interactive items to Turkey Street East and Update description
 	
 	- Add description for each piece of evidence
 	
-	- Add evidence to each location
-	
-	- Add description for each NPC
-	
-	- Add Gobble interaction to each NPC
-	
 	- Add ending description
+	
+	- Finish Bread Puzzle
+	
+	- Make puzzle to get locket
+	
+	- Make puzzle to get ring
 
 ]
 
@@ -34,7 +30,7 @@ Chapter 2 - Low Priority
 	
 	- Add behavior to the NPCs
 	
-	- Create Puzzles to find each piece of evidence (for now the player just needs to find stuff to win)
+	- Add additional default lines for gobbling
 
 ]
 
@@ -51,6 +47,18 @@ Part 2 - Done
 	- Add NPCs to each location ✔
 	
 	- Limit inventory to one item at a time ( Nice to have but not necessary) ✔
+	
+	- Add Gobble interaction to each NPC ✔
+	
+	- Add description for each NPC ✔
+	
+	- Add evidence to each location ✔
+	
+	- Complete evidence list ✔
+	
+	- Write place descriptions for each location ✔
+	
+	- Add default gobbling statement ✔
 
 ]
 
@@ -147,6 +155,8 @@ Book 1 - Gobbling
 Gobbling is an action with past participle gobbled applying to one thing.
 
 Understand "Gobble at [something]" as gobbling. Understand "Gobble [something]" as gobbling.
+
+Report Gobbling: say "[one of]GOBBLE GOBBLE GOBBLE![or]'Gobble Gobble!' you hurl into the abyss. The abyss is silent[or]Gbbble bog gob ... too much bourbon.[purely at random]".
 
 Book 2 - Observing
 
