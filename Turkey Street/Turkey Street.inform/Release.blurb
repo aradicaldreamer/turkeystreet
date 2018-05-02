@@ -1,20 +1,20 @@
 ! Blurb file created by Inform build 6M62
 
-status "C:\Program Files (x86)\Inform 7\Internal\Miscellany\CblorbModel.html" "C:\Coding\turkeystreet\Turkey Street\Turkey Street.inform\Build\StatusCblorb.html"
+status "/Applications/Inform.app/Contents/Resources/Internal/Miscellany/CblorbModel.html" "/Users/mattdeline/Documents/GitHub/turkeystreet/Turkey Street/Turkey Street.inform/Build/StatusCblorb.html"
 
 
 ! Identification
 
-project folder "C:\Coding\turkeystreet\Turkey Street\Turkey Street.inform"
-release to "C:\Coding\turkeystreet\Turkey Street\Turkey Street.materials\Release"
+project folder "/Users/mattdeline/Documents/GitHub/turkeystreet/Turkey Street/Turkey Street.inform"
+release to "/Users/mattdeline/Documents/GitHub/turkeystreet/Turkey Street/Turkey Street.materials/Release"
 
 ! Blorb instructions
 
 storyfile leafname "Turkey Street.gblorb"
-storyfile "C:\Coding\turkeystreet\Turkey Street\Turkey Street.inform\Build\output.ulx" include
-ifiction "C:\Coding\turkeystreet\Turkey Street\Turkey Street.inform\Metadata.iFiction" include
-cover "C:\Coding\turkeystreet\Turkey Street\Turkey Street.materials\Cover.png"
-picture 1 "C:\Coding\turkeystreet\Turkey Street\Turkey Street.materials\Cover.png"
+storyfile "/Users/mattdeline/Documents/GitHub/turkeystreet/Turkey Street/Turkey Street.inform/Build/output.ulx" include
+ifiction "/Users/mattdeline/Documents/GitHub/turkeystreet/Turkey Street/Turkey Street.inform/Metadata.iFiction" include
+cover "/Users/mattdeline/Documents/GitHub/turkeystreet/Turkey Street/Turkey Street.materials/Cover.jpg"
+picture 1 "/Users/mattdeline/Documents/GitHub/turkeystreet/Turkey Street/Turkey Street.materials/Cover.jpg"
 
 ! Placeholder variables
 
@@ -27,7 +27,7 @@ placeholder [BLURB] = "A work of interactive fiction."
 
 ! Other material to release
 
-status instruction ||&nbsp;<a href="source:story.ni#line92"><img border=0 src=inform:/doc_images/Reveal.png></a>||
+status instruction ||&nbsp;<a href="source:story.ni#line115"><img border=0 src=inform:/doc_images/Reveal.tif></a>||
 status alternative ||Using 'Release along with a website'&nbsp;<a href=inform:/doc405.html><img border=0 src=inform:/doc_images/help.png></a>||
 status alternative ||Using 'Release along with an interpreter', for in-browser play on your website&nbsp;<a href=inform:/doc406.html><img border=0 src=inform:/doc_images/help.png></a>||
 status alternative ||Using 'Release along with a file of "Such-and-Such" called "whatever.pdf"', perhaps to add a manual, or a welcoming note&nbsp;<a href=inform:/doc401.html><img border=0 src=inform:/doc_images/help.png></a>||

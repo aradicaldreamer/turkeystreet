@@ -112,7 +112,7 @@ Book 3 - Sources
 
 Book 4 - Building for Release
 
-Release along with cover art ("A turkey detective").
+Release along with cover art.
 
 Volume 2 - Extensions
 
@@ -127,6 +127,8 @@ Include Introductions by Emily Short.
 Book 3 - Title Page
 
 Include Title Page by Jon Ingold.
+
+Use cover art title display.
 
 [Introduction text inspired by the opening text in The Wizard Sniffer by Buster Hudson]
 
@@ -221,7 +223,7 @@ Cheating is an action applying to nothing. Understand "cheat" as cheating. Inste
 Book 6 - Command List
 
 Commanding is an action applying to nothing. Understand "Commands" or "help" as commanding. Instead of commanding:
-	say "If you're stuck, don't forget to examine anything that might be evidence. Once you examine Commands are limited to directional travel (N, S, E, W, U, D), LOOK, EXAMINE (or X), GIVE, TAKE, DROP, WAIT, EAT, DRINK, and GOBBLE or GOBBLE AT (which refers to turkey speak, not the action of eating). You can also type COMMANDS to see this list again, UNDO to go back a turn, or SAVE to record your progress. Have fun!".
+	say "If you're stuck, don't forget to examine anything that might be evidence. When you do, you'll get points! Commands are limited to directional travel (N, S, E, W, U, D), LOOK, EXAMINE (or X), GIVE, TAKE, DROP, WAIT, EAT, DRINK, and GOBBLE or GOBBLE AT (which refers to turkey speak, not the action of eating). You can also type COMMANDS to see this list again, UNDO to go back a turn, or SAVE to record your progress. Have fun!".
 	
 Book 7 - Inventory
 
