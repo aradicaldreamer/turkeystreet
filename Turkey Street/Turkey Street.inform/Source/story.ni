@@ -62,7 +62,7 @@ Book 2 - Notes
 	
 	- Turkey Name: Detective Fowl Feathers, Poultry Investigator
 	
-	- NPCs, Fox, Duck, Child, Heron, Eagle, Chicken, Turkeys, Owl
+	- NPCs, Crow, Duck, Child, Heron, Eagle, Chicken, Turkeys, Owl
 	
 	- Who did it? OWL.
 	
@@ -286,6 +286,10 @@ Instead of giving the herring to the heron:
 	remove herring from play;
 	move torn photograph to Turkey Street West;
 	remove the heron from play.
+	
+Chapter 3 - The Murder Weapon
+
+A garbage bin is an open opaque fixed in place container in Turkey Street West.
 
 Part 5 - Turkey Street East
 
@@ -325,7 +329,7 @@ A placeholder2 is evidence. The duck carries it.
 
 Part 5 - Placeholder3
 
-A placeholder3 is evidence. The fox carries it.
+A placeholder3 is evidence. The crow carries it.
 
 Part 6 - Placeholder4
 
@@ -337,7 +341,7 @@ A placeholder5 is evidence. The owl carries it.
 
 Book 3 - Characters
 
-[Fox, Duck, Child, Heron, Eagle, Chicken, Turkeys, Owl]
+[Crow, Duck, Child, Heron, Eagle, Chicken, Turkeys, Owl]
 
 Part 1 - The Child
 
@@ -353,9 +357,9 @@ Carry out gobbling the child:
 	If the child has been in off-stage for 3 turns:
 		move the child to The Roost.]
 
-Part 2 - The Fox
+Part 2 - The Crow
 
-The Fox is a suspect in Turkey Street Station.
+The Crow is a suspect in Turkey Street Station.
 
 Part 3 - The Duck
 
