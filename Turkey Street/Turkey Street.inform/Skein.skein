@@ -5,23 +5,18 @@
     <item nodeId="node-1496">
         <command xml:space="preserve">Turkey Street</command>
         <result xml:space="preserve">
+Turkey Street
+An Interactive Fiction by Raymond Vermeulen and Matthew Deline
+Release 1 / Serial number 180502 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
 
+The Roost
+Back at the roost, there's two wild turkeys. One's a bottle and it's perfectly aged, one's a P.I. and it's aged perfectly. The name's Fowl Feathers. Uncompromising since 2015. In my line of work, you meet a lot of birds. And the birds always like a bad egg. 
 
+The roost smells faintly of sawdust, old eggs, and bourbon. The half-drunk bottle explains the half-drunk turkey. A chick is pacing back and forth, occasionally stopping to peck at itself.
 
-                                                                                                                                                                                                                                                                                  Turkey Street
-                                                                                                                                                                                                                                                                       by Raymond Vermeulen and Matthew Deline
+You can see a sign, an egg and a spoon here.
 
-
-
-                Welcome to Turkey Street! You are about to embark upon a gritty and super serious parser adventure where you play as a turkey detective. Before you start, please be aware that some of the commands may be different from other games that you have played in the past.
-
-Commands are limited to directional travel (N, S, E, W), LOOK, EXAMINE (or X), TAKE, DROP, WAIT, and GOBBLE or GOBBLE AT (which refers to turkey speak, not the action of eating). You can also type UNDO to go back a turn, or SAVE to record your progress. Have fun!
-
-
-   Start the story - from the beginning    :    (SPACE)
-                   - from a saved position :       R
-   Quit                                    :       Q
-</result>
+&gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1671"></child>
             <child nodeId="node-1657"></child>
@@ -42,6 +37,7 @@ Commands are limited to directional travel (N, S, E, W), LOOK, EXAMINE (or X), T
             <child nodeId="node-1523"></child>
             <child nodeId="node-1522"></child>
             <child nodeId="node-1517"></child>
+            <child nodeId="node-1674"></child>
             <child nodeId="node-1514"></child>
             <child nodeId="node-1504"></child>
             <child nodeId="node-1500"></child>
@@ -225,6 +221,39 @@ You can see a book here.
         <command xml:space="preserve">look</command>
         <result xml:space="preserve">Roost
 The roost smells faintly of sawdust, old eggs, and bourbon. The half-drunk bottle explains the half-drunk turkey. A chick is pacing back and forth, occasionally stopping to peck at itself.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1674">
+        <command xml:space="preserve">take egg</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1678"></child>
+            <child nodeId="node-1675"></child>
+        </children>
+    </item>
+    <item nodeId="node-1675">
+        <command xml:space="preserve">take spoon</command>
+        <result xml:space="preserve">Your inventory is full
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1678">
+        <command xml:space="preserve">drop</command>
+        <result xml:space="preserve">(the egg)
+Dropped.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1679"></child>
+        </children>
+    </item>
+    <item nodeId="node-1679">
+        <command xml:space="preserve">take spoon</command>
+        <result xml:space="preserve">That is far too big for you to carry in your beak and you don't want to ruffle your feathers! You can not take it with you.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>

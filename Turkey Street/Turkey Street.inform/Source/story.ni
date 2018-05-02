@@ -154,11 +154,14 @@ Chapter 3 - Turkey-like Behavior
 
 Instead of opening doors, say "You can't do that! You're a turkey!"
 
+A thing can be either big or small. A thing is usually big.
+
+Instead of taking big things:
+	say "That is far too big for you to carry in your beak and you don't want to ruffle your feathers! You can not take it with you."
+
 [Add new things here]
 
 Closing doors is turkeylike behavior.
-
-[Taking things is turkeylike behavior.]
 
 Instead of turkeylike behavior, say "You can't do that! You're a turkey!"
 
@@ -180,7 +183,8 @@ Instead of going down when the player is on a supporter:
 	
 Chapter 6 - Inventory
 
-
+Instead of taking things when the player is carrying something:
+	say "Alas, you are a turkey and have nowhere else to carry things. Please drop what you have before picking this up".
 
 Volume 6 - Locations
 
@@ -205,6 +209,8 @@ Instead of drinking the bottle:
 	say "You have had enough... for now".
 
 A sign is in The Roost. The description is "A piece of wood lies against the entryway. It has been not so carefully pecked to read 'Fowl Feathers, Poultry Investigator'".
+
+An egg and a spoon are in the Roost. The egg is small.
 
 Section 2 - On the Case
 
