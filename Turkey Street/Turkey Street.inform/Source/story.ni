@@ -10,7 +10,6 @@ Chapter 1 - High Priority
 
 [	
 	
-	- Fix reporting evidence as examined.
 
 ]
 
@@ -21,6 +20,8 @@ Chapter 2 - Low Priority
 	- Add behavior to the NPCs
 	
 	- Add additional default lines for gobbling
+	
+	- Fix reporting evidence as examined. Need to playtest to see if people get confused as only evidence will be reported as (examined). Not everything else.
 
 ]
 
@@ -444,8 +445,8 @@ A book is evidence. The child carries it. The book is small.
 
 The description of the book is "'A Night Time Smoke'. Trashy and romantic. Like my life."
 
-Rule for printing the name of the book: 
-    say "[printed name of book][if the book is seen] (examined)[end if]".
+[Rule for printing the name of the book: 
+    say "[printed name of book][if the book is seen] (examined)[end if]".]
 
 Part 2 - The Letter
 
