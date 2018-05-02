@@ -267,7 +267,7 @@ A dead chicken is in Turkey Street Station. "This is an ex-chicken. The chicken 
 
 Instead of examining the chicken when the letter is lost:
 	now the letter is found;
-	say "This chicken is quite dead. Still clutched in its beak, a letter!";
+	say "This chicken is quite dead. Tire-tracks run down its spine and through its spilled guts. Still clutched in its beak, a letter!";
 	move the letter to Turkey Street Station.
 
 Part 4 - Turkey Street West
@@ -395,7 +395,7 @@ Book 3 - Characters
 
 Part 1 - The Child
 
-A child is a suspect in Turkey Street East. [Need to give it a description indicating that it is scared of people]
+A child is a suspect in Turkey Street East. "A small human with its back turned to you. Like all of its kind, the child delights in violence, and is acquainted with fear. Good."
 
 Carry out gobbling the child:
 	say "GOBBLE GOBBLE GOBBLE!";
@@ -409,7 +409,7 @@ Carry out gobbling the child:
 
 Part 2 - The Crow
 
-The Crow is a suspect in Turkey Street Station. "Crows. Scavengers, the murderous lot of them. I'd watch my belongings around them, if I could carry any."
+The Crow is a suspect in Turkey Street Station. "A pair of beady eyes stares at you. Crows. Scavengers, the murderous lot of them. I'd watch my belongings around them, if I could carry any."
 
 instead of gobbling the crow:
 	say "'Gobble, gobble.' 'Ca-kaw! Ca'kaw caKAW' Chattering away like a thief in the night."
@@ -418,28 +418,28 @@ Part 3 - The Duck
 
 [if you eat the bread, near the duck you'll get his piece of evidence]
 
-The Duck is a suspect in Turkey Street East. "Dark of wing and dull of bill. The duck stands in a field, and wears no pants. It appears hungry. Hungry for the truth? Or for more murder?"
+The Duck is a suspect in Turkey Street East. "A duck is dark of wing and dull of bill. The duck stands in a field, and wears no pants. It appears hungry. Hungry for the truth? Or for more murder?"
 
 instead of gobbling the duck:
 	say "'Gobble, gobble.' My bill flaps in the breeze. The duck quaks back fiercely. It doesn't like my kind."
 
 Part 4 - The Heron
 
-The Heron is a suspect in Turkey Street West. "Herons like to feast on small prey. This one has a lean, hungry look to it. It knows something."
+The Heron is a suspect in Turkey Street West. "Herons like to feast on small prey.  One stands here, with a lean, hungry look to it. It knows something."
 
 instead of gobbling the heron:
 	say "'Gobble, gobble.' I gobble, futilely. The heron just watches. It knows the value of silence."
 
 Part 5 - The Eagle
 
-The Eagle is a suspect in Turkey Street Station. "Glorious, majestic, and free in all the ways that I am not. I already hate this bird. The feeling is probably mutual."
+The Eagle is a suspect in Turkey Street Station. "An eagle observes the proceedings. Glorious, majestic, and free in all the ways that I am not. I already hate this bird. The feeling is probably mutual."
 
 instead of gobbling the eagle:
 	say "'Gobble, gob...b...le...' The eagle stares at me, and judges. The gobble dies in my throat. Its regal air brooks no gobbling, and it lets out a single, loud shriek. Freedom."
 
 Part 6 - The Owl
 
-The Owl is a suspect in Turkey Street West. "A winged killer, a seductive bird of prey. Once its yellow eye falls on you, it's already too late. Did it fall on the chicken?"
+The Owl is a suspect in Turkey Street West. "An owl is perched up high. A winged killer, a seductive bird of prey. Once its yellow eye falls on you, it's already too late. Did it fall on the chicken?"
 
 instead of gobbling the owl:
 	say "; Gobble, gobble.' 'HOOT HOOT!' The owl screams back immediately. It can scream all it likes--we both know this ends in death."
