@@ -16,6 +16,8 @@ Chapter 1 - High Priority
 	
 	- Complete evidence list
 	
+	- Add description for each piece of evidence
+	
 	- Add evidence to each location
 	
 	- Add description for each NPC
@@ -205,6 +207,8 @@ Book 2 - Rooms
 
 Part 1 - The Roost
 
+[the chick is here]
+
 Chapter 1 - Descriptions
 
 North of The Roost is On the Case.
@@ -229,6 +233,8 @@ The description of On the Case is "The chick's distress is still fresh and palpa
 
 Part 3 - Turkey Street Station
 
+[the chicken and the crow are here]
+
 Chapter 1 - Descriptions
 
 Turkey Street Station is north of On the Case. 
@@ -252,6 +258,8 @@ Instead of examining the chicken when the letter is lost:
 
 Part 4 - Turkey Street West
 
+[The heron and the owl are here]
+
 Chapter 1 - Descriptions
 
 Turkey Street West is west of Turkey Street Station. "[if unvisited]A cardinal direction. A cardinal sin. My corpse has taken another spin on the karmic wheel, helped along by some mundane ones. There's no justice on these streets. There's just us. [paragraph break][end if]The West End is known for two things. Good plays, and bad turns. Which explains the unfolding supermarket turf war. The cordon of turkeys is a recent addition."
@@ -266,7 +274,11 @@ Tesco Entrance door is south of Turkey Street West. It is an open door and scene
 
 Chapter 2 - Herring Puzzle
 
-A bus stop is an enterable supporter in Turkey Street West. The description of the bus stop is "The bus stop appears to be in a state of disrepair. One side is slumped over and is low enough for you to climb on top of it."
+A bus stop is an enterable supporter in Turkey Street West. The description of the bus stop is "The bus stop appears to be in a state of disrepair. One side is slumped over and is low enough for you to get on it."
+
+Rule for printing the name of the bus stop: 
+    say "[printed name of the bus stop]";
+    omit contents in listing.
 
 A fish is a kind of thing.
 
@@ -289,9 +301,19 @@ Instead of giving the herring to the heron:
 	
 Chapter 3 - The Murder Weapon
 
-A garbage bin is an closed opaque openable fixed in place container in Turkey Street West. Inside the bin is the murder weapon.
+A garbage bin is an open opaque openable fixed in place container in Turkey Street West. In it is the murder weapon.
+
+Rule for printing the name of the garbage bin: 
+    say "[printed name of garbage bin]";
+    omit contents in listing.
+
+Instead of examining the garbage bin when the murder weapon is lost:
+	now the murder weapon is found;
+	say "This garbage bin is utterly filthy, like your sense of humor. In the depths of this filth (within the bin, not yourself) lies ... THE MURDER WEAPON."
 
 Part 5 - Turkey Street East
+
+[The child and the duck are here]
 
 Chapter 1 - Descriptions
 
@@ -323,21 +345,23 @@ Part 3 - Torn Photograph
 
 A torn photograph is evidence. The heron carries it.
 
-Part 4 - Placeholder2
-
-A placeholder2 is evidence. The duck carries it.
-
-Part 5 - Placeholder3
-
-A placeholder3 is evidence. The crow carries it.
-
-Part 6 - Placeholder4
-
-A placeholder4 is evidence. The eagle carries it.
-
-Part 7 - The Murder Weapon
+Part 4 - The Murder Weapon
 
 A murder weapon is evidence.
+
+Part 5 - The Rose
+
+A rose is evidence. The duck carries it.
+
+Part 6 - The Locket
+
+[The locket has a picture of the chicken and the chick in it]
+
+A locket is evidence. The crow carries it.
+
+Part 7 - The ring
+
+A ring is evidence. The eagle carries it.
 
 Book 3 - Characters
 
@@ -376,9 +400,12 @@ instead of gobbling the duck:
 Part 4 - The Heron
 
 The Heron is a suspect in Turkey Street West. "Herons like to feast on small prey. This one has a lean, hungry look to it. It knows something."
+<<<<<<< HEAD
 
 instead of gobbling the heron:
 	say "'Gobble, gobble.' I gobble, futilely. The heron just watches. It knows the value of silence."
+=======
+>>>>>>> f1862731005ec28bba5983f2e98cb56fde443a51
 
 Part 5 - The Eagle
 
