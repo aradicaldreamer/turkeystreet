@@ -211,7 +211,7 @@ North of The Roost is On the Case.
 
 The description of The Roost is "[if unvisited]Back at the roost, there's two wild turkeys. One's a bottle and it's perfectly aged, one's a P.I. and it's aged perfectly. The name's Fowl Feathers. Uncompromising since 2015. In my line of work, you meet a lot of birds. And the birds always like a bad egg. [paragraph break][end if]The roost smells faintly of sawdust, old eggs, and bourbon. The half-drunk [bottle] explains the half-drunk turkey. A [chick] is pacing back and forth, occasionally stopping to peck at itself."
 
-A bottle is in The Roost. The description of the bottle is "Wild Turkey, 101 proof. It's cheap, but it gets the job done. +101 proof."
+A bottle is in The Roost. The description of the bottle is "Wild Turkey, 101 proof. It's cheap, but it gets the job done. "
 
 Instead of taking the bottle:
 	say "The bottle is far too large to take with you. You're a turkey!"	
@@ -233,7 +233,7 @@ Chapter 1 - Descriptions
 
 Turkey Street Station is north of On the Case. 
 
-The description of Turkey Street Station is "[if unvisited]A bang. A yelp. A corpse. A chicken with a chalk outline, leaving behind a ghost with nobody to haunt.  The pancaked poultry beckons from within the cordon. I'll have to do the haunting for it. [paragraph break][end if]All roads lead back to the scene of the crime. Futility, or just fatality? There's a metaphor here, if one cares to explore it. And also a station entrance."
+The description of Turkey Street Station is "[if unvisited]A bang. A yelp. A corpse. A chicken with a chalk outline, leaving behind a ghost with nobody to haunt.  The pancaked poultry beckons from within the cordon. I'll have to do the haunting for it. [paragraph break][end if]All roads lead back to the scene of the crime. Futility, or just fatality? There's a metaphor here, if one cares to explore it. And also a station entrance. A lonely lamppost stands across the street, like a lighthouse for a shipwrecked life."
 
 South of Turkey Street Station is Station Entrance. It is an open door and scenery.
 
@@ -359,7 +359,10 @@ Carry out gobbling the child:
 
 Part 2 - The Crow
 
-The Crow is a suspect in Turkey Street Station.
+The Crow is a suspect in Turkey Street Station. "Crows. Scavengers, the murderous lot of them. I'd watch my belongings around them, if I could carry any."
+
+instead of gobbling the crow:
+	say "'Gobble, gobble.' 'Ca-kaw! Ca'kaw caKAW' Chattering away like a thief in the night."
 
 Part 3 - The Duck
 
@@ -367,24 +370,36 @@ Part 3 - The Duck
 
 The Duck is a suspect in Turkey Street East. "Dark of wing and dull of bill. The duck stands in a field, and wears no pants. It appears hungry. Hungry for the truth? Or for more murder?"
 
+instead of gobbling the duck:
+	say "'Gobble, gobble.' My bill flaps in the breeze. The duck quaks back fiercely. It doesn't like my kind."
+
 Part 4 - The Heron
 
-The Heron is a suspect in Turkey Street West. "[if unseen]Herons like to feast on small prey. This one has a lean, hungry look to it. It knows something.[end if]"
+The Heron is a suspect in Turkey Street West. "Herons like to feast on small prey. This one has a lean, hungry look to it. It knows something."
+
+instead of gobbling the heron:
+	say "'Gobble, gobble.' I gobble, futilely. The heron just watches. It knows the value of silence."
 
 Part 5 - The Eagle
 
 The Eagle is a suspect in Turkey Street Station. "Glorious, majestic, and free in all the ways that I am not. I already hate this bird. The feeling is probably mutual."
 
+instead of gobbling at the eagle:
+	say "'Gobble, gob...b...le...' The eagle stares at me, and judges. The gobble dies in my throat. Its regal air brooks no gobbling, and it lets out a single, loud shriek. Freedom."
+
 Part 6 - The Owl
 
 The Owl is a suspect in Turkey Street West. "A winged killer, a seductive bird of prey. Once its yellow eye falls on you, it's already too late. Did it fall on the chicken?"
+
+instead of gobbling at the owl:
+	say "; Gobble, gobble.' 'HOOT HOOT!' The owl screams back immediately. It can scream all it likes--we both know this ends in death."
 
 Part 7 - The Chick
 
 A chick is a person in The Roost. The description of the chick is "Young, blonde, and clearly stressed out. She smells like danger, a danger on which I will have to whet my beak."
 
 Instead of gobbling the chick:
-	say "'Cluck. Cluck. Cluck cluck CLUCK-AH.' She sings her sweet song to me."
+	say "'Gobble gobble?' Cluck. Cluck. Cluck cluck CLUCK-AH.' She sings her sweet song to me."
 
 Book 4 - Ending
 
