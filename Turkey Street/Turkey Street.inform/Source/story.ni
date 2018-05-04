@@ -114,6 +114,8 @@ Book 4 - Building for Release
 
 Release along with cover art.
 
+Release along with an interpreter.
+
 Volume 2 - Extensions
 
 Book 1 - User Interface
